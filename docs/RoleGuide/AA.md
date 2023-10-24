@@ -131,7 +131,7 @@ The human factor is a big part of aircraft confusion, it can include : lack of k
 Combat aircraft usually have a **camouflage finish** with the upper and side surfaces painted in a **disruptive pattern of two or more shades.** This breaks up their form when viewed from above, and aids **concealment when on the ground or flying low.** The undersurfaces are **painted in a light color to blend with the sky** when viewed from below.
 The **overall gray color** of most fighter-interceptor aircraft is a camouflage scheme. Other aircraft may be painted a two-tone gray. 
 
-Light aircraft and helicopters will also be camouflage painted in **most cases**, but may be painted an **overall drab color**.
+Light aircrafts and helicopters will also be camouflage painted in **most cases**, but may be painted an **overall drab color**.
 
 Camouflage will vary between **theaters of operation and/or Faction.**
 
