@@ -6,7 +6,7 @@
 
 
 <div class="image-container-logo">
-  <img src="/mkdocs/assets/images/AA/logo.png" width="100%" />
+  <img src="/assets/images/AA/logo.png" width="100%" />
 </div>
   
 <br>
@@ -101,12 +101,12 @@ The human factor is a big part of aircraft confusion, it can include : lack of k
 
 <div class="image-row">
   <div class="image-container">
-    <img src="/mkdocs/assets/images/AA/uh-1y-venom.jpg" width="100%" />
+    <img src="/assets/images/AA/uh-1y-venom.jpg" width="100%" />
     <p class="image-caption">UH-1Y Venom</p>
   </div>
 
   <div class="image-container">
-    <img src="/mkdocs/assets/images/AA/ch-146-griffon.jpg" width="100%" />
+    <img src="/assets/images/AA/ch-146-griffon.jpg" width="100%" />
     <p class="image-caption">CH-146 Griffon</p>
   </div>
 </div>
