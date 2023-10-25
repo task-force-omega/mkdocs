@@ -42,6 +42,7 @@ nav:
   - Our team: team.md
   - Ranks: ranks.md
   - Role Guides:
+    - Mission maker: RoleGuide/MM.md    
     - Platoon leader: RoleGuide/pltleader.md    
     - Medic + CLS: RoleGuide/medic.md
     - JTAC/FO : RoleGuide/jtac.md

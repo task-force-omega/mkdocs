@@ -70,13 +70,13 @@
 <br>
 <br>
 
-## Presentation
+# Presentation
 
 This guide aims to assist the mission maker on how to **prepare missions** on Arma III as TFO requires them. It provides information on how to set up settings, scripts, prepare modlists, player layouts and many more.
 
 
 
-# 1. Mods
+## 1. Mods
 
 Mods are the sinews of war, they take an important place in the gameplay. 
 
@@ -85,7 +85,7 @@ This is why it is **fundamental to test them first**, make sure they **work prop
 - **Test mods and compatibilities**
 
 
-# 2. Modlists
+## 2. Modlists
 
 After testing mods, it is time to create modlists. Beware, it is **imperative to create multiple modlists as they don’t fulfill the same role**. Modlists must be kept as small as possible to prevent issues _(mod count & size)_. You can’t use the same modlist for playing and creating the mission, as some mods, ex. TFO repack, contains mods that create dependencies.
 
@@ -136,7 +136,7 @@ Mods required :
 - **Put Arma 3 Preset in the modlist name**
 
 
-# 3. Mission settings
+## 3. Mission settings
 
 When the modlists are ready, it is time to create the mission. But before starting, it is **important to configure the settings of the mission properly** to prevent any issues.
 
@@ -150,7 +150,7 @@ When the modlists are ready, it is time to create the mission. But before starti
                                                                                                                                  **Multiplayer**
 
 
-## General 
+### General 
 
 \
 ![](https://lh7-us.googleusercontent.com/NGVcIKpVeaCHrV4XPTigMdl3sTazEJ-GBLSlw5nMB3raO-Npm3mCDhtwPISZvaVeeOtS_EFnl5j-4YBCuqOPIH1afYXGzPisefob97AYciSXYCKSNIqxQwFj69Zrh0s94IgQ2SzaDZSqBuSAHnG3NUs)
@@ -170,7 +170,7 @@ When the modlists are ready, it is time to create the mission. But before starti
                                                                                                                                  Select this option
 
 
-## Multiplayer 
+### Multiplayer 
 
 \
 ![](https://lh7-us.googleusercontent.com/389OvF-Odr2_OnLxIkyxfnvwhQanE3thlN6HkHCbUroOHlWGy_bYc3AucNnChHGJhyEvzoXO70DhZJE7SPfZCpX1TsLVsW1YNlkOctZx3e1wUL4HVQr00HaTVeL5PBR2oQlj9baE47jlX_bKeOEM_N4)
@@ -190,7 +190,7 @@ When the modlists are ready, it is time to create the mission. But before starti
                                                                                                                                  Check this box
 
 
-## Addons Options 
+### Addons Options 
 
 \
 ![](https://lh7-us.googleusercontent.com/g_mqSfVMqycjUl07FKpZgJw-s0S-afS2pqF_Yw2PHM8SOoQo0VSs8gP1elVAzWMLPJ55nLufV8mrty3-3b7OBBL3j82xYxLmL_dxE8qE6VemxZXrSIAcQrZvhSmon0xfpBGCr0NTBjS24qXr7R2vPrk)
@@ -219,11 +219,11 @@ When the modlists are ready, it is time to create the mission. But before starti
                                                                                                                      **5**
 
 
-# 4. Player layout and loadouts
+## 4. Player layout and loadouts
 
-## Player layout 
+### Player layout 
 
-We need a **specific player layout** according to our sign up sheets [**HERE**](https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit#gid=1153113922). To get this player layout in Arma with the correct configurations, a composition is available on the workshop : 
+We need a **specific player layout** according to our sign up sheets [**HERE**](https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit##gid=1153113922). To get this player layout in Arma with the correct configurations, a composition is available on the workshop : 
 
 [![](https://lh7-us.googleusercontent.com/WDV3bznnV6Ww2ZOzRofcIRcLKSwyrcWGJDGaBwWVYF_5o_s7ew0Lg6KDSYq47DWWzI5amVa7o_eO8YMze_paTiWkgtCLrngX5nFB2Ctf4BJS_eqf2eY4ptREI2TKRob2EZ2R6IObqfQoOMNOKon_7hg)](https://steamcommunity.com/sharedfiles/filedetails/?id=2891659177)
 
@@ -242,7 +242,7 @@ Platoon leader, squad leaders, JTAC/FO and grenadiers already have 40mm grenades
 - **Use TFO squads composition**
 
 
-## Callsigns
+### Callsigns
 
 In order to have the teams names properly showing on the map, **their callsigns needs to be changed manually** in the “Lobby Manager” in “Tools” _(only available with 3den Enhanced)_, as the composition doesn’t save them. 
 
@@ -259,18 +259,18 @@ A simple but **necessary** process that needs to be done to every teams, by copy
 - **Change manually callsigns to every teams**
 
 
-## Loadouts 
+### Loadouts 
 
-To avoid the use of an arsenal in-game and win time, **every slot must be completely geared out and mission ready** in compliance with the loadouts page on the main docs [**HERE**](https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit#gid=180428066).
+To avoid the use of an arsenal in-game and win time, **every slot must be completely geared out and mission ready** in compliance with the loadouts page on the main docs [**HERE**](https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit##gid=180428066).
 
 A time consuming but necessary step to **prevent any omission and loss of time**, so we can start the mission and have fun faster !
 
 - **Make correct loadouts for every roles**
 
 
-# 5. Images and templates
+## 5. Images and templates
 
-## Images 
+### Images 
 
 Bohemia Interactive developed a file format (.paa) as the base texture file, using 2^n dimensions _(ex. 256x256, 512x512, 1024x1024…)_. Most of the files are square textures but can also be rectangle _(ex. 1024x512)_. 
 
@@ -285,7 +285,7 @@ To display an image on a screen, first you put the image in your mission folder.
 - **Set properly the path of the images**
 
 
-## Templates 
+### Templates 
 
 You **may require a template** as some displays use a specific one.
 
@@ -301,12 +301,12 @@ Here are specific templates of the most commonly used ones, with a Photoshop fil
 - **Use correct templates if needed**
 
 
-# 6. Scripts
+## 6. Scripts
 
 Different scripts can be used to improve the mission and win time, here’s a few scripts used by the mission makers.
 
 
-## Scripts
+### Scripts
 
 **Spawn :** 
 
@@ -327,7 +327,7 @@ Script to enhance the brightness of the flares at night, instead of using mods f
 [Download](https://drive.google.com/file/d/1Mqms3jTJytmKhyVNp9kWISaEBtah3Ejg/view?usp=sharing)
 
 
-## How to install
+### How to install
 
 To install the scripts, you simply have to put them in the mission folder. Beware, **scripts must be directly put in the folder** and not in a different folder. 
 
@@ -336,9 +336,9 @@ To install the scripts, you simply have to put them in the mission folder. Bewar
 - **Set correctly scripts if needed**
 
 
-# 7. Tips and tricks
+## 7. Tips and tricks
 
-## Mission making
+### Mission making
 
 - Keep vehicles as decoration as small as possible, as every vehicle's physics are calculated at all times and can cause performances issues
 - Placing all the enemies in the editor is highly discouraged as it will cause performances issues, use zeus/script to spawn more when needed
@@ -355,7 +355,7 @@ To install the scripts, you simply have to put them in the mission folder. Bewar
 - PNG pictures are not supported, use only jpg
 
 
-## Zeus 
+### Zeus 
 
 - Delete bodies/wrecks after a fight to save performance
 
@@ -376,7 +376,7 @@ To install the scripts, you simply have to put them in the mission folder. Bewar
 - **Take notes of the tips**
 
 
-# 8. Testing your mission
+## 8. Testing your mission
 
 When your mission is ready, it is **time to test it !** To make sure everything is working properly and nothing is missing.
 
@@ -385,7 +385,7 @@ The best would be **testing the mission a day before the op**, and not at the la
 Handle your mission’s .pbo and server modlist to a Server Admin so he can set it up on the server. Be patient, **it can take time** if new mods need to be downloaded. When ready, hop on the server !
 
 
-## What to test ? 
+### What to test ? 
 
 - Mission is loading properly on the server, no mods are making errors 
 - Everyone can join the server, if there’s enough slots
@@ -407,7 +407,7 @@ When you are done testing, **don’t forget to warn the Server Admins** so they 
 - **Test the mission from start to finish**
 
 
-# 9. Summary
+## 9. Summary
 
 Here are short and concise points seen throughout the entire guide.
 
