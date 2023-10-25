@@ -1,24 +1,79 @@
-**TFO Mission Maker Guide**
+<style>
+  .image-container {
+    box-sizing: border-box;
+    position: relative;
+    width: 49%;
+    float: left;
+  }
 
-****![](https://lh7-us.googleusercontent.com/GjoKklTM2JHtoITIEck_x0n1YfUf1cIlQjFah-kxhwtyvDh3xVc_-wiM52Jra8bGdslYqNUYi6dBEIV0NdiaW9rf7_eHXB0ym_aBE2H0NkaC-uttP93FaiGKneUTyIidC3GfEygGtyQmaDDqDXLfjMM)****
+    .image-container2 {
+    box-sizing: border-box;
+    position: relative;
+    width: 98%;
+    float: center;
+  }    
+
+  .image-container-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  .center-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+  }
+
+  .image-caption {
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 11px;
+  }
+
+    .image-caption2 {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 11px;
+  }
 
 
-## Presentation :
+  .image-row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    .side-image-cont {
+    position: relative;
+    float: left;
+    margin-right: 11px;
+  }  
+</style>
+
+<p class="center-text">TFO Mission Maker Guide</p>
+
+
+<div class="image-container-logo">
+  <img src="/assets/images/MM/logo.png" width="100%" />
+</div>
+  
+<br>
+<br>
+
+## Presentation
 
 This guide aims to assist the mission maker on how to **prepare missions** on Arma III as TFO requires them. It provides information on how to set up settings, scripts, prepare modlists, player layouts and many more.
 
-
-## Contents :
-
-1. [**Mods**](https://docs.google.com/document/d/1jTlh9CcQkx_q_wKAzRJurNLhcjaro2_bHJC5u7j9Fwk/edit#heading=h.13yqz84c27ga)
-2. [**Modlists**](https://docs.google.com/document/d/1jTlh9CcQkx_q_wKAzRJurNLhcjaro2_bHJC5u7j9Fwk/edit#heading=h.hvnw8e59bui1)
-3. [**Mission settings**](https://docs.google.com/document/d/1jTlh9CcQkx_q_wKAzRJurNLhcjaro2_bHJC5u7j9Fwk/edit#heading=h.i1j2qzudqxpx)
-4. [**Player layouts and loadouts**](https://docs.google.com/document/d/1jTlh9CcQkx_q_wKAzRJurNLhcjaro2_bHJC5u7j9Fwk/edit#heading=h.iop3y5837zvv)
-5. [**Images and templates**](https://docs.google.com/document/d/1jTlh9CcQkx_q_wKAzRJurNLhcjaro2_bHJC5u7j9Fwk/edit#heading=h.jij3w919h4f)
-6. [**Scripts**](https://docs.google.com/document/d/1jTlh9CcQkx_q_wKAzRJurNLhcjaro2_bHJC5u7j9Fwk/edit#heading=h.9rcd3egtsz0j)
-7. [**Tips and tricks**](https://docs.google.com/document/d/1jTlh9CcQkx_q_wKAzRJurNLhcjaro2_bHJC5u7j9Fwk/edit#heading=h.5mgj03mewub2)
-8. [**Testing your mission**](https://docs.google.com/document/d/1jTlh9CcQkx_q_wKAzRJurNLhcjaro2_bHJC5u7j9Fwk/edit#heading=h.u213fhv6210h)
-9. [**Summary**](https://docs.google.com/document/d/1jTlh9CcQkx_q_wKAzRJurNLhcjaro2_bHJC5u7j9Fwk/edit#heading=h.33i9bgib257x)
 
 
 # 1. Mods
@@ -95,7 +150,7 @@ When the modlists are ready, it is time to create the mission. But before starti
                                                                                                                                  **Multiplayer**
 
 
-## General : 
+## General 
 
 \
 ![](https://lh7-us.googleusercontent.com/NGVcIKpVeaCHrV4XPTigMdl3sTazEJ-GBLSlw5nMB3raO-Npm3mCDhtwPISZvaVeeOtS_EFnl5j-4YBCuqOPIH1afYXGzPisefob97AYciSXYCKSNIqxQwFj69Zrh0s94IgQ2SzaDZSqBuSAHnG3NUs)
@@ -115,7 +170,7 @@ When the modlists are ready, it is time to create the mission. But before starti
                                                                                                                                  Select this option
 
 
-## Multiplayer : 
+## Multiplayer 
 
 \
 ![](https://lh7-us.googleusercontent.com/389OvF-Odr2_OnLxIkyxfnvwhQanE3thlN6HkHCbUroOHlWGy_bYc3AucNnChHGJhyEvzoXO70DhZJE7SPfZCpX1TsLVsW1YNlkOctZx3e1wUL4HVQr00HaTVeL5PBR2oQlj9baE47jlX_bKeOEM_N4)
@@ -135,7 +190,7 @@ When the modlists are ready, it is time to create the mission. But before starti
                                                                                                                                  Check this box
 
 
-## Addons Options : 
+## Addons Options 
 
 \
 ![](https://lh7-us.googleusercontent.com/g_mqSfVMqycjUl07FKpZgJw-s0S-afS2pqF_Yw2PHM8SOoQo0VSs8gP1elVAzWMLPJ55nLufV8mrty3-3b7OBBL3j82xYxLmL_dxE8qE6VemxZXrSIAcQrZvhSmon0xfpBGCr0NTBjS24qXr7R2vPrk)
@@ -166,7 +221,7 @@ When the modlists are ready, it is time to create the mission. But before starti
 
 # 4. Player layout and loadouts
 
-## Player layout : 
+## Player layout 
 
 We need a **specific player layout** according to our sign up sheets [**HERE**](https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit#gid=1153113922). To get this player layout in Arma with the correct configurations, a composition is available on the workshop : 
 
@@ -187,7 +242,7 @@ Platoon leader, squad leaders, JTAC/FO and grenadiers already have 40mm grenades
 - **Use TFO squads composition**
 
 
-## Callsigns :
+## Callsigns
 
 In order to have the teams names properly showing on the map, **their callsigns needs to be changed manually** in the “Lobby Manager” in “Tools” _(only available with 3den Enhanced)_, as the composition doesn’t save them. 
 
@@ -204,7 +259,7 @@ A simple but **necessary** process that needs to be done to every teams, by copy
 - **Change manually callsigns to every teams**
 
 
-## Loadouts : 
+## Loadouts 
 
 To avoid the use of an arsenal in-game and win time, **every slot must be completely geared out and mission ready** in compliance with the loadouts page on the main docs [**HERE**](https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit#gid=180428066).
 
@@ -215,7 +270,7 @@ A time consuming but necessary step to **prevent any omission and loss of time**
 
 # 5. Images and templates
 
-## Images : 
+## Images 
 
 Bohemia Interactive developed a file format (.paa) as the base texture file, using 2^n dimensions _(ex. 256x256, 512x512, 1024x1024…)_. Most of the files are square textures but can also be rectangle _(ex. 1024x512)_. 
 
@@ -230,7 +285,7 @@ To display an image on a screen, first you put the image in your mission folder.
 - **Set properly the path of the images**
 
 
-## Templates : 
+## Templates 
 
 You **may require a template** as some displays use a specific one.
 
@@ -251,7 +306,7 @@ Here are specific templates of the most commonly used ones, with a Photoshop fil
 Different scripts can be used to improve the mission and win time, here’s a few scripts used by the mission makers.
 
 
-## Scripts :
+## Scripts
 
 **Spawn :** 
 
@@ -272,7 +327,7 @@ Script to enhance the brightness of the flares at night, instead of using mods f
 [Download](https://drive.google.com/file/d/1Mqms3jTJytmKhyVNp9kWISaEBtah3Ejg/view?usp=sharing)
 
 
-## How to install :
+## How to install
 
 To install the scripts, you simply have to put them in the mission folder. Beware, **scripts must be directly put in the folder** and not in a different folder. 
 
@@ -283,7 +338,7 @@ To install the scripts, you simply have to put them in the mission folder. Bewar
 
 # 7. Tips and tricks
 
-## Mission making :
+## Mission making
 
 - Keep vehicles as decoration as small as possible, as every vehicle's physics are calculated at all times and can cause performances issues
 - Placing all the enemies in the editor is highly discouraged as it will cause performances issues, use zeus/script to spawn more when needed
@@ -300,7 +355,7 @@ To install the scripts, you simply have to put them in the mission folder. Bewar
 - PNG pictures are not supported, use only jpg
 
 
-## Zeus : 
+## Zeus 
 
 - Delete bodies/wrecks after a fight to save performance
 
@@ -330,7 +385,7 @@ The best would be **testing the mission a day before the op**, and not at the la
 Handle your mission’s .pbo and server modlist to a Server Admin so he can set it up on the server. Be patient, **it can take time** if new mods need to be downloaded. When ready, hop on the server !
 
 
-## What to test ? Make sure : 
+## What to test ? 
 
 - Mission is loading properly on the server, no mods are making errors 
 - Everyone can join the server, if there’s enough slots
