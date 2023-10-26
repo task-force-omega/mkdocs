@@ -82,7 +82,11 @@ Mods are the sinews of war, they take an important place in the gameplay. 
 
 This is why it is **fundamental to test them first**, make sure they **work properly** _(including their ACE compatibilities)_, before starting to create modlists or missions, as some of them can be **outdated**, **broken** or **badly optimized** _(AMF)_.
 
-- <font color="brown">**Test mods and compatibilities**</font>
+<font color="brown">
+
+- **Test mods and compatibilities**
+
+</font>
 
 
 ## 2. Modlists
@@ -186,7 +190,7 @@ When the modlists are ready, it is time to create the mission. But before starti
 
 ### Multiplayer 
 
-\
+
 ![](../assets/images/MM/missionsettings3.png)
 
 
@@ -239,7 +243,11 @@ Every equipment required per special role are **already included** in the unifor
 
 Platoon leader, squad leaders, JTAC/FO and grenadiers already have 40mm grenades on them. Giving them a weapon without a grenade launcher **will remove those grenades from their inventory**. So when making their loadouts, make sure to **directly give them a weapon mounted with a grenade launcher** _(ex. M4 with M203)_.
 
-<font color="brown">- **Use TFO squads composition**</font>
+<font color="brown">
+
+- **Use TFO squads composition**
+ 
+</font>
 
 
 ### Callsigns
@@ -256,7 +264,11 @@ A simple but **necessary** process that needs to be done to every teams, by copy
 
     **1                                            2**
 
-<font color="brown">- **Change manually callsigns to every teams**</font>
+<font color="brown">
+
+- **Change manually callsigns to every teams**
+ 
+</font>
 
 
 ### Loadouts 
@@ -265,7 +277,11 @@ To avoid the use of an arsenal in-game and win time, **every slot must be comple
 
 A time consuming but necessary step to **prevent any omission and loss of time**, so we can start the mission and have fun faster !
 
-<font color="brown">- **Make correct loadouts for every roles**</font>
+<font color="brown">
+
+- **Make correct loadouts for every roles**
+  
+</font>
 
 
 ## 5. Images and templates
@@ -282,7 +298,11 @@ To display an image on a screen, first you put the image in your mission folder.
 
 ![](../assets/images/MM/image.png)
 
-<font color="brown">- **Set properly the path of the images**</font>
+<font color="brown">
+
+- **Set properly the path of the images**
+
+</font>
 
 
 ### Templates 
@@ -313,7 +333,11 @@ Here are specific templates of the most commonly used ones, with a Photoshop fil
 
 
 
-<font color="brown">- **Use correct templates if needed**</font>
+<font color="brown">
+
+- **Use correct templates if needed**
+
+</font>
 
 
 ## 6. Scripts
@@ -345,7 +369,11 @@ To install the scripts, you simply have to put them in the mission folder. Bewar
 
 ![](../assets/images/MM/missionfile.png)
 
-<font color="brown">- **Set correctly scripts if needed**</font>
+<font color="brown">
+
+- **Set correctly scripts if needed**
+
+</font>
 
 
 ## 7. Tips and tricks
@@ -384,7 +412,11 @@ To install the scripts, you simply have to put them in the mission folder. Bewar
   - Impossible for you to drive and shoot at the same time will controlling an AI in a vehicle 
 
 
-<font color="brown">- **Take notes of the tips**</font>
+<font color="brown">
+
+- **Take notes of the tips**
+
+</font>
 
 
 ## 8. Testing your mission
