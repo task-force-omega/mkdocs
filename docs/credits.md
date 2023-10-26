@@ -10,7 +10,7 @@ Pages:<br>
 Role Guides:<br>
       - [Mission maker](../RoleGuide/MM/) - *scorboutiko*<br>
       - [Platoon leader](../RoleGuide/pltleader/) - *Henry Gibbs*<br>
-      - [Medic + CLS](../RoleGuide/medic/) - *Henry Gibbs*<br>
+      - [Medic + CLS](../RoleGuide/medic/) - *Henry Gibbs, Bones*<br>
       - [JTAC/FO](../RoleGuide/jtac/) - *Henry Gibbs*<br>
       - [Squad leader](../RoleGuide/sql/) - *Henry Gibbs*<br>
       - [Rifleman + LAT](../RoleGuide/rifleman/) - *Henry Gibbs*<br>
