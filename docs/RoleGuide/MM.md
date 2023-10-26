@@ -82,7 +82,7 @@ Mods are the sinews of war, they take an important place in the gameplay. 
 
 This is why it is **fundamental to test them first**, make sure they **work properly** _(including their ACE compatibilities)_, before starting to create modlists or missions, as some of them can be **outdated**, **broken** or **badly optimized** _(AMF)_.
 
-- **Test mods and compatibilities**
+- <font color="brown">**Test mods and compatibilities**</font>
 
 
 ## 2. Modlists
@@ -107,87 +107,87 @@ When exporting your modlists, **remember to put “Arma 3 Preset” in the name*
 
 3 versions of modlists are needed _(exemple below)_ :
 
-- **Mission making :** Contains mods required by the mission plus for the creation of the mission
-- **Server :** Similar to the mission making modlist, but can include mods needed by the server             
-- **Player :**  Have additional mods only needed by the player
+- <font color="green">**Mission making :</font>** Contains mods required by the mission plus for the creation of the mission
+- <font color="#0619c7">**Server :</font>** Similar to the mission making modlist, but can include mods needed by the server        
+- <font color="brown">**Player :</font>**  Have additional mods only needed by the player
 
 Here’s an example of modlists made for a previous TFO US Army campaign : 
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                                                                                                    **Mission making**                                                                                                                                                                                                                   |                                                                                                                                                                                                                                     **Server**                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                             **Player**                                                                                                                                                                                                                                                                             |
-| CBA\_A3aceACRE2AnizayCommunity Factions Project (CFP)CUP ACE3 Compatibility - VehiclesCUP ACE3 Compatibility - WeaponsCUP Terrains - CoreCUP UnitsCUP VehiclesCUP WeaponsGruppe Adler TrenchesHendrix US Army VestJbadKAT - Advanced Medical REWRITELAMBS\_RPGLAMBS\_SuppressionLAMBS\_TurretsOne Man Army Mortar PackACE Compat - RHS USAF RHSUSAFUSAF Mod - MainUSAF\_AC130\_BETAZeus EnhancedZeus Enhanced - ACE3 Compatibility3den EnhancedDeformer | CBA\_A3aceACRE2AnizayCommunity Factions Project (CFP)CUP ACE3 Compatibility - VehiclesCUP ACE3 Compatibility - WeaponsCUP Terrains - CoreCUP UnitsCUP VehiclesCUP WeaponsGruppe Adler TrenchesHendrix US Army VestJbadKAT - Advanced Medical REWRITELAMBS\_RPGLAMBS\_SuppressionLAMBS\_TurretsOne Man Army Mortar PackACE Compat - RHS USAF RHSUSAFUSAF Mod - MainUSAF\_AC130\_BETAZeus EnhancedZeus Enhanced - ACE3 CompatibilityDeformerInjured AISplendid SmokeTFO Briefing UI | CBA\_A3aceACRE2AnizayCommunity Factions Project (CFP)CUP ACE3 Compatibility - VehiclesCUP ACE3 Compatibility - WeaponsCUP Terrains - CoreCUP UnitsCUP VehiclesCUP WeaponsGruppe Adler TrenchesHendrix US Army VestJbadKAT - Advanced Medical REWRITELAMBS\_RPGLAMBS\_SuppressionLAMBS\_TurretsOne Man Army Mortar PackACE Compat - RHS USAF RHSUSAFUSAF Mod - MainUSAF\_AC130\_BETAZeus EnhancedZeus Enhanced - ACE3 CompatibilityBloodlust (Edit)Escape From Tarkov FootstepsEscape From Tarkov Weapon SoundsJSRS SOUNDMODSplendid SmokeTFO Briefing UITFO Repack |
+| <font color="green">Mission making                     | <font color="darkblue">Server                             | <font color="brown">Player                             |
+| ---------------------------------- | ---------------------------------- | ---------------------------------- |
+| CBA_A3                             | CBA_A3                             | CBA_A3                             |
+| ace                                | ace                                | ace                                |
+| ACRE2                              | ACRE2                              | ACRE2                              |
+| Anizay                             | Anizay                             | Anizay                             |
+| Community Factions Project (CFP)   | Community Factions Project (CFP)   | Community Factions Project (CFP)   |
+| CUP ACE3 Compatibility - Vehicles  | CUP ACE3 Compatibility - Vehicles  | CUP ACE3 Compatibility - Vehicles  |
+| CUP ACE3 Compatibility - Weapons   | CUP ACE3 Compatibility - Weapons   | CUP ACE3 Compatibility - Weapons   |
+| CUP Terrains - Core                | CUP Terrains - Core                | CUP Terrains - Core                |
+| CUP Units                          | CUP Units                          | CUP Units                          |
+| CUP Vehicles                       | CUP Vehicles                       | CUP Vehicles                       |
+| CUP Weapons                        | CUP Weapons                        | CUP Weapons                        |
+| Gruppe Adler Trenches              | Gruppe Adler Trenches              | Gruppe Adler Trenches              |
+| Hendrix US Army Vest               | Hendrix US Army Vest               | Hendrix US Army Vest               |
+| Jbad                               | Jbad                               | Jbad                               |
+| KAT - Advanced Medical REWRITE     | KAT - Advanced Medical REWRITE     | KAT - Advanced Medical REWRITE     |
+| LAMBS_RPG                          | LAMBS_RPG                          | LAMBS_RPG                          |
+| LAMBS_Suppression                  | LAMBS_Suppression                  | LAMBS_Suppression                  |
+| LAMBS_Turrets                      | LAMBS_Turrets                      | LAMBS_Turrets                      |
+| One Man Army Mortar Pack           | One Man Army Mortar Pack           | One Man Army Mortar Pack           |
+| ACE Compat - RHS USAF              | ACE Compat - RHS USAF              | ACE Compat - RHS USAF              |
+| RHSUSAF                            | RHSUSAF                            | RHSUSAF                            |
+| USAF Mod - Main                    | USAF Mod - Main                    | USAF Mod - Main                    |
+| USAF_AC130_BETA                    | USAF_AC130_BETA                    | USAF_AC130_BETA                    |
+| Zeus Enhanced                      | Zeus Enhanced                      | Zeus Enhanced                      |
+| Zeus Enhanced - ACE3 Compatibility | Zeus Enhanced - ACE3 Compatibility | Zeus Enhanced - ACE3 Compatibility |
+| <font color="green">3den Enhanced</font>                      | <font color="#8006c7">Deformer                           | <font color="red">Bloodlust (Edit)                   |
+| <font color="#8006c7">Deformer                           | <font color="ligblue">Injured AI                         | <font color="red">Escape From Tarkov Footsteps       |
+|                                    | <font color="orange">Splendid Smoke                     | <font color="red">Escape From Tarkov Weapon Sounds   |
+|                                    | <font color="orange">TFO Briefing UI                    | <font color="red">JSRS SOUNDMOD                      |
+|                                    |                                    | <font color="orange">Splendid Smoke                     |
+|                                    |                                    | <font color="orange">TFO Briefing UI                    |
+|                                    |                                    | <font color="red">TFO Repack                         |
 
 Mods required :
 
 - **By the mission**
-- **For making the mission**
-- **For making the mission and by the server**
-- **By the server**
-- **By the server and the client**
-- **By the client**
+- <font color="green">**For making the mission**</font>
+- <font color="#8006c7">**For making the mission and by the server**</font>
+- <font color="ligblue">**By the server**</font>
+- <font color="orange">**By the server and the client**</font>
+- <font color="red">**By the client**</font>
 
 <!---->
+<font color="brown">
 
 - **Keep modlist small as possible**
 - **Use required mods**
 - **Make sure modlist is well in advance available before the op**
 - **Create different modlists for different uses**
 - **Put Arma 3 Preset in the modlist name**
+  
+</font>
 
 
 ## 3. Mission settings
 
 When the modlists are ready, it is time to create the mission. But before starting, it is **important to configure the settings of the mission properly** to prevent any issues.
 
-\
-![](https://lh7-us.googleusercontent.com/DCe5o1TGLNJcEQgPGSpZglWrO5zqQAgU_FotwvY6-mudKzzzdfcf8Q5Nm1lzq52lAd8oS6N30dqcs-ziS9KHcGRhDE2COXBYPUG5EpNoQhPE6lyOgk1Tcy9KVWUGKwqDZZRYtOIKvxCjAgV2xC6RZqM)
 
- 
-
-                                                                                                                                 **General**
-
-                                                                                                                                 **Multiplayer**
+![](/docs\assets\images\MM\missionsettings1.png)
 
 
 ### General 
 
-\
-![](https://lh7-us.googleusercontent.com/NGVcIKpVeaCHrV4XPTigMdl3sTazEJ-GBLSlw5nMB3raO-Npm3mCDhtwPISZvaVeeOtS_EFnl5j-4YBCuqOPIH1afYXGzPisefob97AYciSXYCKSNIqxQwFj69Zrh0s94IgQ2SzaDZSqBuSAHnG3NUs)
 
-                                                                                                                                 Name your mission
+![](/docs\assets\images\MM\missionsettings2.png)
 
-                                                                                                                                 Link a picture                 
-
-                                                                                                                                 _(optional)_
-
-                                                                                                                                 Description of the 
-
-                                                                                                                                 mission/campaign
-
-                                                                                                                                 _(optional)_
-
-                                                                                                                                 Select this option
 
 
 ### Multiplayer 
 
 \
-![](https://lh7-us.googleusercontent.com/389OvF-Odr2_OnLxIkyxfnvwhQanE3thlN6HkHCbUroOHlWGy_bYc3AucNnChHGJhyEvzoXO70DhZJE7SPfZCpX1TsLVsW1YNlkOctZx3e1wUL4HVQr00HaTVeL5PBR2oQlj9baE47jlX_bKeOEM_N4)
-
-                                                                                                                                 Select a type
-
-                                                                                                                                 Set a number
-
-                                                                                                                                 Uncheck Enable AI
-
-                                                                                                                                 Select this option
-
-                                                                                                                                 **Only** check this box
-
-                                                                                                                                 Set a timer
-
-                                                                                                                                 Check this box
+![](/docs\assets\images\MM\missionsettings3.png)
 
 
 ### Addons Options 
@@ -225,11 +225,11 @@ When the modlists are ready, it is time to create the mission. But before starti
 
 We need a **specific player layout** according to our sign up sheets [**HERE**](https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit##gid=1153113922). To get this player layout in Arma with the correct configurations, a composition is available on the workshop : 
 
-[![](https://lh7-us.googleusercontent.com/WDV3bznnV6Ww2ZOzRofcIRcLKSwyrcWGJDGaBwWVYF_5o_s7ew0Lg6KDSYq47DWWzI5amVa7o_eO8YMze_paTiWkgtCLrngX5nFB2Ctf4BJS_eqf2eY4ptREI2TKRob2EZ2R6IObqfQoOMNOKon_7hg)](https://steamcommunity.com/sharedfiles/filedetails/?id=2891659177)
+[![](/docs\assets\images\MM\tfosquads.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2891659177)
 
 A version with premade loadouts is also available here : 
 
-[![](https://lh7-us.googleusercontent.com/WDV3bznnV6Ww2ZOzRofcIRcLKSwyrcWGJDGaBwWVYF_5o_s7ew0Lg6KDSYq47DWWzI5amVa7o_eO8YMze_paTiWkgtCLrngX5nFB2Ctf4BJS_eqf2eY4ptREI2TKRob2EZ2R6IObqfQoOMNOKon_7hg)](https://steamcommunity.com/sharedfiles/filedetails/?id=2945266531)
+[![](/docs\assets\images\MM\tfosquadsup.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2945266531)
 
 **What is this version for ?**
 
@@ -239,7 +239,7 @@ Every equipment required per special role are **already included** in the unifor
 
 Platoon leader, squad leaders, JTAC/FO and grenadiers already have 40mm grenades on them. Giving them a weapon without a grenade launcher **will remove those grenades from their inventory**. So when making their loadouts, make sure to **directly give them a weapon mounted with a grenade launcher** _(ex. M4 with M203)_.
 
-- **Use TFO squads composition**
+<font color="brown">- **Use TFO squads composition**</font>
 
 
 ### Callsigns
@@ -256,7 +256,7 @@ A simple but **necessary** process that needs to be done to every teams, by copy
 
     **1                                            2**
 
-- **Change manually callsigns to every teams**
+<font color="brown">- **Change manually callsigns to every teams**</font>
 
 
 ### Loadouts 
@@ -265,7 +265,7 @@ To avoid the use of an arsenal in-game and win time, **every slot must be comple
 
 A time consuming but necessary step to **prevent any omission and loss of time**, so we can start the mission and have fun faster !
 
-- **Make correct loadouts for every roles**
+<font color="brown">- **Make correct loadouts for every roles**</font>
 
 
 ## 5. Images and templates
@@ -280,9 +280,9 @@ To display an image on a screen, first you put the image in your mission folder.
 
  __
 
-![](https://lh7-us.googleusercontent.com/sVPiJnsQQSrtDN1nxcrwM26RUeZB7ivrbL53x4-IKZK9nHQnT_KIYXeT43RCBR59kPu4U936kZtBJJ6265KbY9JlTLF215dfLTMU2s7VHOD1yrqhNgC2A3iu4xqr754_xLlm_m-zNYvWppppOhBgmxA)
+![](/docs\assets\images\MM\image.png)
 
-- **Set properly the path of the images**
+<font color="brown">- **Set properly the path of the images**</font>
 
 
 ### Templates 
@@ -291,14 +291,29 @@ You **may require a template** as some displays use a specific one.
 
 Here are specific templates of the most commonly used ones, with a Photoshop file, and blank .jpg version :
 
-\
-![](https://lh7-us.googleusercontent.com/AqR9qr4Vm07AVnd1Rmw33Ng2X8gW2qfhkB-tpXJwUcEZEPt8gTY-SUyMj71tqFlAIwy3SwPyLAoL1BzFqXQOhtghd8cJibohzppdYCiTjsb_nKiqn1jkU5zEKTUJ-lfQhR_8T6FeqCo0G7W_GB72Y0U)
 
-|                                                                                                                                                                                                          |                                                                                                                                                                                                                          |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [Whiteboard.psd](https://drive.google.com/file/d/15V-bF0Q1WTiIVGaItR0HT0fOc9wj92Lm/view?usp=sharing)[Whiteboard.jpg](https://drive.google.com/file/d/1Zz28nrqgWYPPhkEvt78TRKqB7zMcU6Rj/view?usp=sharing) | [BriefingRoomScreen.psd](https://drive.google.com/file/d/12-DF7vv1pOqC1QKT7c0V1lwWTG4t4JMN/view?usp=sharing)[BriefingRoomScreen.jpg](https://drive.google.com/file/d/1y-Hg6B7T8_yhhL75iYKZ7GKzZ_Ql65FN/view?usp=sharing) |
 
-- **Use correct templates if needed**
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/MM/templatewb.png" width="100%" /><br>
+    <tr>
+		<td><a href="https://drive.google.com/file/d/15V-bF0Q1WTiIVGaItR0HT0fOc9wj92Lm/view?usp=sharing">Whiteboard.psd</a><br></td>
+		<td><a href="https://drive.google.com/file/d/1Zz28nrqgWYPPhkEvt78TRKqB7zMcU6Rj/view?usp=sharing">Whiteboard.jpg</a><br></td>
+	</tr>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/MM/templatescreen.png"  width="100%" /><br>
+    <tr>
+		<td><a href="https://drive.google.com/file/d/12-DF7vv1pOqC1QKT7c0V1lwWTG4t4JMN/view?usp=sharing">BriefingRoomScreen.psd</a><br></td>
+		<td><a href="https://drive.google.com/file/d/1y-Hg6B7T8_yhhL75iYKZ7GKzZ_Ql65FN/view?usp=sharing">BriefingRoomScreen.jpg</a><br></td>
+	</tr>
+  </div>
+</div>
+
+
+
+<font color="brown">- **Use correct templates if needed**</font>
 
 
 ## 6. Scripts
@@ -310,20 +325,17 @@ Different scripts can be used to improve the mission and win time, here’s a fe
 
 **Spawn :** 
 
-When joining the server, will allow players to spawn where their character is placed in the editor, instead of using the multiplayer respawn module.
-
+When joining the server, will allow players to spawn where their character is placed in the editor, instead of using the multiplayer respawn module.<br>
 [Download](https://drive.google.com/file/d/1OIOIKuG6hZ68lc2YQPMfYRCgzR5xkuMB/view?usp=sharing)
 
 **Respawn :** 
 
-When a player dies and respawn, will restore the equipment he had before dying, instead of getting a fresh loadout. 
-
+When a player dies and respawn, will restore the equipment he had before dying, instead of getting a fresh loadout. <br>
 [Download](https://drive.google.com/file/d/1D1KsDvds6GLfXN4BO-KsyMgH4SPqlQNj/view?usp=sharing)
 
 **Flare fix :** 
 
-Script to enhance the brightness of the flares at night, instead of using mods for this purpose.
-
+Script to enhance the brightness of the flares at night, instead of using mods for this purpose.<br>
 [Download](https://drive.google.com/file/d/1Mqms3jTJytmKhyVNp9kWISaEBtah3Ejg/view?usp=sharing)
 
 
@@ -331,9 +343,9 @@ Script to enhance the brightness of the flares at night, instead of using mods f
 
 To install the scripts, you simply have to put them in the mission folder. Beware, **scripts must be directly put in the folder** and not in a different folder. 
 
-![](https://lh7-us.googleusercontent.com/KBNW-m3ijiayrdWrTjUV0FM9cVF3j2pSzUEiCheyK0K8bz5kT9WVQG0K9gSxc-WSjchLs11ahJHUO6DGP4azKio_lZi8WAbU8zbvlHWol9tBQGDMUv6DmNYY3lKIkzgzStjPR8b2iyDXSguGpsGE0Ow)
+![](../assets/images/MM/missionfile.png)
 
-- **Set correctly scripts if needed**
+<font color="brown">- **Set correctly scripts if needed**</font>
 
 
 ## 7. Tips and tricks
@@ -371,9 +383,8 @@ To install the scripts, you simply have to put them in the mission folder. Bewar
   - Make AI move even with the path disabled
   - Impossible for you to drive and shoot at the same time will controlling an AI in a vehicle 
 
-<!---->
 
-- **Take notes of the tips**
+<font color="brown">- **Take notes of the tips**</font>
 
 
 ## 8. Testing your mission
@@ -403,13 +414,19 @@ The ideal thing to do is to **play the mission yourself** so you can directly se
 
 When you are done testing, **don’t forget to warn the Server Admins** so they can shut down the server if no more tests are needed.
 
+<font color="brown">
+
 - **Don’t test the mission last minute**
 - **Test the mission from start to finish**
+  
+</font>
 
 
 ## 9. Summary
 
 Here are short and concise points seen throughout the entire guide.
+
+<font color="brown">
 
 - **Test mods and compatibilities**
 - **Keep modlist small as possible**
@@ -426,3 +443,5 @@ Here are short and concise points seen throughout the entire guide.
 - **Take notes of the tips**
 - **Don’t test the mission last minute**
 - **Test the mission from start to finish**
+
+</font>
