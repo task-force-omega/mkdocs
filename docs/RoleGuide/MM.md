@@ -174,20 +174,20 @@ Mods required :
 When the modlists are ready, it is time to create the mission. But before starting, it is **important to configure the settings of the mission properly** to prevent any issues.
 
 
-![](../assets\images\MM\missionsettings1.png)
+![](../assets/images/MM/missionsettings1.png)
 
 
 ### General 
 
 
-![](../assets\images\MM\missionsettings2.png)
+![](../assets/images/MM/missionsettings2.png)
 
 
 
 ### Multiplayer 
 
 \
-![](../assets\images\MM\missionsettings3.png)
+![](../assets/images/MM/missionsettings3.png)
 
 
 ### Addons Options 
@@ -225,11 +225,11 @@ When the modlists are ready, it is time to create the mission. But before starti
 
 We need a **specific player layout** according to our sign up sheets [**HERE**](https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit##gid=1153113922). To get this player layout in Arma with the correct configurations, a composition is available on the workshop : 
 
-[![](../assets\images\MM\tfosquads.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2891659177)
+[![](../assets/images/MM/tfosquads.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2891659177)
 
 A version with premade loadouts is also available here : 
 
-[![](../assets\images\MM\tfosquadsup.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2945266531)
+[![](../assets/images/MM/tfosquadsup.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2945266531)
 
 **What is this version for ?**
 
@@ -280,7 +280,7 @@ To display an image on a screen, first you put the image in your mission folder.
 
  __
 
-![](../assets\images\MM\image.png)
+![](../assets/images/MM/image.png)
 
 <font color="brown">- **Set properly the path of the images**</font>
 
