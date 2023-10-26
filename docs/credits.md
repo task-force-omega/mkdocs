@@ -8,6 +8,7 @@ Pages:<br>
       - [Ranks](../ranks/) -<br>
 
 Role Guides:<br>
+      - [Mission maker](../RoleGuide/MM/) - *scorboutiko*<br>
       - [Platoon leader](../RoleGuide/pltleader/) - *Henry Gibbs*<br>
       - [Medic + CLS](../RoleGuide/medic/) - *Henry Gibbs*<br>
       - [JTAC/FO](../RoleGuide/jtac/) - *Henry Gibbs*<br>
