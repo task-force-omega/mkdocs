@@ -174,20 +174,20 @@ Mods required :
 When the modlists are ready, it is time to create the mission. But before starting, it is **important to configure the settings of the mission properly** to prevent any issues.
 
 
-![](/docs\assets\images\MM\missionsettings1.png)
+![](../assets\images\MM\missionsettings1.png)
 
 
 ### General 
 
 
-![](/docs\assets\images\MM\missionsettings2.png)
+![](../assets\images\MM\missionsettings2.png)
 
 
 
 ### Multiplayer 
 
 \
-![](/docs\assets\images\MM\missionsettings3.png)
+![](../assets\images\MM\missionsettings3.png)
 
 
 ### Addons Options 
@@ -225,11 +225,11 @@ When the modlists are ready, it is time to create the mission. But before starti
 
 We need a **specific player layout** according to our sign up sheets [**HERE**](https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit##gid=1153113922). To get this player layout in Arma with the correct configurations, a composition is available on the workshop : 
 
-[![](/docs\assets\images\MM\tfosquads.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2891659177)
+[![](../assets\images\MM\tfosquads.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2891659177)
 
 A version with premade loadouts is also available here : 
 
-[![](/docs\assets\images\MM\tfosquadsup.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2945266531)
+[![](../assets\images\MM\tfosquadsup.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2945266531)
 
 **What is this version for ?**
 
@@ -280,7 +280,7 @@ To display an image on a screen, first you put the image in your mission folder.
 
  __
 
-![](/docs\assets\images\MM\image.png)
+![](../assets\images\MM\image.png)
 
 <font color="brown">- **Set properly the path of the images**</font>
 
@@ -297,7 +297,7 @@ Here are specific templates of the most commonly used ones, with a Photoshop fil
   <div class="image-container">
     <img src="/assets/images/MM/templatewb.png" width="100%" /><br>
     <tr>
-		<td><a href="https://drive.google.com/file/d/15V-bF0Q1WTiIVGaItR0HT0fOc9wj92Lm/view?usp=sharing">Whiteboard.psd</a><br></td>
+		<td><center><a href="https://drive.google.com/file/d/15V-bF0Q1WTiIVGaItR0HT0fOc9wj92Lm/view?usp=sharing">Whiteboard.psd</a><br></td>
 		<td><a href="https://drive.google.com/file/d/1Zz28nrqgWYPPhkEvt78TRKqB7zMcU6Rj/view?usp=sharing">Whiteboard.jpg</a><br></td>
 	</tr>
   </div>
@@ -305,7 +305,7 @@ Here are specific templates of the most commonly used ones, with a Photoshop fil
   <div class="image-container">
     <img src="/assets/images/MM/templatescreen.png"  width="100%" /><br>
     <tr>
-		<td><a href="https://drive.google.com/file/d/12-DF7vv1pOqC1QKT7c0V1lwWTG4t4JMN/view?usp=sharing">BriefingRoomScreen.psd</a><br></td>
+		<td><center><a href="https://drive.google.com/file/d/12-DF7vv1pOqC1QKT7c0V1lwWTG4t4JMN/view?usp=sharing">BriefingRoomScreen.psd</a><br></td>
 		<td><a href="https://drive.google.com/file/d/1y-Hg6B7T8_yhhL75iYKZ7GKzZ_Ql65FN/view?usp=sharing">BriefingRoomScreen.jpg</a><br></td>
 	</tr>
   </div>
