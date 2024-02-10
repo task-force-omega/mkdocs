@@ -19,7 +19,7 @@
 
 
 <div class="image-container-logo">
-  <img src="/mkdocs/assets/images/AT/logoat.png" width="100%" />
+  <img src="/assets/images/AT/logoat.png" width="100%" />
 </div>
 
 <br>
