@@ -40,7 +40,7 @@ These ranks serve only as designations for the combat skills, and a little bit o
 
 Since we don't have a static unit roster, it's very much possible that someone with a lower rank is still in command. Only in the absence or downed leaders, the member of the highest rank comes in command. When a rank is referenced in this guide, we are talking about rank within the Chain of command, and not the TFO rank.
 
-Current roster is available <a href="/mkdocs/team/">here</a>, and a summary of the ranks is available <a href="/mkdocs/ranks/">here</a>
+Current roster is available <a href="/team/">here</a>, and a summary of the ranks is available <a href="/ranks/">here</a>
 
 ### Standardized squad roster in operations
 
@@ -54,14 +54,14 @@ Current roster is available <a href="/mkdocs/team/">here</a>, and a summary of t
     <td>Radio: <i>CH1</i> (343) / (152)</td>
   </tr>
   <tr>
-    <td rowspan="3"><img src="/mkdocs/assets/images/radar/zeus wh.png" width="16px"/> Zeus</td>
-    <td><img src="/mkdocs/assets/images/radar/iconManLeader_ca - Copie.png" width="16px"/> PLT leader</td>
+    <td rowspan="3"><img src="/assets/images/radar/zeus wh.png" width="16px"/> Zeus</td>
+    <td><img src="/assets/images/radar/iconManLeader_ca - Copie.png" width="16px"/> PLT leader</td>
   </tr>  
   <tr>
-    <td><img src="/mkdocs/assets/images/radar/iconManMedic_ca - Copie.png" width="16px"/> PLT medic</td>
+    <td><img src="/assets/images/radar/iconManMedic_ca - Copie.png" width="16px"/> PLT medic</td>
   </tr>
   <tr>
-    <td><img src="/mkdocs/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> JTAC/FO</td>
+    <td><img src="/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> JTAC/FO</td>
   </tr>
 </table>
 
@@ -79,34 +79,34 @@ Current roster is available <a href="/mkdocs/team/">here</a>, and a summary of t
     <td>Radio: <i>CH4</i> (343)</td>
   </tr>
   <tr>
-    <td><img src="/mkdocs/assets/images/radar/iconManLeader_ca - Copie.png" width="16px"/> Squadleader*</td>
-    <td><img src="/mkdocs/assets/images/radar/iconManLeader_ca - Copie.png" width="16px"/> Squadleader*</td>
-    <td><img src="/mkdocs/assets/images/radar/iconManLeader_ca - Copie.png" width="16px"/> Squadleader*</td>
+    <td><img src="/assets/images/radar/iconManLeader_ca - Copie.png" width="16px"/> Squadleader*</td>
+    <td><img src="/assets/images/radar/iconManLeader_ca - Copie.png" width="16px"/> Squadleader*</td>
+    <td><img src="/assets/images/radar/iconManLeader_ca - Copie.png" width="16px"/> Squadleader*</td>
   </tr>  
   <tr>
-    <td><img src="/mkdocs/assets/images/radar/iconManMedic_ca - Copie.png" width="16px"/> Combat Life Saver</td>
-    <td><img src="/mkdocs/assets/images/radar/iconManMedic_ca - Copie.png" width="16px"/> Combat Life Saver</td>
-    <td><img src="/mkdocs/assets/images/radar/iconManMedic_ca - Copie.png" width="16px"/> Combat Life Saver</td>
+    <td><img src="/assets/images/radar/iconManMedic_ca - Copie.png" width="16px"/> Combat Life Saver</td>
+    <td><img src="/assets/images/radar/iconManMedic_ca - Copie.png" width="16px"/> Combat Life Saver</td>
+    <td><img src="/assets/images/radar/iconManMedic_ca - Copie.png" width="16px"/> Combat Life Saver</td>
   </tr>
   <tr>
-    <td><img src="/mkdocs/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> Rifleman (Light AT)</td>
-    <td><img src="/mkdocs/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> Rifleman (Light AT)</td>
-    <td><img src="/mkdocs/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> Rifleman (Light AT)</td>
+    <td><img src="/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> Rifleman (Light AT)</td>
+    <td><img src="/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> Rifleman (Light AT)</td>
+    <td><img src="/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> Rifleman (Light AT)</td>
   </tr>
   <tr>
-    <td><img src="/mkdocs/assets/images/radar/iconManExplosive_ca - Copie.png" width="16px"/> Grenadier</td>
-    <td><img src="/mkdocs/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> Rifleman</td>
-    <td><img src="/mkdocs/assets/images/radar/iconManExplosive_ca - Copie.png" width="16px"/> Grenadier</td>
+    <td><img src="/assets/images/radar/iconManExplosive_ca - Copie.png" width="16px"/> Grenadier</td>
+    <td><img src="/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> Rifleman</td>
+    <td><img src="/assets/images/radar/iconManExplosive_ca - Copie.png" width="16px"/> Grenadier</td>
   </tr>  
   <tr>
-    <td><img src="/mkdocs/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> Marksman</td>
-    <td><img src="/mkdocs/assets/images/radar/iconManEngineer_ca - Copie.png" width="16px"/> Engineer/EOD</td>
-    <td><img src="/mkdocs/assets/images/radar/iconManAT_ca - Copie - Copie.png" width="16px"/> Anti air</td>  
+    <td><img src="/assets/images/radar/iconMan_ca - Copie.png" width="16px"/> Marksman</td>
+    <td><img src="/assets/images/radar/iconManEngineer_ca - Copie.png" width="16px"/> Engineer/EOD</td>
+    <td><img src="/assets/images/radar/iconManAT_ca - Copie - Copie.png" width="16px"/> Anti air</td>  
   </tr>
   <tr>
-    <td><img src="/mkdocs/assets/images/radar/iconManMG_ca - Copie.png" width="16px"/> Auto rifleman</td>
-    <td><img src="/mkdocs/assets/images/radar/iconManAT_ca - Copie.png" width="16px"/> Anti tank</td>
-    <td><img src="/mkdocs/assets/images/radar/iconManMG_ca - Copie.png" width="16px"/> Auto rifleman</td>
+    <td><img src="/assets/images/radar/iconManMG_ca - Copie.png" width="16px"/> Auto rifleman</td>
+    <td><img src="/assets/images/radar/iconManAT_ca - Copie.png" width="16px"/> Anti tank</td>
+    <td><img src="/assets/images/radar/iconManMG_ca - Copie.png" width="16px"/> Auto rifleman</td>
   </tr>
   <tr>
     <td colspan="3" style="text-align:center"><i>*Squadleaders are required to have a long range radio (152), tuned to CH1</i></td>
@@ -187,7 +187,7 @@ So, do not take it upon yourself to implement your own ideas without the say so 
 
 ## Basic DO's and DON'Ts
 
-It really is an abridged version of Task Force Omega rules, available <a href="/mkdocs/rulebook/">here</a>.
+It really is an abridged version of Task Force Omega rules, available <a href="/rulebook/">here</a>.
 
 ### DO
 
@@ -200,7 +200,7 @@ It really is an abridged version of Task Force Omega rules, available <a href="/
 
 ### DON'T
 
-- Initiate contact without the say so of the squad leader (apply <a href="/mkdocs/basics/#roe">ROE</a>)
+- Initiate contact without the say so of the squad leader (apply <a href="/basics/#roe">ROE</a>)
 - Scavenge bodies for equipment unless asked to do so
 - Take enemy weapons without permission
 - Spam markers on the map
