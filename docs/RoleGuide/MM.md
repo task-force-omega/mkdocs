@@ -477,3 +477,20 @@ Here are short and concise points seen throughout the entire guide.
 - **Test the mission from start to finish**
 
 </font>
+
+## 10. Links (to organize)
+
+https://youtu.be/UCj2tvzGJuo?si=ZFUDfD_zWNfCUstu
+
+
+https://forums.bohemia.net/forums/topic/210519-color-correction-theme-selections-colorblindness-post-process-effects/
+
+https://forums.bohemia.net/forums/topic/203726-tutorial-how-to-make-an-object-play-sound-or-music-radio_fm/
+
+https://steamcommunity.com/app/107410/discussions/0/348292787747004664
+
+https://jetelain.github.io/Arma3Map/
+
+https://paa.gruppe-adler.de/
+
+https://insignia.alex109.de/create.html
