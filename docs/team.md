@@ -39,19 +39,13 @@ hide:
 | Kyle Pepper   | SPC  | ![](assets/images/Ranks/small/SPC1Black.png) | Active   |
 | Chaddy        | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Active   |
 | Dive          | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Active   |
-| KaptnLOKI     | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Active   |
 | Sam           | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Active   |
-| Monster       | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Inactive |
-| Tomo          | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Inactive |
 | Nordotor      | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Inactive |
 | Electric      | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Inactive |
 | ACE           | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Inactive |
 | Winters       | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Inactive |
 | maxo          | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Inactive |
-| Fantazy       | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | LoA      |
 | Banana        | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Inactive |
-| Danny         | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Inactive |
-| D. Kenyon     | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
 | Coderus       | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | LoA      |
 | Mates         | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
 | Dariuss       | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
@@ -61,7 +55,6 @@ hide:
 | Nachos        | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
 | Emir          | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
 | Thekrisz      | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
-| John Campbell | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
 | Kevvin        | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
 | Lao           | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
 | Ray The Doc   | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
