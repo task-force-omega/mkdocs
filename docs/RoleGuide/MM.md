@@ -451,25 +451,29 @@ Here are short and concise points seen throughout the entire guide.
 
 ## 10. Links (to organize)
 
-https://youtu.be/UCj2tvzGJuo?si=ZFUDfD_zWNfCUstu
 
+### Youtube tutorials
 
-https://forums.bohemia.net/forums/topic/210519-color-correction-theme-selections-colorblindness-post-process-effects/
+https://youtu.be/UCj2tvzGJuo (Create task from intel pickup!)
 
-https://forums.bohemia.net/forums/topic/203726-tutorial-how-to-make-an-object-play-sound-or-music-radio_fm/
+https://youtu.be/7sP7e4qmOuU (Levitation-Floating Objects)
 
-https://steamcommunity.com/app/107410/discussions/0/348292787747004664
+https://youtu.be/h_QHDqJ4uJQ (Hoses, Filters & Facewear Overlays)
 
-https://jetelain.github.io/Arma3Map/
+https://youtu.be/ReF7zfqtMm0 (How To Make An Underground Tunnel)
 
-https://paa.gruppe-adler.de/
+https://youtu.be/KQeOucehNUE (How To Set Up Multiple Custom Sounds)
 
-https://insignia.alex109.de/create.html
+### Useful links
 
-https://youtu.be/7sP7e4qmOuU?si=NWhkayM8LI_Xuj1l
+https://forums.bohemia.net/forums/topic/210519-color-correction-theme-selections-colorblindness-post-process-effects/ (Color Correction theme selections)
 
-https://youtu.be/h_QHDqJ4uJQ?si=v56ih9PO-dhpj59_
+https://forums.bohemia.net/forums/topic/203726-tutorial-how-to-make-an-object-play-sound-or-music-radio_fm/ (How to make an object play a sound or music)
 
-https://youtu.be/ReF7zfqtMm0?si=LZXP4hvgoG5sVNMO
+https://steamcommunity.com/app/107410/discussions/0/348292787747004664 (How to use a picture as a hint)
 
-https://youtu.be/KQeOucehNUE?si=4VmenOF-g14JDT_6
+https://jetelain.github.io/Arma3Map/ (Maps database)
+
+https://paa.gruppe-adler.de/ (Image to PAA / PAA to image converter)
+
+https://insignia.alex109.de/create.html (Insignia and patch creator tutorial)
