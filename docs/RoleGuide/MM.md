@@ -194,34 +194,6 @@ When the modlists are ready, it is time to create the mission. But before starti
 ![](../assets/images/MM/missionsettings3.png)
 
 
-### Addons Options 
-
-\
-![](https://lh7-us.googleusercontent.com/g_mqSfVMqycjUl07FKpZgJw-s0S-afS2pqF_Yw2PHM8SOoQo0VSs8gP1elVAzWMLPJ55nLufV8mrty3-3b7OBBL3j82xYxLmL_dxE8qE6VemxZXrSIAcQrZvhSmon0xfpBGCr0NTBjS24qXr7R2vPrk)
-
-                                                                                                                                 **ADDON** 
-
-                                                                                     **OPTIONS**
-
-\
-![](https://lh7-us.googleusercontent.com/JR5M5wwcbXJuvSU7Jq_XfthBor67MDwiZHWr7LQAGaRUXJJkxF89H8sqthD9tbJ9HrVUGpmpVlTbyNbTRc0r14ZCYeFfsuniV84yjRL2QZww1V9N6KK_vevFYP1UnSaLA1Cpbvn02aYU_9qv-puHlyw)
-
-                          **1**
-
-                     **2**
-
-\
-![](https://lh7-us.googleusercontent.com/P8OVNTs80qiNXXLVqwomo9ieAqG6XFRT-r8DnDjPtZ205R9frY_aTxFbiinjzCPHjLlWmKQmRmJ9oQ0NMB9xDygxKIb8jgU5NTFDkFWEP_dIcQx-yqLtxgVuwSYa7anGAKN0S69Yj30aMg6PkwLxda4)
-
-                                 **3**
-
-                                                                                                                                    **4**
-
-\
-![](https://lh7-us.googleusercontent.com/6Q8dPUBM4lBMqL1OMIaVfa9O-C2wGpZwFba3DTu7ouTBt71OfQRIIO6wnMjZowfVHLJM9zTE2_kmlrQHat1QKdjOGC0Z6qTXsSy5I5hMRE6UstKlmIAfeowwbiLMQYyPJbYzLcE01KMPHlxJYoe2CLU)
-
-                                                                                                                     **5**
-
 
 ## 4. Player layout and loadouts
 
@@ -258,11 +230,10 @@ In order to have the teams names properly showing on the map, **their callsigns 
 
 A simple but **necessary** process that needs to be done to every teams, by copying the name in “Role Description” and pasting it in “Callsign” : 
 
-\
-![](https://lh7-us.googleusercontent.com/WgkwFdjQoADzUi0THSH9I96_d9LRBjJS5UXQl3amUj4OEH1YSwn5BLD7TORsdkXLMZUOgLIdhqi-1S3dCP1jzlwGDd_mzTLmwHu0nQYGDdvBvV2FNkATeQpOjDSxTPDtIAOB8hkk2yy9bC9osC_67og)\
-![](https://lh7-us.googleusercontent.com/Uw_CD1ggXV2A2ElEV3Uva6jcsfKeD7t9-mJgRv8bYSnPna9TpOvoO4rcffuThtIKe66y9nm9UUkmvjf1lITd2Y-94DHx89-Clt60Ylt8Eqn4P52v60a04T0liAeDefYlkEUK1JuOq9NiEjXLtEy_o7M)
-
-    **1                                            2**
+![](../assets/images/MM/squadname1.png)
+![](../assets/images/MM/squadname3.png)
+![](../assets/images/MM/squadname4.png)
+![](../assets/images/MM/squadname5.png)
 
 <font color="brown">
 
