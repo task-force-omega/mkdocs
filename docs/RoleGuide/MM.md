@@ -454,26 +454,26 @@ Here are short and concise points seen throughout the entire guide.
 
 ### Youtube tutorials
 
-[Create task from intel pickup](https://youtu.be/UCj2tvzGJuo){:target="_blank"}
+<a href="https://youtu.be/UCj2tvzGJuo" target="_blank">Create task from intel pickup</a>
 
-[Levitation-Floating Objects](https://youtu.be/7sP7e4qmOuU){:target="_blank"}
+[Levitation-Floating Objects](https://youtu.be/7sP7e4qmOuU)
 
-[Hoses, Filters & Facewear Overlays](https://youtu.be/h_QHDqJ4uJQ){:target="_blank"}
+[Hoses, Filters & Facewear Overlays](https://youtu.be/h_QHDqJ4uJQ)
 
-[How To Make An Underground Tunnel](https://youtu.be/ReF7zfqtMm0){:target="_blank"}
+[How To Make An Underground Tunnel](https://youtu.be/ReF7zfqtMm0)
 
-[How To Set Up Multiple Custom Sounds](https://youtu.be/KQeOucehNUE){:target="_blank"}
+[How To Set Up Multiple Custom Sounds](https://youtu.be/KQeOucehNUE)
 
 ### Useful links
 
-[Color Correction theme selections](https://forums.bohemia.net/forums/topic/210519-color-correction-theme-selections-colorblindness-post-process-effects/){:target="_blank"}
+[Color Correction theme selections](https://forums.bohemia.net/forums/topic/210519-color-correction-theme-selections-colorblindness-post-process-effects/)
 
-[How to make an object play a sound or music](https://forums.bohemia.net/forums/topic/203726-tutorial-how-to-make-an-object-play-sound-or-music-radio_fm/){:target="_blank"}
+[How to make an object play a sound or music](https://forums.bohemia.net/forums/topic/203726-tutorial-how-to-make-an-object-play-sound-or-music-radio_fm/)
 
-[How to use a picture as a hint](https://steamcommunity.com/app/107410/discussions/0/348292787747004664){:target="_blank"}
+[How to use a picture as a hint](https://steamcommunity.com/app/107410/discussions/0/348292787747004664)
 
-[Maps database](https://jetelain.github.io/Arma3Map/){:target="_blank"}
+[Maps database](https://jetelain.github.io/Arma3Map/)
 
-[Image to PAA / PAA to image converter](https://paa.gruppe-adler.de/){:target="_blank"}
+[Image to PAA / PAA to image converter](https://paa.gruppe-adler.de/)
 
-[Insignia and patch creator tutorial and tool](https://insignia.alex109.de/create.html){:target="_blank"}
+[Insignia and patch creator tutorial and tool](https://insignia.alex109.de/create.html)
