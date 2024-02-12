@@ -33,8 +33,8 @@ hide:
 | -                  |:-:        | :-:                                          | 
 | Ember         | SPC2 | ![](assets/images/Ranks/small/SPC2Black.png) | Active   |
 | Divide        | SPC2 | ![](assets/images/Ranks/small/SPC2Black.png) | Active   |
+| Arkin         | SPC2 | ![](assets/images/Ranks/small/SPC2Black.png) | Active   |
 | Polka         | SPC  | ![](assets/images/Ranks/small/SPC1Black.png) | Active   |
-| Arkin         | SPC  | ![](assets/images/Ranks/small/SPC1Black.png) | Active   |
 | Speed         | SPC  | ![](assets/images/Ranks/small/SPC1Black.png) | Active   |
 | Kyle Pepper   | SPC  | ![](assets/images/Ranks/small/SPC1Black.png) | Active   |
 | Chaddy        | PFC  | ![](assets/images/Ranks/small/PFCBlack.png) | Active   |
