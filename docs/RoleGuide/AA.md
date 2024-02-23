@@ -26,7 +26,7 @@ Source : <a href="https://irp.fas.org/doddir/army/fm3-01-80.pdf">IRP FAS DODDIR<
 
 </font>
 
-For the Anti-Air basic training, please find the appropriate modlist <a hef="https://drive.google.com/file/d/1y_SvIcEgMseyug2EafpCSe0hzwYigikR">here</a>.
+For the Anti-Air basic training, please find the appropriate modlist <a href="https://drive.google.com/file/d/1y_SvIcEgMseyug2EafpCSe0hzwYigikR">here</a>.
 
 ## 1. Aircraft confusion
 
