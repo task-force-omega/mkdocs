@@ -18,9 +18,15 @@ This guide aims to assist the Anti-Air role in **aircraft recognition and identi
 
 This guide is based on the following mods : **CFP, CUP, RHS, AMF, 3CB Factions, HAFM**
 
-Source : <a href="https://irp.fas.org/doddir/army/fm3-01-80.pdf">IRP FAS DODDIR</a>
+Source : <a href="https://irp.fas.org/doddir/army/fm3-01-80.pdf">IRP FAS DODDIR</a> (PDF file)
 
-**<u>This does not replace actual Anti-Air training and doesn’t grant the clearance for the role during missions.</u>**
+<font color="orange">
+
+<u>**This does not replace actual Anti-Air training and doesn’t grant the clearance for the role during missions.**</u>
+
+</font>
+
+For the Anti-Air basic training, please find the appropriate modlist <a hef="https://drive.google.com/file/d/1y_SvIcEgMseyug2EafpCSe0hzwYigikR">here</a>.
 
 ## 1. Aircraft confusion
 
