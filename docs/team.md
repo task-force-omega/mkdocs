@@ -60,3 +60,4 @@ hide:
 | Ray The Doc   | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
 | Augustus      | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
 | Luca          | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
+| Wulff         | PVT  | ![](assets/images/Ranks/small/PVTBlack.png) | Active   |
