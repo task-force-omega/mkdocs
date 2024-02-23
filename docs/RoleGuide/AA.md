@@ -22,7 +22,7 @@ Source : <a href="https://irp.fas.org/doddir/army/fm3-01-80.pdf">IRP FAS DODDIR<
 
 <font color="orange">
 
-<u>**This does not replace actual Anti-Air training and doesn’t grant the clearance for the role during missions.**</u>
+<u>**This does not replace actual Anti-Air training and does NOT grant the clearance for the role during missions.**</u>
 
 </font>
 
