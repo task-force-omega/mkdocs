@@ -1,7 +1,4 @@
 
-
-
-
 <p class="center-text">TFO Anti-Air Guide (VAR)</p>
 
 
