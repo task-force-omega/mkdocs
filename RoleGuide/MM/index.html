@@ -1,0 +1,1923 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../ranks/">
+      
+      
+        <link rel="next" href="../pltleader/">
+      
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.11">
+    
+    
+      
+        <title>Mission maker - TFO Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#presentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="TFO Docs" class="md-header__button md-logo" aria-label="TFO Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TFO Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Mission maker
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="TFO Docs" class="md-nav__button md-logo" aria-label="TFO Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    TFO Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intro
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rulebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TFO's Rulebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Our team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ranks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ranks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Role Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Role Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Mission maker
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Mission maker
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Mods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-modlists" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Modlists
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-mission-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Mission settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Mission settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiplayer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-player-layout-and-loadouts" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Player layout and loadouts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Player layout and loadouts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#player-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Player layout
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callsigns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callsigns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loadouts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loadouts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-images-and-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Images and templates
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Images and templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Images
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Templates
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Scripts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Scripts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scripts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to install
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-tips-and-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Tips and tricks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Tips and tricks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mission-making" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mission making
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zeus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zeus
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-testing-your-mission" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Testing your mission
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Testing your mission">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-to-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      What to test ?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-links-to-organize" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Links (to organize)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Links (to organize)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#youtube-tutorials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Youtube tutorials
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#useful-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Useful links
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pltleader/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Platoon leader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../medic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Medic + CLS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jtac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JTAC/FO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sql/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Squad leader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rifleman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rifleman + LAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anti Air
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Auto Rifleman
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anti Tank
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../marksmen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Marksmen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eod/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Engineer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grenadier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grenadier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Support Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Support Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Air-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Air Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Fire-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fire Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Tank-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tank Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Recon-Team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recon Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Sniper-Team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sniper Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../credits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Mods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-modlists" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Modlists
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-mission-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Mission settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Mission settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiplayer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-player-layout-and-loadouts" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Player layout and loadouts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Player layout and loadouts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#player-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Player layout
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#callsigns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Callsigns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loadouts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loadouts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-images-and-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Images and templates
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Images and templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Images
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Templates
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Scripts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Scripts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scripts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to install
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-tips-and-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Tips and tricks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Tips and tricks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mission-making" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mission making
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zeus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zeus
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-testing-your-mission" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Testing your mission
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Testing your mission">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-to-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      What to test ?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-links-to-organize" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Links (to organize)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Links (to organize)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#youtube-tutorials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Youtube tutorials
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#useful-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Useful links
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<style>
+  .image-container {
+    box-sizing: border-box;
+    position: relative;
+    width: 49%;
+    float: left;
+  }
+
+    .image-container2 {
+    box-sizing: border-box;
+    position: relative;
+    width: 98%;
+    float: center;
+  }    
+
+  .image-container-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  .center-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+  }
+
+  .image-caption {
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 11px;
+  }
+
+    .image-caption2 {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 11px;
+  }
+
+
+  .image-row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    .side-image-cont {
+    position: relative;
+    float: left;
+    margin-right: 11px;
+  }  
+</style>
+
+<p class="center-text">TFO Mission Maker Guide</p>
+
+<div class="image-container-logo">
+  <img src="/assets/images/MM/logo.png" width="100%" />
+</div>
+
+<p><br>
+<br></p>
+<h1 id="presentation">Presentation<a class="headerlink" href="#presentation" title="Permanent link">&para;</a></h1>
+<p>This guide aims to assist the mission maker on how to <strong>prepare missions</strong> on Arma III as TFO requires them. It provides information on how to set up settings, scripts, prepare modlists, player layouts and many more.</p>
+<h2 id="1-mods">1. Mods<a class="headerlink" href="#1-mods" title="Permanent link">&para;</a></h2>
+<p>Mods are the sinews of war, they take an important place in the gameplay. </p>
+<p>This is why it is <strong>fundamental to test them first</strong>, make sure they <strong>work properly</strong> <em>(including their ACE compatibilities)</em>, before starting to create modlists or missions, as some of them can be <strong>outdated</strong>, <strong>broken</strong> or <strong>badly optimized</strong> <em>(AMF)</em>.</p>
+<p><font color="brown"></p>
+<ul>
+<li><strong>Test mods and compatibilities</strong></li>
+</ul>
+<p></font></p>
+<h2 id="2-modlists">2. Modlists<a class="headerlink" href="#2-modlists" title="Permanent link">&para;</a></h2>
+<p>After testing mods, it is time to create modlists. Beware, it is <strong>imperative to create multiple modlists as they don’t fulfill the same role</strong>. Modlists must be kept as small as possible to prevent issues <em>(mod count &amp; size)</em>. You can’t use the same modlist for playing and creating the mission, as some mods, ex. TFO repack, contains mods that create dependencies.</p>
+<p>By the way how TFO plays and operates, there are <strong>mods that are always required</strong> : </p>
+<ul>
+<li>CBA_A3</li>
+<li>ace</li>
+<li>ACRE2</li>
+<li>Gruppe Adler Trenches</li>
+<li>KAT - Advanced Medical REWRITE</li>
+<li>TFO Briefing UI</li>
+<li>TFO Repack</li>
+</ul>
+<p>If you have a doubt about if a mod is only client side or server and client side, usually you can find <strong>information in the description of the mod’s workshop page</strong>, or you can ask in the missionmaker chat.</p>
+<p>When your modlists are done, <strong>make sure it is available as soon as possible before the op</strong>, especially if new mods need to be downloaded.</p>
+<p>When exporting your modlists, <strong>remember to put “Arma 3 Preset” in the name</strong>, without underscore or else <em>(ex. Arma 3 Preset TFO US Army)</em>, so when importing the modlist, the player will have the right name in the Arma launcher <em>(TFO US Army, instead of Imported preset)</em>.</p>
+<p>3 versions of modlists are needed <em>(exemple below)</em> :</p>
+<ul>
+<li><font color="green"><strong>Mission making :</font></strong> Contains mods required by the mission plus for the creation of the mission</li>
+<li><font color="#0619c7"><strong>Server :</font></strong> Similar to the mission making modlist, but can include mods needed by the server        </li>
+<li><font color="brown"><strong>Player :</font></strong>  Have additional mods only needed by the player</li>
+</ul>
+<p>Here’s an example of modlists made for a previous TFO US Army campaign : </p>
+<table>
+<thead>
+<tr>
+<th><font color="green">Mission making</th>
+<th><font color="darkblue">Server</th>
+<th><font color="brown">Player</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CBA_A3</td>
+<td>CBA_A3</td>
+<td>CBA_A3</td>
+</tr>
+<tr>
+<td>ace</td>
+<td>ace</td>
+<td>ace</td>
+</tr>
+<tr>
+<td>ACRE2</td>
+<td>ACRE2</td>
+<td>ACRE2</td>
+</tr>
+<tr>
+<td>Anizay</td>
+<td>Anizay</td>
+<td>Anizay</td>
+</tr>
+<tr>
+<td>Community Factions Project (CFP)</td>
+<td>Community Factions Project (CFP)</td>
+<td>Community Factions Project (CFP)</td>
+</tr>
+<tr>
+<td>CUP ACE3 Compatibility - Vehicles</td>
+<td>CUP ACE3 Compatibility - Vehicles</td>
+<td>CUP ACE3 Compatibility - Vehicles</td>
+</tr>
+<tr>
+<td>CUP ACE3 Compatibility - Weapons</td>
+<td>CUP ACE3 Compatibility - Weapons</td>
+<td>CUP ACE3 Compatibility - Weapons</td>
+</tr>
+<tr>
+<td>CUP Terrains - Core</td>
+<td>CUP Terrains - Core</td>
+<td>CUP Terrains - Core</td>
+</tr>
+<tr>
+<td>CUP Units</td>
+<td>CUP Units</td>
+<td>CUP Units</td>
+</tr>
+<tr>
+<td>CUP Vehicles</td>
+<td>CUP Vehicles</td>
+<td>CUP Vehicles</td>
+</tr>
+<tr>
+<td>CUP Weapons</td>
+<td>CUP Weapons</td>
+<td>CUP Weapons</td>
+</tr>
+<tr>
+<td>Gruppe Adler Trenches</td>
+<td>Gruppe Adler Trenches</td>
+<td>Gruppe Adler Trenches</td>
+</tr>
+<tr>
+<td>Hendrix US Army Vest</td>
+<td>Hendrix US Army Vest</td>
+<td>Hendrix US Army Vest</td>
+</tr>
+<tr>
+<td>Jbad</td>
+<td>Jbad</td>
+<td>Jbad</td>
+</tr>
+<tr>
+<td>KAT - Advanced Medical REWRITE</td>
+<td>KAT - Advanced Medical REWRITE</td>
+<td>KAT - Advanced Medical REWRITE</td>
+</tr>
+<tr>
+<td>LAMBS_RPG</td>
+<td>LAMBS_RPG</td>
+<td>LAMBS_RPG</td>
+</tr>
+<tr>
+<td>LAMBS_Suppression</td>
+<td>LAMBS_Suppression</td>
+<td>LAMBS_Suppression</td>
+</tr>
+<tr>
+<td>LAMBS_Turrets</td>
+<td>LAMBS_Turrets</td>
+<td>LAMBS_Turrets</td>
+</tr>
+<tr>
+<td>One Man Army Mortar Pack</td>
+<td>One Man Army Mortar Pack</td>
+<td>One Man Army Mortar Pack</td>
+</tr>
+<tr>
+<td>ACE Compat - RHS USAF</td>
+<td>ACE Compat - RHS USAF</td>
+<td>ACE Compat - RHS USAF</td>
+</tr>
+<tr>
+<td>RHSUSAF</td>
+<td>RHSUSAF</td>
+<td>RHSUSAF</td>
+</tr>
+<tr>
+<td>USAF Mod - Main</td>
+<td>USAF Mod - Main</td>
+<td>USAF Mod - Main</td>
+</tr>
+<tr>
+<td>USAF_AC130_BETA</td>
+<td>USAF_AC130_BETA</td>
+<td>USAF_AC130_BETA</td>
+</tr>
+<tr>
+<td>Zeus Enhanced</td>
+<td>Zeus Enhanced</td>
+<td>Zeus Enhanced</td>
+</tr>
+<tr>
+<td>Zeus Enhanced - ACE3 Compatibility</td>
+<td>Zeus Enhanced - ACE3 Compatibility</td>
+<td>Zeus Enhanced - ACE3 Compatibility</td>
+</tr>
+<tr>
+<td><font color="green">3den Enhanced</font></td>
+<td><font color="#8006c7">Deformer</td>
+<td><font color="red">Bloodlust (Edit)</td>
+</tr>
+<tr>
+<td><font color="#8006c7">Deformer</td>
+<td><font color="ligblue">Injured AI</td>
+<td><font color="red">Escape From Tarkov Footsteps</td>
+</tr>
+<tr>
+<td></td>
+<td><font color="orange">Splendid Smoke</td>
+<td><font color="red">Escape From Tarkov Weapon Sounds</td>
+</tr>
+<tr>
+<td></td>
+<td><font color="orange">TFO Briefing UI</td>
+<td><font color="red">JSRS SOUNDMOD</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><font color="orange">Splendid Smoke</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><font color="orange">TFO Briefing UI</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><font color="red">TFO Repack</td>
+</tr>
+</tbody>
+</table>
+<p>Mods required :</p>
+<ul>
+<li><strong>By the mission</strong></li>
+<li><font color="green"><strong>For making the mission</strong></font></li>
+<li><font color="#8006c7"><strong>For making the mission and by the server</strong></font></li>
+<li><font color="ligblue"><strong>By the server</strong></font></li>
+<li><font color="orange"><strong>By the server and the client</strong></font></li>
+<li><font color="red"><strong>By the client</strong></font></li>
+</ul>
+<!---->
+<p><font color="brown"></p>
+<ul>
+<li><strong>Keep modlist small as possible</strong></li>
+<li><strong>Use required mods</strong></li>
+<li><strong>Make sure modlist is well in advance available before the op</strong></li>
+<li><strong>Create different modlists for different uses</strong></li>
+<li><strong>Put Arma 3 Preset in the modlist name</strong></li>
+</ul>
+<p></font></p>
+<h2 id="3-mission-settings">3. Mission settings<a class="headerlink" href="#3-mission-settings" title="Permanent link">&para;</a></h2>
+<p>When the modlists are ready, it is time to create the mission. But before starting, it is <strong>important to configure the settings of the mission properly</strong> to prevent any issues.</p>
+<p><img alt="" src="../../assets/images/MM/missionsettings1.png" /></p>
+<h3 id="general">General<a class="headerlink" href="#general" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="../../assets/images/MM/missionsettings2.png" /></p>
+<h3 id="multiplayer">Multiplayer<a class="headerlink" href="#multiplayer" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="../../assets/images/MM/missionsettings3.png" /></p>
+<h2 id="4-player-layout-and-loadouts">4. Player layout and loadouts<a class="headerlink" href="#4-player-layout-and-loadouts" title="Permanent link">&para;</a></h2>
+<h3 id="player-layout">Player layout<a class="headerlink" href="#player-layout" title="Permanent link">&para;</a></h3>
+<p>We need a <strong>specific player layout</strong> according to our sign up sheets <a href="https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit##gid=1153113922"><strong>HERE</strong></a>. To get this player layout in Arma with the correct configurations, a composition is available on the workshop : </p>
+<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2891659177"><img alt="" src="../../assets/images/MM/tfosquads.png" /></a></p>
+<p>A version with premade loadouts is also available here : </p>
+<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2945266531"><img alt="" src="../../assets/images/MM/tfosquadsup.png" /></a></p>
+<p><strong>What is this version for ?</strong></p>
+<p>Every equipment required per special role are <strong>already included</strong> in the uniform and backpack <em>(Radios, medical, grenades, tools…)</em>. All the rest <em>(weapons, launcher, ammo, vest and helmet)</em> are up to the missionmaker to put whatever wanted for the mission. Uniforms and backpacks can be changed to <strong>similar size capacity gear</strong> <em>(sort by capacity to make it easier)</em>, to fit the faction played.</p>
+<p><strong>Notes :</strong></p>
+<p>Platoon leader, squad leaders, JTAC/FO and grenadiers already have 40mm grenades on them. Giving them a weapon without a grenade launcher <strong>will remove those grenades from their inventory</strong>. So when making their loadouts, make sure to <strong>directly give them a weapon mounted with a grenade launcher</strong> <em>(ex. M4 with M203)</em>.</p>
+<p><font color="brown"></p>
+<ul>
+<li><strong>Use TFO squads composition</strong></li>
+</ul>
+<p></font></p>
+<h3 id="callsigns">Callsigns<a class="headerlink" href="#callsigns" title="Permanent link">&para;</a></h3>
+<p>In order to have the teams names properly showing on the map, <strong>their callsigns needs to be changed manually</strong> in the “Lobby Manager” in “Tools” <em>(only available with 3den Enhanced)</em>, as the composition doesn’t save them. </p>
+<p>A simple but <strong>necessary</strong> process that needs to be done to every teams, by copying the name in “Role Description” and pasting it in “Callsign” : </p>
+<p><img alt="" src="../../assets/images/MM/squadname1.png" />
+<img alt="" src="../../assets/images/MM/squadname3.png" />
+<img alt="" src="../../assets/images/MM/squadname4.png" />
+<img alt="" src="../../assets/images/MM/squadname5.png" /></p>
+<p><font color="brown"></p>
+<ul>
+<li><strong>Change manually callsigns to every teams</strong></li>
+</ul>
+<p></font></p>
+<h3 id="loadouts">Loadouts<a class="headerlink" href="#loadouts" title="Permanent link">&para;</a></h3>
+<p>To avoid the use of an arsenal in-game and win time, <strong>every slot must be completely geared out and mission ready</strong> in compliance with the loadouts page on the main docs <a href="https://docs.google.com/spreadsheets/d/1rDYccbTh8AwkFsf8eH5Uo9JXZpjnM2buKw_GWrxnPt0/edit##gid=180428066"><strong>HERE</strong></a>.</p>
+<p>A time consuming but necessary step to <strong>prevent any omission and loss of time</strong>, so we can start the mission and have fun faster !</p>
+<p><font color="brown"></p>
+<ul>
+<li><strong>Make correct loadouts for every roles</strong></li>
+</ul>
+<p></font></p>
+<h2 id="5-images-and-templates">5. Images and templates<a class="headerlink" href="#5-images-and-templates" title="Permanent link">&para;</a></h2>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">&para;</a></h3>
+<p>Bohemia Interactive developed a file format (.paa) as the base texture file, using 2^n dimensions <em>(ex. 256x256, 512x512, 1024x1024…)</em>. Most of the files are square textures but can also be rectangle <em>(ex. 1024x512)</em>. </p>
+<p>If in your missions you want to use screens, panels, billboards to display images, <strong>JPG format is also supported</strong>. Most of the displays use 2^n rectangle dimensions, but <strong>any 2:1 ratio image is enough</strong> <em>(ex. 1000x500)</em> for simple tasks like this.</p>
+<p>To display an image on a screen, first you put the image in your mission folder. Then in Arma you go to the attributes of a display by double clicking it or right click &gt; Attributes, all the way down you will find a text box where you put the name of the picture <em>(if it’s in another folder inside the mission folder, use backslashes \ for the path)</em>. </p>
+<p>__</p>
+<p><img alt="" src="../../assets/images/MM/image.png" /></p>
+<p><font color="brown"></p>
+<ul>
+<li><strong>Set properly the path of the images</strong></li>
+</ul>
+<p></font></p>
+<h3 id="templates">Templates<a class="headerlink" href="#templates" title="Permanent link">&para;</a></h3>
+<p>You <strong>may require a template</strong> as some displays use a specific one.</p>
+<p>Here are specific templates of the most commonly used ones, with a Photoshop file, and blank .jpg version :</p>
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/MM/templatewb.png" width="100%" /><br>
+    <tr>
+        <td><center><a href="https://drive.google.com/file/d/15V-bF0Q1WTiIVGaItR0HT0fOc9wj92Lm/view?usp=sharing">Whiteboard.psd</a><br></td>
+        <td><a href="https://drive.google.com/file/d/1Zz28nrqgWYPPhkEvt78TRKqB7zMcU6Rj/view?usp=sharing">Whiteboard.jpg</a><br></td>
+    </tr>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/MM/templatescreen.png"  width="100%" /><br>
+    <tr>
+        <td><center><a href="https://drive.google.com/file/d/12-DF7vv1pOqC1QKT7c0V1lwWTG4t4JMN/view?usp=sharing">BriefingRoomScreen.psd</a><br></td>
+        <td><a href="https://drive.google.com/file/d/1y-Hg6B7T8_yhhL75iYKZ7GKzZ_Ql65FN/view?usp=sharing">BriefingRoomScreen.jpg</a><br></td>
+    </tr>
+  </div>
+</div>
+
+<p><font color="brown"></p>
+<ul>
+<li><strong>Use correct templates if needed</strong></li>
+</ul>
+<p></font></p>
+<h2 id="6-scripts">6. Scripts<a class="headerlink" href="#6-scripts" title="Permanent link">&para;</a></h2>
+<p>Different scripts can be used to improve the mission and win time, here’s a few scripts used by the mission makers.</p>
+<h3 id="scripts">Scripts<a class="headerlink" href="#scripts" title="Permanent link">&para;</a></h3>
+<p><strong>Spawn :</strong> </p>
+<p>When joining the server, will allow players to spawn where their character is placed in the editor, instead of using the multiplayer respawn module.<br>
+<a href="https://drive.google.com/file/d/1OIOIKuG6hZ68lc2YQPMfYRCgzR5xkuMB/view?usp=sharing">Download</a></p>
+<p><strong>Respawn :</strong> </p>
+<p>When a player dies and respawn, will restore the equipment he had before dying, instead of getting a fresh loadout. <br>
+<a href="https://drive.google.com/file/d/1D1KsDvds6GLfXN4BO-KsyMgH4SPqlQNj/view?usp=sharing">Download</a></p>
+<p><strong>Flare fix :</strong> </p>
+<p>Script to enhance the brightness of the flares at night, instead of using mods for this purpose.<br>
+<a href="https://drive.google.com/file/d/1Mqms3jTJytmKhyVNp9kWISaEBtah3Ejg/view?usp=sharing">Download</a></p>
+<h3 id="how-to-install">How to install<a class="headerlink" href="#how-to-install" title="Permanent link">&para;</a></h3>
+<p>To install the scripts, you simply have to put them in the mission folder. Beware, <strong>scripts must be directly put in the folder</strong> and not in a different folder. </p>
+<p><img alt="" src="../../assets/images/MM/missionfile.png" /></p>
+<p><font color="brown"></p>
+<ul>
+<li><strong>Set correctly scripts if needed</strong></li>
+</ul>
+<p></font></p>
+<h2 id="7-tips-and-tricks">7. Tips and tricks<a class="headerlink" href="#7-tips-and-tricks" title="Permanent link">&para;</a></h2>
+<h3 id="mission-making">Mission making<a class="headerlink" href="#mission-making" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Keep vehicles as decoration as small as possible, as every vehicle's physics are calculated at all times and can cause performances issues</li>
+<li>Placing all the enemies in the editor is highly discouraged as it will cause performances issues, use zeus/script to spawn more when needed</li>
+<li>Decorative item/object count must be kept as small as possible. Less is more : you can do very good scenes with very few objects</li>
+<li>Placing reference points and objective markers are highly encouraged</li>
+<li>Bases are supposed to be small and easy to navigate</li>
+<li>Keep walking distance to vehicles to a minimum</li>
+<li>Turn props that can be into object to save performance</li>
+<li>Lock the vehicles that are not intended to be used or stolen</li>
+<li>Large hide terrain modules will kill the fps on servers</li>
+<li>Some modules won’t work properly outside the edge of the map</li>
+<li>Prepare a vehicle and a crate filled with everything needed for a resupply run</li>
+<li>Outside of the map, enemies will behave differently and see through walls</li>
+<li>PNG pictures are not supported, use only jpg</li>
+</ul>
+<h3 id="zeus">Zeus<a class="headerlink" href="#zeus" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Delete bodies/wrecks after a fight to save performance</p>
+</li>
+<li>
+<p>Promoting someone with zeus module will make the server lag heavily </p>
+</li>
+<li>
+<p>Large amount of pre-placed AI will cause performances issues, use zeus/script to spawn more when needed</p>
+</li>
+<li>
+<p>If you’re using Webknight zombies, don’t pre place zombies as it will make the server lag overtime</p>
+</li>
+<li>
+<p>Headless client will make AI act differently :</p>
+</li>
+<li>
+<p>Ignore some waypoints (drop troops…)</p>
+</li>
+<li>Make AI move even with the path disabled</li>
+<li>Impossible for you to drive and shoot at the same time will controlling an AI in a vehicle </li>
+</ul>
+<p><font color="brown"></p>
+<ul>
+<li><strong>Take notes of the tips</strong></li>
+</ul>
+<p></font></p>
+<h2 id="8-testing-your-mission">8. Testing your mission<a class="headerlink" href="#8-testing-your-mission" title="Permanent link">&para;</a></h2>
+<p>When your mission is ready, it is <strong>time to test it !</strong> To make sure everything is working properly and nothing is missing.</p>
+<p>The best would be <strong>testing the mission a day before the op</strong>, and not at the last minute. So if changes or corrections are needed, they are not done in a rush and make the mission start late.</p>
+<p>Handle your mission’s .pbo and server modlist to a Server Admin so he can set it up on the server. Be patient, <strong>it can take time</strong> if new mods need to be downloaded. When ready, hop on the server !</p>
+<h3 id="what-to-test">What to test ?<a class="headerlink" href="#what-to-test" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Mission is loading properly on the server, no mods are making errors </li>
+<li>Everyone can join the server, if there’s enough slots</li>
+<li>All roles are set correctly and available</li>
+<li>The spawn when joining is working</li>
+<li>The loadouts are correctly set</li>
+<li>The scripts are working</li>
+<li>When dying, the respawn point is working </li>
+<li>You have access to the zeus</li>
+<li>You can spawn and edit objects/units in zeus</li>
+<li>Triggers are working</li>
+<li>FPS are good and no lag kill the server</li>
+</ul>
+<p>The ideal thing to do is to <strong>play the mission yourself</strong> so you can directly see if all the different things in the mission are available and working.</p>
+<p>When you are done testing, <strong>don’t forget to warn the Server Admins</strong> so they can shut down the server if no more tests are needed.</p>
+<p><font color="brown"></p>
+<ul>
+<li><strong>Don’t test the mission last minute</strong></li>
+<li><strong>Test the mission from start to finish</strong></li>
+</ul>
+<p></font></p>
+<h2 id="9-summary">9. Summary<a class="headerlink" href="#9-summary" title="Permanent link">&para;</a></h2>
+<p>Here are short and concise points seen throughout the entire guide.</p>
+<p><font color="brown"></p>
+<ul>
+<li><strong>Test mods and compatibilities</strong></li>
+<li><strong>Keep modlist small as possible</strong></li>
+<li><strong>Use required mods</strong></li>
+<li><strong>Make sure modlist is well in advance available before the op</strong></li>
+<li><strong>Create different modlists for different uses</strong></li>
+<li><strong>Put Arma 3 Preset in the modlist name</strong></li>
+<li><strong>Set properly the mission settings</strong></li>
+<li><strong>Use TFO squads composition</strong></li>
+<li><strong>Change manually callsigns to every teams</strong></li>
+<li><strong>Make correct loadouts for every roles</strong></li>
+<li><strong>Set properly the path of the images</strong></li>
+<li><strong>Use correct templates if needed</strong></li>
+<li><strong>Take notes of the tips</strong></li>
+<li><strong>Don’t test the mission last minute</strong></li>
+<li><strong>Test the mission from start to finish</strong></li>
+</ul>
+<p></font></p>
+<h2 id="10-links-to-organize">10. Links (to organize)<a class="headerlink" href="#10-links-to-organize" title="Permanent link">&para;</a></h2>
+<h3 id="youtube-tutorials">Youtube tutorials<a class="headerlink" href="#youtube-tutorials" title="Permanent link">&para;</a></h3>
+<p><a href="https://youtu.be/UCj2tvzGJuo" target="_blank">Create task from intel pickup</a></p>
+<p><a href="https://youtu.be/h_QHDqJ4uJQ" target="_blank">Hoses, Filters &amp; Facewear Overlays</a></p>
+<p><a href="https://youtu.be/ReF7zfqtMm0" target="_blank">How To Make An Underground Tunnel</a></p>
+<p><a href="https://youtu.be/KQeOucehNUE" target="_blank">How To Set Up Multiple Custom Sounds</a></p>
+<h3 id="useful-links">Useful links<a class="headerlink" href="#useful-links" title="Permanent link">&para;</a></h3>
+<p><a href="https://forums.bohemia.net/forums/topic/210519-color-correction-theme-selections-colorblindness-post-process-effects/" target="_blank">Color Correction theme selections</a></p>
+<p><a href="https://forums.bohemia.net/forums/topic/203726-tutorial-how-to-make-an-object-play-sound-or-music-radio_fm/" target="_blank">How to make an object play a sound or music</a></p>
+<p><a href="https://steamcommunity.com/app/107410/discussions/0/348292787747004664" target="_blank">How to use a picture as a hint</a></p>
+<p><a href="https://jetelain.github.io/Arma3Map/" target="_blank">Maps database</a></p>
+<p><a href="https://paa.gruppe-adler.de/" target="_blank">Image to PAA / PAA to image converter</a></p>
+<p><a href="https://insignia.alex109.de/create.html" target="_blank">Insignia and patch creator tutorial and tool</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2016 - 2024 Task Force Omega - <i>Together we prevail</i>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
+      
+    
+  </body>
+</html>

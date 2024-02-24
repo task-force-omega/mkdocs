@@ -1,0 +1,1575 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../AR/">
+      
+      
+        <link rel="next" href="../marksmen/">
+      
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.11">
+    
+    
+      
+        <title>Anti Tank - TFO Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="TFO Docs" class="md-header__button md-logo" aria-label="TFO Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TFO Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Anti Tank
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="TFO Docs" class="md-nav__button md-logo" aria-label="TFO Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    TFO Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intro
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rulebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TFO's Rulebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Our team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ranks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ranks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Role Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Role Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mission maker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pltleader/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Platoon leader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../medic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Medic + CLS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jtac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JTAC/FO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sql/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Squad leader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rifleman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rifleman + LAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anti Air
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Auto Rifleman
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Anti Tank
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Anti Tank
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meet-the-chad-anti-tank" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meet: The Chad Anti-Tank
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Meet: The Chad Anti-Tank">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#your-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Role
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#your-equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Equipment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idle-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idle Priority
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tank-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tank Priority
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-rundown" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Rundown
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#on-destroying-tanks" class="md-nav__link">
+    <span class="md-ellipsis">
+      On Destroying Tanks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="On Destroying Tanks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-explosion-physics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Explosion Physics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-vehicle-parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Vehicle Parts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-vehicle-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Vehicle Damage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-armor-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Armor Types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-targeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding targeting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Understanding targeting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example #1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example #2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-rundown_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Rundown
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../marksmen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Marksmen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eod/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Engineer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grenadier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grenadier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Support Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Support Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Air-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Air Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Fire-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fire Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Tank-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tank Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Recon-Team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recon Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Sniper-Team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sniper Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../credits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meet-the-chad-anti-tank" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meet: The Chad Anti-Tank
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Meet: The Chad Anti-Tank">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#your-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Role
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#your-equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Equipment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idle-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idle Priority
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tank-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tank Priority
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-rundown" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Rundown
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#on-destroying-tanks" class="md-nav__link">
+    <span class="md-ellipsis">
+      On Destroying Tanks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="On Destroying Tanks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-explosion-physics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Explosion Physics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-vehicle-parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Vehicle Parts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-vehicle-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Vehicle Damage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-armor-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Armor Types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-targeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding targeting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Understanding targeting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example #1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example #2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-rundown_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Rundown
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Anti Tank</h1>
+
+<style>
+
+    .image-container-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+    .center-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+  }
+
+</style>
+
+<p class="center-text">TFO Anti-Tank Guide</p>
+
+<div class="image-container-logo">
+  <img src="/assets/images/AT/logoat.png" width="100%" />
+</div>
+
+<p><br>
+<br></p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>This guide is aimed at providing theoretical training for Anti-Tank duties you may or may not need to fulfill during your time at Task Force Omega. It does not substitute an practical training - rather, this is complementary material to an in-game Basic AT Training (BATT). It is also designed to be required reading for those opting in as dedicated Anti-Tank soldiers, as opposed to those only taking basic Anti-Tank lessons.  </p>
+<h3 id="structure">Structure<a class="headerlink" href="#structure" title="Permanent link">&para;</a></h3>
+<p>This guide is separated into few Chapters. Each contains several sub-headings. The last sub-heading of each Chapter will be <em>"The Rundown"</em>, giving a very quick explanation of the key takeaways from each chapter in bullet points.  </p>
+<h2 id="meet-the-chad-anti-tank">Meet: The Chad Anti-Tank<a class="headerlink" href="#meet-the-chad-anti-tank" title="Permanent link">&para;</a></h2>
+<h3 id="your-role">Your Role<a class="headerlink" href="#your-role" title="Permanent link">&para;</a></h3>
+<p>As an Anti-Tank Soldier, you are part of a squad, which means you will be under the command of your direct leader - this will be your Squadlead. Your dedicated role is to respond to armored threats that pose a danger to the success of the mission.  </p>
+<p>If multiple Anti-Tank Soldiers are operating within the same Squad, you may also be tasked with providing Rocket and/or Missile Ammunition to your fellow ATs.  </p>
+<h3 id="your-equipment">Your Equipment<a class="headerlink" href="#your-equipment" title="Permanent link">&para;</a></h3>
+<p>Mostly, Anti-Tank duties are fulfilled trough infantry means - that is, a rocket launcher or missile launcher directly operated by you. However, stationary or motorized Anti-Tank solutions will also fall under your responsibility, if the mission calls for the use of such equipment.  </p>
+<p>Rocket Launchers as well as Missiles are heavy and space-consuming. This is reflected in your loadout - compared to your Non-AT Teammates, you will often be equipped with smaller, weaker Weapons, like Submachine Guns, Personal Defense Weapons, or Carbines. Likewise, your Armor will be lighter, with less packing space. You will also most likely lack a sidearm.  </p>
+<p>All of this is to compensate for the incredible weight that your dedicated AT equipment takes up. Lightweight guns, smaller magazines and lighter Armor will allow you to still fit in all equipment while being able to run at the same pace and stamina as your lighter teammates.  </p>
+<p>Besides that, you will get the same operational equipment as your Squadmates: Radio, Bandages, Painkillers, Medicine, Night Vision, Smoke Grenades, so on. Your Rockets will go in a big, bulky backpack.  </p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Contents</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primary weapon</td>
+<td>SMG/Carbine</td>
+<td></td>
+</tr>
+<tr>
+<td>Primary ammo</td>
+<td>SMG mag x 8</td>
+<td></td>
+</tr>
+<tr>
+<td>Optic magnification</td>
+<td>1x-2x</td>
+<td></td>
+</tr>
+<tr>
+<td>Launcher</td>
+<td>Advanced AT Launcher</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Throwables/explosives</td>
+<td><strong><em>Day only</em></strong></td>
+<td><strong><em>Night Only</em></strong></td>
+</tr>
+<tr>
+<td></td>
+<td>2x Frag</td>
+<td>2x Frag</td>
+</tr>
+<tr>
+<td></td>
+<td>3x white smokes</td>
+<td>2-4x green Chemlight</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Medical</td>
+<td>15x Packing</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>4x Tourniquets</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1x Painkillers</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Radio</td>
+<td>AN-343</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Misc</td>
+<td>2 Cable ties</td>
+<td>IR strobe</td>
+</tr>
+<tr>
+<td></td>
+<td>Earplugs</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Entrenchment tool</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="idle-priority">Idle Priority<a class="headerlink" href="#idle-priority" title="Permanent link">&para;</a></h3>
+<p>Unless an armored target is within view, your priority will mostly be to survive. To elaborate: You are part of a squad and will therefore take orders of your Squadleader, like any other member of your squad - but there are certain limitations putting you in a riskier position than that of your squadmates.  </p>
+<p>Your range of engagement will most likely be outmatched by the person you're trying to shoot. Your Armor will be lighter and your stamina will be depleted faster than you can scream "get to cover". To make matters even worse, enemies will see you as a priority target and most likely target you foremost, similar to Medics and Autoriflemen. And once you're out, your team will be all open for an all-you-can-eat-120mm-buffet.  </p>
+<p>Essentially, priority is to stay in cover and use your gun as means of suppression rather than frontline combat. If there is an easy infantry target you can take out without taking a risk yourself, go for it - but mostly, you wanna stay behind.  </p>
+<h3 id="tank-priority">Tank Priority<a class="headerlink" href="#tank-priority" title="Permanent link">&para;</a></h3>
+<p>Once an armored enemy vehicle is spotted, it will be your time to shine. Above all, your priority will be to remove the target as a threat to the squad and/or the operation: If you disable the tank's gun and it can no longer fire it's weapon, it's threat is erased. Similarly, you can destroy the tank tracks or the engine to get it stuck in a position where it can no longer engage your team.  </p>
+<p>Target the right spots (see section down below) to destroy the parts that the enemy vehicle crew relies on the most to tear your squad apart. If you can destroy the tank with one Rocket, go ahead - but if you are unsure, it's best to target individual parts and disable them.  </p>
+<h3 id="the-rundown">The Rundown<a class="headerlink" href="#the-rundown" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>As an Anti-Tank-Soldier, your role is to destroy enemy Armor.  </p>
+</li>
+<li>
+<p>You will be slower and more vulnerable than your teammates, so stay in cover.  </p>
+</li>
+<li>
+<p>Prioritize tank disabling over tank destruction.  </p>
+</li>
+<li>
+<p>Disable whatever tank parts worry you most about in the current engagement.  </p>
+</li>
+</ul>
+<h2 id="on-destroying-tanks">On Destroying Tanks<a class="headerlink" href="#on-destroying-tanks" title="Permanent link">&para;</a></h2>
+<h3 id="understanding-explosion-physics">Understanding Explosion Physics<a class="headerlink" href="#understanding-explosion-physics" title="Permanent link">&para;</a></h3>
+<p>To understand how to effectively disable tanks, we must understand how exactly a rocket deals damage to a tank. It's not just the explosion that deals damage to the tank - if that were the case, we could just use a big enough grenade, right?  </p>
+<p><img alt="Physics simulation of a broad, unfocused blast impacting metal, leaving it almost unharmed." src="../../assets/images/AT/1.gif" />  </p>
+<p><em>(Animated Fig. 1: Ignited TNT in an Iron Shell, resembling a primitive rocket impact. Note how the force wears out the armor equally.)</em></p>
+<p>An uncontained explosion disperses it's force in all directions. This is unfavorable - we want all the force we can possibly get to direct onto the tank. To achieve this, the explosives inside of the Rocket/Missile form a shape similar to an inverted cone. This is called the "Munroe effect".</p>
+<p><img alt="" src="../../assets/images/AT/2.gif" />  </p>
+<p><em>(Animated Fig. 2: Ignited shaped TNT in an Iron Shell. Note that despite using less explosives than in Fig. 1, it pierces more armor due to a focused blast.)</em></p>
+<p>To finish the equation, a final element is added to the shaped charge: A thin copper lining forming along the charge. Upon detonation of the explosive, the copper proceeds to melt due to intense heat. The force proceeds to push the molten copper into the middle of the rocket, forcing it into a metal spear. Nowhere left to go but forward, the molten metal lance pushes forward at supersonic speed, effectively piercing the armor.</p>
+<p><img alt="" src="../../assets/images/AT/3.gif" />  </p>
+<p><em>(Animated Fig. 3: Ignited shaped TNT with added metal lining in Iron Shell. Note that the charge now manages to pierces trough both layers of armor.)</em></p>
+<p>The copper punches trough the armor and attacks whatever lies beneath the surface. With the armor out of the way, the remaining force of the explosion makes it way into the armored vehicle as well.  </p>
+<p>The takeaway from this physics lesson is that you fight armored vehicles with focused power instead of raw explosion. Much like you would target the head of an enemy combatant to have a 1-shot-one-kill-impact, you will aim the Rocket at e.g. the hull to tear trough the engine and stop the enemy vehicle.  </p>
+<p>(Note that this explains the workings of a HEAT rocket with a single warhead. Different missile types, such as ones with multiple warheads, or squash charges, exist.)  </p>
+<h3 id="understanding-vehicle-parts">Understanding Vehicle Parts<a class="headerlink" href="#understanding-vehicle-parts" title="Permanent link">&para;</a></h3>
+<p>Now that we know that rockets penetrate armor to disable internal components, we must know what components to aim for in order to deal damage to a tank. Any odd shot will do nothing but add additional ventilation to the tank - critical strikes are paramount to successful counter-armor.  </p>
+<p>ArmA 3 denotes damage to an vehicle into 6 different categories:  </p>
+<ul>
+<li>
+<p><strong>Hull</strong>: Chassis &amp; Armor, excluding inner parts/mechanics. A damaged hull will reduce the protection offered to everything inside of it, allowing weaker calibers/forces to penetrate the armor. Note that, in ArmA 3, the hull is still a specific armor point on the vehicle, and not the overall chassis of the vehicle.  </p>
+</li>
+<li>
+<p><strong>Engine</strong>: The component generating power for propulsion and light. A damaged engine will accelerate slower and have a limited speed, a destroyed one will cease to work.  </p>
+</li>
+<li>
+<p><strong>Fuel Tank</strong>: Compartment for storing fuel, which is consumed by the engine. A raptured fuel tank will slowly leak fuel over time, a destroyed one will empty itself within seconds.  </p>
+</li>
+<li>
+<p><strong>Wheels</strong>: The factor driving power from the engine onto the ground, moving the vehicle forward. If they are destroyed or damaged, they will not be able to do this task efficiently, ultimately slowing down the vehicle or getting it stuck.  </p>
+</li>
+<li>
+<p><strong>Gun</strong>: Means of offensive for the armored vehicle, mounted on the turret. A destroyed gun barrel will not be able to move upwards or downwards.  </p>
+</li>
+<li>
+<p><strong>Turret</strong>: Rotating platform mounted on top of the vehicle, used to aim armaments. A damaged turret will, like a damaged hull, offer reduced protection. A destroyed turret will not be able to turn, and will offer even less protection.  </p>
+</li>
+</ul>
+<p>Whichever of these to aim for will depend on the situation of the engagement and armor configuration of the enemy vehicle (see chapter below).  </p>
+<p>Wherever these weak spots are positioned and how well they are armored are also dependent on the vehicle itself. One tank may position it's fuel tank in the front to protect crew members, while the other will conceal it in the back behind reactive armor.  </p>
+<h3 id="understanding-vehicle-damage">Understanding Vehicle Damage<a class="headerlink" href="#understanding-vehicle-damage" title="Permanent link">&para;</a></h3>
+<p>It is crucial to understand that ArmA 3 assigns each individual part of an armored vehicle (as listed in the chapter above) an individual armor value. While these basically represent their health (where 0 equals destroyed), they are armor in the literal sense that they they need to be penetrated by a suitable weapon in order to be reduced.  </p>
+<p>The vehicle also has it's own base armor value. This is essentially it's own health pool, which is drained if damage is done, but not to any specific part. If it drops to 0, an catastrophic kill (which is an explosion of the vehicle) occurs.  </p>
+<p>Individual armor parts can carry special properties with them:  </p>
+<ul>
+<li>
+<p>Some armored parts can cause a <strong>catastrophic kill if destroyed</strong><strong>.</strong> In many cases, a breach of the "hull" part will cause a catastrophic kill.  </p>
+</li>
+<li>
+<p>Some armored parts <strong>transfer a percentage of damage</strong> <strong>to the main vehicle base armor</strong><strong>.</strong> Engines often do this, where the BTR-K Kamysh's engine negates 20% of taken damage to the vehicle health pool.  </p>
+</li>
+<li>
+<p>Some armored parts have <strong>added resistance or vulnerability to HE Projectiles.</strong> Often, Slat armor has increased vulnerability to HE Rockets.  </p>
+</li>
+</ul>
+<p>Each tank configures and places these Armor parts differently, making these Values and Properties hard to guess, especially within modded ArmA 3 content. However, just acknowledging that such properties is important, as it adds an important factor in choosing which part of the tank to target.  </p>
+<h3 id="understanding-armor-types">Understanding Armor Types<a class="headerlink" href="#understanding-armor-types" title="Permanent link">&para;</a></h3>
+<p>Tanks, in real life as well as in ArmA, utilize various armor technologies to protect themselves against threats. You might need to disable a layer of armor using a specific rocket type before being able to attack a critical spot. Provided below is a short overview of the different types you'll encounter within the realm of ArmA 3:  </p>
+<ul>
+<li>
+<p><strong>Composite Armor</strong> is the armor that makes up the hull surface of newer tanks. Since shaped charges can even penetrate multiple centimeters of steel armor, a new type of armor was needed. While still very vulnerable if not combined with other armor types, a composite armor hull now has the chance to reduce the impact of a shaped charge. While penetration varies with thickness of applied composite armor, it can most often be penetrated with 2 successive hits on the same spot.  </p>
+</li>
+<li>
+<p><strong>Slat Armor</strong> are metal cages or grids often mounted to the sides of the armored vehicle, creating a gap between the cage and the composite armor. Should a rocket hit the cage, it is detonated early, negating the effect of the shaped charge (See Chapter "Understanding Explosion Physics") within the rocket. Slat Armor is often destroyed after the first contact, but toughness can vary.  </p>
+</li>
+<li>
+<p><strong>Reactive Armor</strong> is armor composed of high explosives sandwiched between two armor plates. On contact with a rocket, these charges launch an explosion in the opposite direction. This serves to disrupt the penetration path of the metal lining of a HEAT, effectively negating it's force. This type of Armor comes in different forms and works against different types of rockets, but the single-use ERA is the most common contender. ERAs are destroyed after first contact.  </p>
+</li>
+<li>
+<p><strong>V-Hull-Armor</strong> is armor mounted below the vehicle in a V-Shape. It redirects the upward-facing explosive force of IEDs and Mines away from the passengers, increasing the chance of the personnel within to survive the attack. V-Hull-Armor is often destroyed after first contact, but toughness can vary.  </p>
+</li>
+<li>
+<p><strong>Smokescreens</strong> are manually deployed by the vehicle commander by engaging a system that launches multiple smoke grenades either in front or around the armored vehicle. While they provide no ballistic protection, in ArmA 3, they disable the lock-on capabilities for fire-and-forget systems (even infrared ones), which requires direct line of sight. Smokescreens are temporary and disappear shortly after initial deployment.  </p>
+</li>
+<li>
+<p><strong>Camo Nets</strong> are nets covered with leaves in the color of the surrounding area, used to hide the vehicle by blending in. They do not provide any ballistic protection whatsoever, but can provide visual cover for Reactive Armor, mitigating a fatal first strike due to misjudgment.  </p>
+</li>
+</ul>
+<p>These armor types can be used in parallel to offer a higher grade of defense to the vehicle &amp; crew. Identifying, avoiding and/or destroying these armor parts is crucial to effectively attack armored vehicles.  </p>
+<h3 id="understanding-targeting">Understanding targeting<a class="headerlink" href="#understanding-targeting" title="Permanent link">&para;</a></h3>
+<p>With that all of the way, we can finally use all of these variables to calculate the equation this chapter is covering: Where do I target a tank to deal the most damage, and, thus, destroy it?  </p>
+<p>For this chapter, we will look at a few situational examples, highlight the visible armor, and make our decision based on all the points previously learned.  </p>
+<p>All of the examples mentioned here will use the <em>"MAAWS MK4 Mod 1"</em> as the Anti-Tank Weapon of choice, and, unless stated otherwise, the <em>"MAAWS HEAT 75 Round"</em> as the ammunition.  </p>
+<h4 id="example-1">Example #1<a class="headerlink" href="#example-1" title="Permanent link">&para;</a></h4>
+<p>You have to engage an <em>M2A4 Slammer</em>, Urban Purpose Variant, at an angle of 45 Degrees at the range of 100 Meters. There is nothing obstructing your view and the tank has not discovered you yet.  </p>
+<p><img alt=" M2A1 Slammer (Urban Purpose Variant) facing 45°." src="../../assets/images/AT/1.png" />  </p>
+<p><em>(Fig. 4: M2A4 Slammer (Urban Purpose) facing 45 Degrees left from camera.)</em></p>
+<p>Let's analyze the weakpoints we will be able to hit &amp; penetrate from this perspective, as well as the armor that we should avoid.  </p>
+<p><img alt=" M2A1 Slammer (Urban Purpose Variant) facing 45°, reactive armor and weakpoints marked." src="../../assets/images/AT/2.png" />  </p>
+<p><em>(Fig. 5: M2A4 Slammer. Reactive Armor is marked in orange, the turret in green, the Commander's Remote-Operated Machinegun in Blue and the Threads in Cyan.)</em>  </p>
+<p>As for armor, the tank is encased entirely in composite armor. Additionally, the tank has a portion of it's front, side and threads covered up with reactive armor. Weakpoints recognizable with the bare eye from this angle are the gun, turret, HMG and threads.  </p>
+<p>Since a catastrophic kill within the first shot is highly unlikely, we now need to balance risk and potential damage to decide what weakpoint to aim for:  </p>
+<ul>
+<li>
+<p><strong>The threads</strong> are mostly covered up with reactive armor, making a hit there too risky, with too little damage tradeoff - the tank can still move and steer using the undamaged tracks on the other side.  </p>
+</li>
+<li>
+<p><strong>The HMG</strong> is even more difficult to aim for, and does even less to disable the tank. The HMG is a minimal nuisance in this combat situation, considering it can be avoided with hard cover.  </p>
+</li>
+<li>
+<p>Targeting <strong>The Gun</strong> will provide ideal damage for a first strike. If we aim at the gun manlet (the part that connects gun and turret), we will have a spot to strike that has a chance of damaging the Gun and Turret, is minimally protected by reactive armor and is also easy to hit.  </p>
+</li>
+</ul>
+<p>With the target analysis out of the way, we aim our rocket launcher, aim for the tank gun manlet, clear our backblast, and fire.  </p>
+<p><img alt="A tank being engaged at it's gun manlet at a range of 100 meters." src="../../assets/images/AT/4.gif" /></p>
+<p><em>(Animated Fig. 6: M2A4 Slammer engaged at it's gun manlet at a range of 100 meters.)</em></p>
+<p>The damage did not cause an catastrophic kill. However, that does not have to mean the blast was without damage - let's check the dashboard for the M2A4's status after the initial strike.</p>
+<p><img alt="M2A4 Slammer's Status Dashboard after Engagement." src="../../assets/images/AT/3.png" />]</p>
+<p><em>(Fig. 7: M2A4 Slammer's Status Dashboard after Engagement.)</em>  </p>
+<p>This strike has successfully penetrated and completely disabled the Gun of the vehicle as well as it's turret, making it unable to fire or turn it's main turret. In a combat situation, only the vehicle's HMG would now be a threat, whose commander is most likely still overwhelmed by the attack.  </p>
+<p>The next course of action would be to fire another rocket at any of the other mentioned weakpoints (or the same again), until a catastrophic kill or a crew dismount occurs.  </p>
+<h4 id="example-2">Example #2<a class="headerlink" href="#example-2" title="Permanent link">&para;</a></h4>
+<p>.You have to engage an <em>AMV-7 Slammer</em>, at an angle of ~270 Degrees at the range of 320 Meters. The IFV has not discovered you yet, but it's entire front is obstructed by foliage. Yo do have an height advantage, as you are engaging the armored vehicle from a nearby hill.  </p>
+<p><img alt="An Anti-Tank soldier facing an AMV-7 Marshall hiding in a bush 230 Meters away from him." src="../../assets/images/AT/4.png" />  </p>
+<p><em>(Fig. 8: An AMV-7 at a range of 320 meters, hiding between bushes.)</em>  </p>
+<p>Let's, again, analyze the weakpoints we will be able to hit &amp; penetrate from this perspective, as well as the armor that we should avoid.  </p>
+<p><img alt="An AMV-7 Marshall. Slat Cages are marked in orange, the commander viewport and camera in blue and the exposed wheels in violet." src="../../assets/images/AT/5.png" />  </p>
+<p><em>(Fig. 9: An AMV-7 Marshall. Slat Cages are marked in orange, the commander's hatch and camera in blue and the exposed wheels in violet.)</em>  </p>
+<p>This AMV-7  has decided to hide behind a bush, making it unable for us to analyze any weakpoints at the front of the vehicle from this angle. The back of the vehicle is heavily armored with slat cages, which need to be penetrated with a single rocket first before exposing the composite armor below. The same goes for the turret, which as it's sides and back covered by slat armor. The vehicle is fitted with composite armor, however, it is probably much weaker than that of a main battle tank.  </p>
+<p>The only weakpoints recognizable with the bare eye are the wheels and the commander's hatch. Both have a limited unarmored surface exposed to us, as they are positioned closely to Slat cages nearby.  </p>
+<p>Even less so than the first example scenario, a catastrophic kill on the first shot seems unlikely. Therefore, we must again decide what part to aim for on a basis of risk and reward:  </p>
+<ul>
+<li>
+<p><strong>The Wheels</strong> are almost completely covered up by Slat armor. An High-Explosive Rocket might be able to take all of them out if the rocket is aimed low enough. This will have no huge advantage, however, as the damage is minimal and the vehicle will then be aware of our presence, attacking us without hinderance, making this sort of engagement too risky.  </p>
+</li>
+<li>
+<p><strong>The commander's hatch</strong> and the additional <strong>camera</strong> are very unlikely to be hit. Even if a hit would occur, and damage would be dealt to both components, this would not do any critical damage to the tank - at best, it would kill the commander and disable the camera, leaving the driver and gunner do coordinate between themselves.  </p>
+</li>
+<li>
+<p>The only other considerable option (that does not display an obvious weakpoint, however) would be <strong>rear</strong> <strong>section of the hull</strong>. This is the only section of the IFV the tank would be immediately able to penetrate without having to deal with a slat cage first. It would then damage or destroy any components beneath.  </p>
+</li>
+</ul>
+<p>While none of these options seem truly optional, <strong>the only section our rocket is able to penetrate is the rear section</strong> - attempts to take out either the wheels or the commanders hatch would end in a fluke, trading a rocket and situational advantage for a disabled Slat cage.  </p>
+<p>With that, we adjust the aim of our rocket launcher for range, clear our backblast, and fire:  </p>
+<p><img alt="An AMV-7 Marshall being engaged &amp; critically hit at a range of 230 Meters." src="../../assets/images/AT/5.gif" />  </p>
+<p><em>(Animated Fig. 10: AMV-7 Marshall engaged at it's rear hull at a range of 230 meters. Notice the catastrophic kill.)</em>  </p>
+<p>The damage of the rocket, surprisingly, caused a catastrophic kill. This is because the AMV-7 Marshall design places it's fuel tank in the rear of the vehicle, sandwiching the passenger compartment between two fuel tanks placed near the sides of the vehicle. Our Rocket penetrated those fuel tanks from above, and the consequent damage to the vehicle's main health pool caused a critical kill.  </p>
+<h2 id="the-rundown_1">The Rundown<a class="headerlink" href="#the-rundown_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>The penetration of the rocket deals damage, not the explosion.  </p>
+</li>
+<li>
+<p>ArmA 3 tracks vehicle damage by calculating damage based on a vehicle health pool as well as damage dealt to vehicle parts.  </p>
+</li>
+<li>
+<p>ArmA 3's individual Vehicle parts can have certain attributes that makes damaging the vehicle either easier or more challenging.  </p>
+</li>
+<li>
+<p>Vehicles utilize a wide array of different armor types to protect themselves - they need to be avoided or destroyed in order to effectively engage a vehicle.  </p>
+</li>
+<li>
+<p>All of these factors play a huge role in how you will engage a vehicle shall the need arrive.</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2016 - 2024 Task Force Omega - <i>Together we prevail</i>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
+      
+    
+  </body>
+</html>

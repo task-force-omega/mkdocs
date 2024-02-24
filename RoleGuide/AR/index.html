@@ -1,0 +1,1787 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../AA/">
+      
+      
+        <link rel="next" href="../AT/">
+      
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.11">
+    
+    
+      
+        <title>Auto Rifleman - TFO Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#autorifleman-role" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="TFO Docs" class="md-header__button md-logo" aria-label="TFO Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TFO Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Auto Rifleman
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="TFO Docs" class="md-nav__button md-logo" aria-label="TFO Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    TFO Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intro
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rulebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TFO's Rulebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Our team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ranks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ranks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Role Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Role Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mission maker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pltleader/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Platoon leader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../medic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Medic + CLS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jtac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JTAC/FO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sql/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Squad leader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rifleman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rifleman + LAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anti Air
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Auto Rifleman
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Auto Rifleman
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#autorifleman-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autorifleman Role
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#positioning-as-an-autorifleman" class="md-nav__link">
+    <span class="md-ellipsis">
+      Positioning as an Autorifleman
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#characteristics-of-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Characteristics of Fire
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Characteristics of Fire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trajectory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trajectory
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maximum-ordinate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maximum Ordinate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cone-of-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cone of Fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#danger-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      Danger Space
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beaten-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beaten Zone
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dead-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dead Space
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#techniques-of-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Techniques of Fire
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Techniques of Fire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#direct-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Direct Fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assault-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assault Fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overhead-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overhead Fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fire-from-defilade-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fire from Defilade Position
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loadout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loadout
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rates-of-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rates of Fire
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rates of Fire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rapid-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rapid Rate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sustained-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sustained Rate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cyclic-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cyclic Rate
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fire-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fire Control
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fire Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-offensive-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      In offensive operations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-defensive-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      In defensive operations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#signals-to-initiate-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Signals to initiate fire
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classifications-of-automatic-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classifications of Automatic Fire
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classifications of Automatic Fire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grazing-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grazing fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plunging-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plunging fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enfilade-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enfilade fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frontal-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontal fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flanking-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flanking fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fixed fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traversing-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traversing fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#searching-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Searching fire
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#engaging-air-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Engaging Air Targets
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anti Tank
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../marksmen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Marksmen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eod/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Engineer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grenadier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grenadier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Support Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Support Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Air-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Air Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Fire-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fire Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Tank-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tank Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Recon-Team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recon Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Sniper-Team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sniper Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../credits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#autorifleman-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autorifleman Role
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#positioning-as-an-autorifleman" class="md-nav__link">
+    <span class="md-ellipsis">
+      Positioning as an Autorifleman
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#characteristics-of-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Characteristics of Fire
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Characteristics of Fire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trajectory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trajectory
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maximum-ordinate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maximum Ordinate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cone-of-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cone of Fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#danger-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      Danger Space
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beaten-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beaten Zone
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dead-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dead Space
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#techniques-of-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Techniques of Fire
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Techniques of Fire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#direct-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Direct Fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assault-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assault Fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overhead-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overhead Fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fire-from-defilade-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fire from Defilade Position
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loadout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loadout
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rates-of-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rates of Fire
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rates of Fire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rapid-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rapid Rate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sustained-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sustained Rate
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cyclic-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cyclic Rate
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fire-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fire Control
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fire Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-offensive-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      In offensive operations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-defensive-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      In defensive operations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#signals-to-initiate-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Signals to initiate fire
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classifications-of-automatic-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classifications of Automatic Fire
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classifications of Automatic Fire">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grazing-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grazing fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plunging-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plunging fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enfilade-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enfilade fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frontal-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontal fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flanking-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flanking fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fixed fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traversing-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traversing fire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#searching-fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Searching fire
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#engaging-air-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Engaging Air Targets
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Auto Rifleman</h1>
+
+<p>This guide aims to assist the AR role in <strong>understanding how to operate weapons, knowing how and when to shoot, ect</strong>. </p>
+<p><strong><u>This does not replace actual AR training and doesn’t grant the clearance for the role during missions.</u></strong></p>
+<h2 id="autorifleman-role">Autorifleman Role<a class="headerlink" href="#autorifleman-role" title="Permanent link">&para;</a></h2>
+<p>An autorifleman is a supportive role in a squad, serving as a strong suppressive force and can bring up to 80% of the firepower of your squad. To do this properly, the AR has to shoot short bursts (5-6 rounds) in succession in the general direction of the enemy. This means that an AR doesn’t always have to aim at an enemy to shoot. </p>
+<p>An AR follows orders from their direct leader as expected and is usually requested to stay back to provide cover for the squad. Since the gear of an AR is quite heavy it’s harder to push into a position quickly.
+An AR must set up in a location where they can deploy their bipod so they can fire properly. </p>
+<p>They also must be in a safe enough location to support their squad without being knocked out themselves. So, an AR should get next to or behind a rock. An AR should be able to support their squad at medium range (0-400m). It is however possible to support from further, but this will decrease efficiency. </p>
+<p>An AR is meant for suppressing a large number of enemies at the same time. This means that an AR isn’t supposed to pick off enemies one-by-one.</p>
+<h2 id="positioning-as-an-autorifleman">Positioning as an Autorifleman<a class="headerlink" href="#positioning-as-an-autorifleman" title="Permanent link">&para;</a></h2>
+<p>An AR should be positioned near their squad or in an Overwatch position so he can provide covering fire and suppressive fire. The AR also needs a place with cover that they can use for mounting their gun. They should also use higher ground to their advantage when providing support to their squad.</p>
+<p>The AR needs vision of enemies, buildings with enemies or they have to know where shots are coming from so they can suppress those enemies. The AR can be left behind so they can support their squad from mid-range.</p>
+<p>It’s very important for the AR to be safe as they are a key element of a squad. This means that an AR shouldn’t be out in the open too often and shouldn’t be clearing buildings. </p>
+<h2 id="characteristics-of-fire">Characteristics of Fire<a class="headerlink" href="#characteristics-of-fire" title="Permanent link">&para;</a></h2>
+<h3 id="trajectory">Trajectory<a class="headerlink" href="#trajectory" title="Permanent link">&para;</a></h3>
+<p>Describes the path of the bullet in flight. For most machineguns, this path is pretty straight up to 300 meters, beyond to the trajectory curve as the range increases due to gravity.</p>
+<h3 id="maximum-ordinate">Maximum Ordinate<a class="headerlink" href="#maximum-ordinate" title="Permanent link">&para;</a></h3>
+<p>This is the highest point the trajectory reaches, between the muzzle of the weapon and the base of the target.</p>
+<h3 id="cone-of-fire">Cone of Fire<a class="headerlink" href="#cone-of-fire" title="Permanent link">&para;</a></h3>
+<p>This is the pattern formed by the different trajectories in each burst as they travel downrange. </p>
+<p>Vibrations of the weapon, variations in ammunitions, and atmospheric conditions all contribute to the trajectories that make up the cone of fire.</p>
+<h3 id="danger-space">Danger Space<a class="headerlink" href="#danger-space" title="Permanent link">&para;</a></h3>
+<p>This is the space between the weapon and the target where the trajectory does not rise above 1.8 meter.</p>
+<p>Gunners should consider the Danger space of their weapon when planning overhead fire.</p>
+<h3 id="beaten-zone">Beaten Zone<a class="headerlink" href="#beaten-zone" title="Permanent link">&para;</a></h3>
+<p>This is the pattern formed by the rounds within the cone of fire striking the ground or the target. The size and shape of the beaten zone changes as a function of the range to and slope of the target. Gunners and automatic rifleman should engage targets to take maximum effect of the beaten zone. </p>
+<p>The simplest way to do this is to aim at the center base of the target. Most rounds will not fall over the target, and any that fall short will create ricochets into the target.</p>
+<h3 id="dead-space">Dead Space<a class="headerlink" href="#dead-space" title="Permanent link">&para;</a></h3>
+<p>Dead Space defines an area where the waist of a soldier falls below the Gunners point of aim.</p>
+<h2 id="techniques-of-fire">Techniques of Fire<a class="headerlink" href="#techniques-of-fire" title="Permanent link">&para;</a></h2>
+<h3 id="direct-fire">Direct Fire<a class="headerlink" href="#direct-fire" title="Permanent link">&para;</a></h3>
+<p>Gunners and automatic riflemen use the direct-lay technique by aligning the sights of the weapon on the target. This is the easiest and quickest means of delivering fire.</p>
+<h3 id="assault-fire">Assault Fire<a class="headerlink" href="#assault-fire" title="Permanent link">&para;</a></h3>
+<p>Automatic riflemen use assault fire when in close combat. Assault fire involves firing without the aid of sights using the hip, shoulder, and underarm positions. The underarm position is best when rapid movement is required. </p>
+<p>In all three positions, automatic riflemen adjust their fire by observing the tracer and the impact of the bullets in the target area.</p>
+<h3 id="overhead-fire">Overhead Fire<a class="headerlink" href="#overhead-fire" title="Permanent link">&para;</a></h3>
+<p>Gunners can use overhead fire when there is sufficient low ground between the machine gun and the target area for the maneuver of friendly forces. Gunners must accurately estimate range to the target and establish a safety limit that is an imaginary line, parallel to the target, where fire would cause casualties to friendly soldiers. </p>
+<p>Gun crews and leaders must be aware of this safety limit. Leaders must designate signals for lifting or shifting fires. Gunners should not attempt overhead fires if the terrain is leveled or slopes uniformly, if the barrel is badly worn, or if visibility is poor.</p>
+<h3 id="fire-from-defilade-position">Fire from Defilade Position<a class="headerlink" href="#fire-from-defilade-position" title="Permanent link">&para;</a></h3>
+<p>Defilade positions protect gunners from frontal or enfilading fires. Cover and concealment may not provide the gunner a view of some or all of the target area. <br>In this instance, some other member of the platoon must observe the impact of the rounds and communicate adjustments to the gunner. </p>
+<p>Gunners and leaders must consider the complexity of laying on the target, the gunner's inability to make rapid adjustments to engage moving targets, the ease with which targets are masked, and the difficulty in achieving grazing fires for a final protective line.</p>
+<h2 id="loadout">Loadout<a class="headerlink" href="#loadout" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Contents</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primary weapon</td>
+<td>5.56 LMG / 7.62 HMG</td>
+<td></td>
+</tr>
+<tr>
+<td>Primary ammo</td>
+<td>800 rnd 5.56</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>500 rnd 7.62</td>
+<td></td>
+</tr>
+<tr>
+<td>Optic magnification</td>
+<td>1x-4x</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Throwables/explosives</td>
+<td><strong><em>Day only</em></strong></td>
+<td><strong><em>Night Only</em></strong></td>
+</tr>
+<tr>
+<td></td>
+<td>2x Frag</td>
+<td>2x Frag</td>
+</tr>
+<tr>
+<td></td>
+<td>3x white smokes</td>
+<td>2-4x green Chemlight</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Medical</td>
+<td>15x Packing</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>4x Tourniquets</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1x Painkillers</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Radio</td>
+<td>AN-343</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Misc</td>
+<td>2 Cable ties</td>
+<td>IR strobe</td>
+</tr>
+<tr>
+<td></td>
+<td>Earplugs</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Entrenchment tool</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="" src="../../assets/images/AR/AR1.png" /></p>
+<table>
+<thead>
+<tr>
+<th><strong>Gear</strong></th>
+<th><strong>Explanation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5.56 LMG</td>
+<td>This is the normal weapon for an AR. It’s usually lighter than it’s 7.62 counterpart. <br>These guns also usually allow for reloading 30rnd mags for when the AR is out of ammo. 5.56 Boxes usually have 200 rounds and weigh less than 7.62 boxes.</td>
+</tr>
+<tr>
+<td>7.62 HMG</td>
+<td>This is a heavier variant of the 5.56 LMG. This 7.62x51 variant doesn’t allow for 30rnd mags to be loaded. <br> It also needs an ammobearer to carry ammo for the AR. 7.62 Boxes usually have 120-150rnds</td>
+</tr>
+<tr>
+<td>Bipod</td>
+<td>Make sure your gun has a bipod as it allows you to set-up your gun properly so you can suppress more efficient.</td>
+</tr>
+<tr>
+<td>Scope with 1-4x magnification</td>
+<td>The AR is allowed to have a 4x scope because they must be able to know where targets are more precisely so they can suppress better.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="rates-of-fire">Rates of Fire<a class="headerlink" href="#rates-of-fire" title="Permanent link">&para;</a></h2>
+<p>Usually Automatic Rifleman fire in one of three ROF(Rates of Fire) each of which is useful in different kinds of Situations from long Range Engagement to Close Quarters Combat in an Urban Environment.</p>
+<h3 id="rapid-rate">Rapid Rate<a class="headerlink" href="#rapid-rate" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Around 200 rounds per minute</li>
+<li>Bursts of 4/5 rounds in 5 to 6 seconds intervals</li>
+<li>Useful at ranges from 300 meters up</li>
+</ul>
+<h3 id="sustained-rate">Sustained Rate<a class="headerlink" href="#sustained-rate" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Around 100 rounds per minute</li>
+<li>Bursts of 6/9 rounds in 4 to 5 seconds intervals</li>
+<li>Useful at ranges from 300 to 100 meters</li>
+</ul>
+<h3 id="cyclic-rate">Cyclic Rate<a class="headerlink" href="#cyclic-rate" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Normal cyclic rate of fire is 650 to 850 rounds per minute.</li>
+<li>In this type of ROF, the gunner holds the trigger until he either has to reload or his teamleader calls for a cease fire</li>
+<li>Useful at extreme close range and up to 100 meters</li>
+</ul>
+<h2 id="fire-control">Fire Control<a class="headerlink" href="#fire-control" title="Permanent link">&para;</a></h2>
+<h3 id="in-offensive-operations">In offensive operations<a class="headerlink" href="#in-offensive-operations" title="Permanent link">&para;</a></h3>
+<p>Includes instructions to initiate, shift and lift fire.</p>
+<h3 id="in-defensive-operations">In defensive operations<a class="headerlink" href="#in-defensive-operations" title="Permanent link">&para;</a></h3>
+<p>Includes the presence and subsequent actions of friendly soldiers to the front of the position, as well as the initiation and sequence of engagements, priority targets and the shifting/displacing of fire in case of counterattacks.</p>
+<h3 id="signals-to-initiate-fire">Signals to initiate fire<a class="headerlink" href="#signals-to-initiate-fire" title="Permanent link">&para;</a></h3>
+<p>Fire commands must be clear, are to be repeated (readback) by the gunner or autorifleman and have to contain the following elements:</p>
+<ul>
+<li>Who to engage</li>
+<li>Direction of fire</li>
+<li>Description of the target to be engaged</li>
+<li>Range</li>
+<li>Method of fire</li>
+<li>Command to open fire</li>
+</ul>
+<h2 id="classifications-of-automatic-fire">Classifications of Automatic Fire<a class="headerlink" href="#classifications-of-automatic-fire" title="Permanent link">&para;</a></h2>
+<h3 id="grazing-fire">Grazing fire<a class="headerlink" href="#grazing-fire" title="Permanent link">&para;</a></h3>
+<p>Automatic weapons achieve grazing fire when the center of the cone of fire does not rise more than 1 meter above the ground. When firing over level or uniformly sloping terrain, the SAW can attain a maximum of 600 meters of grazing fire.</p>
+<h3 id="plunging-fire">Plunging fire<a class="headerlink" href="#plunging-fire" title="Permanent link">&para;</a></h3>
+<p>Plunging fire occurs when weapons fire at long range, when firing from high ground to low ground, when firing into abruptly rising ground, or when firing across uneven terrain, resulting in a loss of grazing fire at any point along the trajectory.</p>
+<h3 id="enfilade-fire">Enfilade fire<a class="headerlink" href="#enfilade-fire" title="Permanent link">&para;</a></h3>
+<p>Enfilade fire occurs when the long axis of the beaten zone coincides or nearly coincides with the long axis of the target. It can be frontal or flanking. <br>It is the most desirable class of fire with respect to the target because it makes maximum use of the beaten zone.</p>
+<h3 id="frontal-fire">Frontal fire<a class="headerlink" href="#frontal-fire" title="Permanent link">&para;</a></h3>
+<p>Frontal fire occurs when the long axis of the beaten zone is at a right angle to the front of the target.</p>
+<h3 id="flanking-fire">Flanking fire<a class="headerlink" href="#flanking-fire" title="Permanent link">&para;</a></h3>
+<p>Flanking fire is delivered directly against the flank of a target.</p>
+<h3 id="fixed-fire">Fixed fire<a class="headerlink" href="#fixed-fire" title="Permanent link">&para;</a></h3>
+<p>Fixed fire is delivered against a stationary point target when the depth and width of the beaten zone will cover the target.</p>
+<h3 id="traversing-fire">Traversing fire<a class="headerlink" href="#traversing-fire" title="Permanent link">&para;</a></h3>
+<p>Traversing distributes fires in width by successive changes in direction.</p>
+<h3 id="searching-fire">Searching fire<a class="headerlink" href="#searching-fire" title="Permanent link">&para;</a></h3>
+<p>Searching distributes fires in depth by successive changes in elevation.</p>
+<h2 id="engaging-air-targets">Engaging Air Targets<a class="headerlink" href="#engaging-air-targets" title="Permanent link">&para;</a></h2>
+<p>This should only be done on your squadleader permission because it can consume a lot of ammo, very fast.</p>
+<p>In order to engage any threat coming from the sky with a machine gun, you'll need to roughly estimate the targets airspeed in order to lead properly.<br>
+Once you have done that, start leading in front of your target in the direction it's heading and wait for your squadleader command to engage.</p>
+<p>Upon receiving said command, you stop leading and just hold down the trigger, letting the target fly into your hail of lead. <br>This is one of the only options infantry has against air targets and should be done in unison with the rest of the ream to maximize damage to your intended target.</p>
+<p><img alt="" src="../../assets/images/ar.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2016 - 2024 Task Force Omega - <i>Together we prevail</i>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1927 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../pltleader/">
+      
+      
+        <link rel="next" href="../jtac/">
+      
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.11">
+    
+    
+      
+        <title>Medic + CLS - TFO Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#medic" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="TFO Docs" class="md-header__button md-logo" aria-label="TFO Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TFO Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Medic + CLS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="TFO Docs" class="md-nav__button md-logo" aria-label="TFO Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    TFO Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intro
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rulebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TFO's Rulebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Our team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ranks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ranks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Role Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Role Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mission maker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pltleader/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Platoon leader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Medic + CLS
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Medic + CLS
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#safety" class="md-nav__link">
+    <span class="md-ellipsis">
+      Safety
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#medics-within-tfo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medics within TFO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Medics within TFO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#combat-life-saver-cls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combat life saver (CLS)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medic_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Medic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-phase" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaluation phase
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cpr-and-aed-x-series-lifepak" class="md-nav__link">
+    <span class="md-ellipsis">
+      CPR and AED-X-series (LifePak)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fractures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fractures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tourniquets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tourniquets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chemical-warfare" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chemical Warfare
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chemical Warfare">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#intoxication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intoxication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Items
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-injectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Auto injectors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Auto injectors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#morphine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Morphine
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epinephrine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Epinephrine
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adenosine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adenosine
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#triage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Triage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gear" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gear
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gear">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#infantry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Infantry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medic_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cls" class="md-nav__link">
+    <span class="md-ellipsis">
+      CLS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jtac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JTAC/FO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sql/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Squad leader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rifleman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rifleman + LAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anti Air
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Auto Rifleman
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anti Tank
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../marksmen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Marksmen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eod/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Engineer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grenadier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grenadier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Support Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Support Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Air-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Air Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Fire-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fire Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Tank-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tank Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Recon-Team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recon Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Sniper-Team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sniper Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../credits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#safety" class="md-nav__link">
+    <span class="md-ellipsis">
+      Safety
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#medics-within-tfo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medics within TFO
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Medics within TFO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#combat-life-saver-cls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combat life saver (CLS)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medic_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Medic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-phase" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaluation phase
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cpr-and-aed-x-series-lifepak" class="md-nav__link">
+    <span class="md-ellipsis">
+      CPR and AED-X-series (LifePak)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fractures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fractures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tourniquets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tourniquets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chemical-warfare" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chemical Warfare
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chemical Warfare">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#intoxication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intoxication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Items
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-injectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Auto injectors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Auto injectors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#morphine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Morphine
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epinephrine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Epinephrine
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adenosine" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adenosine
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#triage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Triage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gear" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gear
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gear">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#infantry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Infantry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medic_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cls" class="md-nav__link">
+    <span class="md-ellipsis">
+      CLS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="medic">Medic<a class="headerlink" href="#medic" title="Permanent link">&para;</a></h1>
+<p>This guide is written primarily for new medics, but should have enough info for even experienced medics to learn something. We understand many of this will not be carried out when the first bullets start flying, but try to keep any of it in the back of your head.</p>
+<h2 id="safety">Safety<a class="headerlink" href="#safety" title="Permanent link">&para;</a></h2>
+<p>Before providing any medical assistance, one should always care about the safety for yourself first.</p>
+<p><strong>This is one of the first and most important rule for any first responder in any field.</strong></p>
+<p>You cannot help anyone if you're shot yourself; this means that you might also need to deal with the threat first, and provide medical assistance later.
+Medical assistance should only be provided in a relatively safe spot; this means getting some hard cover between yourself and your enemy. 
+Think of your environment like walls, hills and rocks but there is also cover that you can create: think of vehicles and trenches. If there is no hard cover available nearby you can also use smokes grenades &amp; bushes for concealment. </p>
+<p><em>If all above is not possible, contact your squad leader/team leader.</em></p>
+<p>In order to remain in a safe position you are also going to need covering fire. Ask your battle mates for general support and cover.
+We've seen countless scenarios where someone is shot and everyone rushes over to become a medic. Your job as a medic is to send them away as fast as possible and let them cover your position.</p>
+<p><img alt="" src="../../assets/images/medsafety.png" /></p>
+<h2 id="medics-within-tfo">Medics within TFO<a class="headerlink" href="#medics-within-tfo" title="Permanent link">&para;</a></h2>
+<p>As discussed above the role we call medic is a hybrid of a first responder and a paramedic. Because of this, there isn't a clear defined position within the squad like this within any army.
+Therefore we can have our own interpretation of how this role can be used effectively.
+As the unit continues to grow, some changes can occur to the CoC, and the medic role itself (new responsibilities, or even adding a new medic to the roster)</p>
+<p>As of now, casualty collection point (CCP) is rarely used. We are looking forward to use this type of gameplay more in the future, where a clear medical team and chain of command is established.</p>
+<p>Normally there would be different classes of medical personnel with different roles, but for now, we stick with a platoon medic, and 1 to 3 combat life savers.</p>
+<h3 id="combat-life-saver-cls">Combat life saver (CLS)<a class="headerlink" href="#combat-life-saver-cls" title="Permanent link">&para;</a></h3>
+<p>This soldier is part of the squad and as the name suggests this is probably the first one to arrive at a wounded soldier. His job is to stabilize the soldier as fast as possible, and make sure they are either good to go or are stable enough to be medevac'd.<br></p>
+<p>A CLS is primarily a rifleman, but with more advanced medical training than everyone else. Meaning, he can be a first responder on the battlefield, to try to save and stabilize colleagues, until the medic arrives on scene.</p>
+<p>Even with this training, the Combat Life Saver is not able to perform advanced medical procedures.</p>
+<p>One of the roles of the CLS, is to support the medic when asked to, and return to combat as quickly as possible.</p>
+<h3 id="medic_1">Medic<a class="headerlink" href="#medic_1" title="Permanent link">&para;</a></h3>
+<p>This officer is part of the command structure and operates mostly behind the frontline. His primary job will be patching up soldiers back to full health so they are ready to be redeployed.</p>
+<p>Due to the smaller size of Task Force Omega, we have chosen to let he medic be a part of the battle instead of having him behind the combat lines with a casualties collection point.
+But as we are growing this might be coming in to play more.</p>
+<p>It's recommended for all squad leaders to set up a casualty collection point before any attack. This would be a location close to the frontline but away from any immediate danger. If squad size allows it, it is recommended to have at least one soldier here to cover the position. Any heavy casualties are to be brought here as fast as possible.</p>
+<p>Ideally the medic would stick close to the platoon leader and would only leave his side when ordered to.</p>
+<h4 id="evaluation-phase">Evaluation phase<a class="headerlink" href="#evaluation-phase" title="Permanent link">&para;</a></h4>
+<p>Alright, so the first bullets start flying and one of your fellow squad members got shot.</p>
+<p>The first priority should be to call out who got shot and what their location is to your squad leader.<br>Sometimes squad leaders are in a much better position to organize a rescue for a wounded soldier than a medic.<br>Right after this the evaluation phase starts: is the soldier simply wounded or unconscious as well?</p>
+<ul>
+<li>Wounded</li>
+</ul>
+<p>Right after your figured out that the soldier is wounded another evaluation is in order:<br><em>Is the wounded soldier able to move to a safer spot himself?</em><br>This can be obstructed by for example heavy fire or being crippled by the wound.  </p>
+<p>The answer to this question can easily be discovered by asking the wounded soldier if possible.</p>
+<ul>
+<li>Unconscious</li>
+</ul>
+<p>Right after your figured out that the soldier is unconscious, another evaluation is in order:<br>
+<em>Is the wounded soldier in an unsafe spot?</em><br>
+The first order of business is to get them out of there. </p>
+<p>Try dragging them to cover, or let someone close to the unconscious soldier do that for you. Picking someone up and carrying them over to a safe spot is usually a bad idea.<br>The process of getting someone on your shoulders takes way too long under fire but carrying can be a good idea when you need to move an unconscious soldier from a position where you already have cover.<br>
+A combination of both techniques can be applied as well, for example: Drag a wounded soldier from an unsafe position to cover followed up by picking them up and carrying them to a medic-post.</p>
+<ul>
+<li>Equipment:</li>
+</ul>
+<p>In the following chapter we are going to discuss the actual medical processes. 
+First we are going to discuss all the equipment you have available and after that we are going to discuss a few scenarios.</p>
+<h2 id="cpr-and-aed-x-series-lifepak">CPR and AED-X-series (LifePak)<a class="headerlink" href="#cpr-and-aed-x-series-lifepak" title="Permanent link">&para;</a></h2>
+<p>Let's start with the Wikipedia description for CPR:</p>
+<p>“Cardiopulmonary resuscitation (CPR) is an emergency procedure that combines chest compressions often with artificial ventilation in an effort to manually preserve intact brain function until further measures are taken to restore spontaneous blood circulation and breathing in a person who is in cardiac arrest.”</p>
+<p>CPR creates an Artificial circulation (and heart rate at around 30/40 BPM) in the patient in case there is a cardiac arrest. So basically CPR is creating blood flow when the Patient's heart is unable to. 
+It's also important noting that checking for a hard rate while CPR is going is always going to result in at least a low heart rate due to chest compressions.<br> 
+<strong>Checking for a heart rate on a limb with tourniquets is useless and will result in no pulse.</strong></p>
+<p>CPR by itself is not going to wake up an unconscious patient; a stable blood pressure, heart rate (between 60 and 180) and SpO2 (blood oxygen, should be above 90) is. Anyone can perform CPR and therefore as a medic you should assign someone else to do it. This will leave you free to perform other medical assistance (stabilize the wounds and restore blood pressure for example). <br>CPR is only effective to restart the heart rate, after a patient has a heart rate (no matter how low) performing CPR is useless.<br>
+If a patient has no heartrate an invisible timer will start running, and you have 5 mins to get a heart rate going, or the patient dies.</p>
+<p>Due to our server settings, the best way to do CPR is to push epinephrine (adrenaline), then do CPR 3 times, then check again for pulse.<br>
+Epinephrine is administrable by CLS or medics only, and you shouldn't more than 3 consecutively (reset every two minutes, in case you need to administer more).</p>
+<p>How to determine <em>Cardiac Arrest</em><br>
+Start monitoring vitals using <strong>AED X-series</strong> and use “<em>check rhythm</em>” feature (available both in AED and AED X-series) (or attach a <strong>Pulse Oximeter</strong> to a limb <u><strong>WITHOUT</strong></u> a tourniquet):</p>
+<ul>
+<li>
+<p>“Shock advised” (<strong>VFib/PVT</strong>) - administer shock. Use epinephrine and administer a shock (remember to clear out of the medical menu if you're not the one who is shocking).</p>
+</li>
+<li>
+<p>“No shock advised” (<strong>Asystole</strong>) - do not administer shock. Use epinephrine and 3 intervals of CPR instead. </p>
+</li>
+</ul>
+<p><u><strong>Check rhythm between steps</strong></u>. If you cannot determine the cardiac arrest type, treat it as <strong>asystole</strong>.</p>
+<p><img alt="" src="../../assets/images/cls.png" /></p>
+<p>To treat these injuries, you have four types of bandages, tourniquets at your disposal:</p>
+<p><strong>Basic</strong>: A medium-effect, medium-sealing bandage with medium delay for your every-day needs. It's the averagest of averages. Use on lower priorities.</p>
+<p><strong>Packing</strong>: Identical effect to basics, high chance to reopen, but excellent delay until a wound bothers you again. Basically an in-combat ‘fix now, medic later’ solution. A rifleman's best friend.</p>
+<p><strong>Elastic</strong>: Highest effect, worst chance to reopen, lowest delay. These are great to get through an emergency, but otherwise inefficient.</p>
+<p><strong>QuikClot</strong>: Lowest effect, lowest chance to reopen, medium delay. Its low effect means it’s great for small wounds, but needs substantial volume for large wounds; then used in calm situations with a large supply</p>
+<p><strong>Tourniquets</strong>: Stops bleeding by cutting off blood flow to the limb. Becomes painful after 2 minutes. Blocks injections and vitals. Not applicable to head or torso.</p>
+<p><strong>Choosing bandages</strong></p>
+<p>In an ideal situation you will apply the type of bandages with the highest effectiveness per wound.
+But in a combat situation, time is of the essence, and that might need you to “slap” a bandage on there as fast as you can. Which particular bandage that should be is very debatable. Elastic bandages are quick and very effective, but they tend to reopen fast. This however is no problem for a medic, since you have the option to stitch wounds up before they reopen.</p>
+<h2 id="fractures">Fractures<a class="headerlink" href="#fractures" title="Permanent link">&para;</a></h2>
+<p>Limbs can be fractured. Velocity wounds, Avulsions and crush wounds usually occur at the same time. Fractures cause pain, increased weapon sway (when arms) or inability to jog or run forcing the player into a limp (when legs). Fractures in ACE3 are themselves not fatal and therefore are far lower on the priority list in regards to treatment. Focus on stabilizing the patient first, then once stable, call for the medic to assess and treat the fracture.</p>
+<p>Advanced fractures makes it a bit harder for medics and CLS to treat on the field.</p>
+<p>There is now 3 types of fractures, depicted below: 
+For two of them, an IV of Lorazepam (if the patient is conscious), and then Etomidate (reapply every 90 seconds) is necessary to relieve the pain caused by the treatment of the fracture. (The simple fracture just need a dose of morphine)</p>
+<ul>
+<li>
+<p>Compound fracture:</p>
+<ul>
+<li>Inspect fracture</li>
+<li>Incision (uses 1 scalpel)</li>
+<li>Expose (with the retractor)</li>
+<li>Irrigate wound (uses 1 250ml Saline)</li>
+<li>Open reduction (uses 1 bone plate)</li>
+</ul>
+</li>
+<li>
+<p>Comminuted fracture:</p>
+<ul>
+<li>Inspect fracture</li>
+<li>Incision (uses 1 scalpel)</li>
+<li>Expose (with the retractor)</li>
+<li>Clamp (with the clamp)</li>
+<li>Open reduction (uses 1 bone plate)</li>
+</ul>
+</li>
+<li>
+<p>Simple fracture:</p>
+<ul>
+<li>Inspect fracture</li>
+<li>Push Morphine (pain suppression)</li>
+<li>Perform Closed Reduction</li>
+</ul>
+</li>
+</ul>
+<p>When treatment is finished, a Flumazenil IV is required to remove the sedation. (Except for the simple fracture)
+You can then reorient the patient to wake him up.</p>
+<p>Keep in mind that compound and comminuted fractures are treatable by the medic only, as it require advanced field surgery</p>
+<p>Splints: An instant fix to fractures. (Used in case of emergency by the SQL. Not recommended, unless there is no medic on the team)</p>
+<h2 id="tourniquets">Tourniquets<a class="headerlink" href="#tourniquets" title="Permanent link">&para;</a></h2>
+<p>Wound treatments should usually be executed in this order:  head &gt; torso &gt; limbs.
+In case of heavy wounds on a limb a priority could be to apply a tourniquet on this limb. <br>
+A tourniquet will fully stop any bleeding on the applied limb until removed. This will give you time to stabilize other body parts. <br>After applying tourniquets to the limbs, bandages to the head and/or torso, an IV with saline/plasma can be applied.  </p>
+<p>Although the pressure provided by a tourniquet is great for stopping blood flowing out of the body, that same pressure will also block any IV from flowing in, therefore an IV (or a pulse check) should only be placed and/or done on a limb without a tourniquet. <br>While these magic blood-stoppers are great, they also are considered painful after 2 minutes.</p>
+<p><em>Tip: whoever removes the tourniquets gets to keep it. So reclaim your tourniquets or you might find yourself empty handed!</em></p>
+<h2 id="chemical-warfare">Chemical Warfare<a class="headerlink" href="#chemical-warfare" title="Permanent link">&para;</a></h2>
+<p>An array of chemical warfare measures has been added to the mod. For contaminated area detection, chemical detector can be used (Contact DLC item). <br>The device will play a sound upon entering the danger zone even if not actively used. The sound can be muted in the ACE menu. In order to use the device, you must have it equipped in the “watch” slot in your inventory. <br>You can view the threat level by pressing “O” (double “O” allows the device to stay/ disappear from the screen). Threat level is measured in the scale of 0.0 - 1.0, 1.0 meaning the highest danger zone.</p>
+<p>Protection against chemical threats is provided by gas masks. Time spent without a mask until negative effects is a matter of settings. Gas masks need gas mask filters to work properly. You can check filter durability via ACE menu action. <br>The gas mask filter can be changed through the same menu if you have the item in your inventory. Please note that the durability is measured in green stripes, each representing 10% of durability left (the more green, the better). <br>Gas masks will lose durability while used in a contaminated area.</p>
+<p>Gas mask can be put on an unconscious person’s head by ACE action performed on the head. <br>If any facewear is present, it will be stored in patient’s/ your inventory or dropped on the ground if there is no space in the inventory.</p>
+<h3 id="intoxication">Intoxication<a class="headerlink" href="#intoxication" title="Permanent link">&para;</a></h3>
+<p>Intoxication is visible in the medical menu (intoxicated lung image + information on the injury list). </p>
+<p>The symptoms are:                                                                                                      <br />
+- Blurry, shaking screen                                                                               <br />
+- Coughing sound                                                                                       <br />
+- Sp02 drop with rapidity increasing over time                                                           </p>
+<p>The treatment in case of a chemical intoxication is <strong>atropine</strong> only (administered by the medics).</p>
+<h3 id="items">Items<a class="headerlink" href="#items" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Item name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M7A3 Riot CS gas grenade</td>
+<td>Upon explosion, it causes strong pain and temporary blindness to victims without gas masks. <br> If enabled, it will cause AI skill drop.</td>
+</tr>
+<tr>
+<td>82 mm Mustard gas mortar shell</td>
+<td>Upon explosion, mustard gas is deployed within the radius of 10-15 meters.</td>
+</tr>
+<tr>
+<td>Tripwire Gas (mustard gas mine)</td>
+<td>Equivalent to APERS Tripwire mine that deploys gas instead of exploding.</td>
+</tr>
+<tr>
+<td>Hydra GAS 19x</td>
+<td>Equivalent to Hydra rockets that deploys mustard gas instead of exploding.</td>
+</tr>
+<tr>
+<td>M43 BZ LGB Cluster bomb</td>
+<td>Equivalent to GBU-12 bomb, a laser guided bomb that deploys mustard gas instead of exploding. <br> The bomb is compatible with all vanilla and most RHS aircrafts.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="auto-injectors">Auto injectors<a class="headerlink" href="#auto-injectors" title="Permanent link">&para;</a></h2>
+<h3 id="morphine">Morphine<a class="headerlink" href="#morphine" title="Permanent link">&para;</a></h3>
+<p><strong>Time to max effect</strong>: 30 seconds<br>
+Drastically <strong>lowers</strong> pain<br>
+<strong>Reduces</strong> heart rate<br>
+<strong>Low HR</strong>: between -10 and -20<br>
+<strong>Normal HR</strong>: between -10 and -30<br>
+<strong>High HR</strong>: between -10 and -35<br>
+Dilates blood vessels, which drops blood pressure<br>
+If your patient is critical, do not inject morphine before stabilizing them<br>
+<strong>4</strong> injections to overdose <em>(but will knock-out any healthy soldier with 3 injections)</em><br>
+Lingers 30 minutes<br>
+Does <strong>not</strong> affect the wake-up chance of an unconscious patient.<br></p>
+<h3 id="epinephrine">Epinephrine<a class="headerlink" href="#epinephrine" title="Permanent link">&para;</a></h3>
+<p><strong>Time to max effect</strong>: 10 seconds<br>
+<strong>Increases</strong> heart rate<br>
+<strong>Low HR</strong>: between 10 and 20<br>
+<strong>Normal HR</strong>: between 10 and 50<br>
+<strong>High HR</strong>: between 10 and 40<br>
+<strong>10</strong> injections to overdose<br>
+Lingers 2 minutes<br>
+<strong>Does</strong> affect the wake-up chance of an unconscious patient.<br></p>
+<h3 id="adenosine">Adenosine<a class="headerlink" href="#adenosine" title="Permanent link">&para;</a></h3>
+<p><strong>Time to max effect</strong>: 15 seconds<br>
+<strong>Decreases</strong> heart rate<br>
+<strong>Low HR</strong>: between -7 and -10<br>
+<strong>Normal HR</strong>: between -15 and -30<br>
+<strong>High HR</strong>: between -15 and -35<br>
+<strong>6</strong> injections to overdose<br>
+Lingers 2 minutes<br></p>
+<p>Don't bother with these. In real life they are used to stabilize a heart rate, but there is no such system in ace medical. <br>They can counter epi overdose, but since you will only overdose after 10 injections, it's really not worth it. If you really want, you should carry a maximum of 1.</p>
+<h2 id="triage">Triage<a class="headerlink" href="#triage" title="Permanent link">&para;</a></h2>
+<p>In order to be effective as a medic you should start to assess these priorities as good and as fast as you can.<br>
+For example: a heart rate is not going to do any good if the patient has already bled out on the floor. <br>
+It also matters greatly whenever you are alone or with a buddy.</p>
+<p>Evaluation of the location, is it safe to treat multiple wounded?<br>
+Stabilize or ask team member to stabilized the most critical cases while treating the minor cases first<br>
+If possible, ask squad members to assign a triage card to the wounded.</p>
+<h2 id="gear">Gear<a class="headerlink" href="#gear" title="Permanent link">&para;</a></h2>
+<h3 id="infantry">Infantry<a class="headerlink" href="#infantry" title="Permanent link">&para;</a></h3>
+<p>For all non-medical personnel we recommend to take the following medical supplies with you:</p>
+<table>
+<thead>
+<tr>
+<th>Supplies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4x Tourniquets</td>
+</tr>
+<tr>
+<td>1x Painkillers</td>
+</tr>
+<tr>
+<td>15x Packing</td>
+</tr>
+</tbody>
+</table>
+<p>Additional supplies can be provided by a resupply or by the CLS/medic.</p>
+<h3 id="medic_2">Medic<a class="headerlink" href="#medic_2" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Contents</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primary weapon</td>
+<td>5.56 AR</td>
+<td></td>
+</tr>
+<tr>
+<td>Primary ammo</td>
+<td>30rnd 5.56 x 6</td>
+<td></td>
+</tr>
+<tr>
+<td>Optic magnification</td>
+<td>1x-2x</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Throwables/explosives</td>
+<td><em>Day only</em></td>
+<td><em>Night Only</em></td>
+</tr>
+<tr>
+<td></td>
+<td>3x white smokes</td>
+<td>2-4x green Chemlight</td>
+</tr>
+<tr>
+<td></td>
+<td>2x yellow smokes</td>
+<td>Yellow hand flare</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Medical</td>
+<td>40x Elastic</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>15x Packing</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1x Painkillers</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>10x Morphine</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5x Epinephrine</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5x TXA</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5x EACA</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>6x Tourniquets</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>4x Splints</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>10x 500ml Plasma</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>2x 1000ml Plasma</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>10x King LT</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5x 16g IV</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>10x Fast IO</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>AED-X</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>ACCUVAC</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>2x AAT kits</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Surgical kit</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>3x Chest seals</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>2x Naloxone</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5x Atropine</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5x Bone plates</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1x Clamp</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1x Retractor</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5x Scalpels</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>10x Etomidate</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5x Lorazepam</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>3x 250ml Saline</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5x Flumazenil</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Radio</td>
+<td>2x AN-343</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>AN-152</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Misc</td>
+<td>2 Cable ties</td>
+<td>IR strobe</td>
+</tr>
+<tr>
+<td></td>
+<td>Earplugs</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="cls">CLS<a class="headerlink" href="#cls" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Contents</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primary weapon</td>
+<td>5.56 AR</td>
+<td></td>
+</tr>
+<tr>
+<td>Primary ammo</td>
+<td>30rnd 5.56 x 8</td>
+<td></td>
+</tr>
+<tr>
+<td>Optic magnification</td>
+<td>1x-2x</td>
+<td></td>
+</tr>
+<tr>
+<td>Secondary weapon</td>
+<td>Pistol</td>
+<td></td>
+</tr>
+<tr>
+<td>Secondary ammo</td>
+<td>Pistol mag x 2</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Throwables/explosives</td>
+<td><em>Day only</em></td>
+<td><em>Night Only</em></td>
+</tr>
+<tr>
+<td></td>
+<td>3x white smokes</td>
+<td>2-4x green Chemlight</td>
+</tr>
+<tr>
+<td></td>
+<td>2x yellow smokes</td>
+<td>Yellow hand flare</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Medical</td>
+<td>40x Packing</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>4x Tourniquets</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1x Painkiller box</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>8x Morphine</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>4x Epinephrine</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>5x 500ml saline</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>2x 1000ml saline</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>8x 16g IV</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>4x Guedel tubes</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>2x Pulse oximeter</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1x 250ml saline</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Radio</td>
+<td>2x AN-343</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Misc</td>
+<td>2 Cable ties</td>
+<td>IR strobe</td>
+</tr>
+<tr>
+<td></td>
+<td>Earplugs</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2016 - 2024 Task Force Omega - <i>Together we prevail</i>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
+      
+    
+  </body>
+</html>

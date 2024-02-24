@@ -1,0 +1,4757 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../rifleman/">
+      
+      
+        <link rel="next" href="../AR/">
+      
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.11">
+    
+    
+      
+        <title>Anti Air - TFO Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#foreword" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="TFO Docs" class="md-header__button md-logo" aria-label="TFO Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TFO Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Anti Air
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="TFO Docs" class="md-nav__button md-logo" aria-label="TFO Docs" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    TFO Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Intro
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rulebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TFO's Rulebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Our team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ranks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ranks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Role Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Role Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mission maker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pltleader/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Platoon leader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../medic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Medic + CLS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jtac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JTAC/FO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sql/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Squad leader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rifleman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rifleman + LAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Anti Air
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Anti Air
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#foreword" class="md-nav__link">
+    <span class="md-ellipsis">
+      Foreword
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-aircraft-confusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Aircraft confusion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-camouflages-and-markings" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Camouflages and markings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Camouflages and markings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#camouflages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Camouflages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#camouflages-hard-to-distinguish" class="md-nav__link">
+    <span class="md-ellipsis">
+      Camouflages hard to distinguish
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Camouflages hard to distinguish">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#su-25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Su-25
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-8
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-24
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Markings
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-manpads" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. MANPADS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-aircrafts" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Aircrafts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Aircrafts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-7h-corsair-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      A-7H Corsair II
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-10-thunderbolt-ii-a-164-wipeout" class="md-nav__link">
+    <span class="md-ellipsis">
+      A-10 Thunderbolt II / A-164 Wipeout
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-29-super-tucano" class="md-nav__link">
+    <span class="md-ellipsis">
+      A-29 Super Tucano
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a330-airbus" class="md-nav__link">
+    <span class="md-ellipsis">
+      A330 Airbus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aero-commander-500" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aero Commander 500
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#an-2-antonov" class="md-nav__link">
+    <span class="md-ellipsis">
+      AN-2 Antonov
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#av-8b-harrier-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      AV-8B Harrier II
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boeing-737" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boeing 737
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-130j-super-hercules" class="md-nav__link">
+    <span class="md-ellipsis">
+      C-130J Super Hercules
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cessna-172-skyhawk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cessna 172 Skyhawk
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cessna-400-cessna-ttx-caesar-btt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cessna 400 / Cessna TTx / Caesar BTT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#casa-cn-235" class="md-nav__link">
+    <span class="md-ellipsis">
+      CASA CN-235
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#douglas-c-47-skytrain" class="md-nav__link">
+    <span class="md-ellipsis">
+      Douglas C-47 Skytrain
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#douglas-dc-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Douglas DC-3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#f-4-phantom-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      F-4 PHANTOM II
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#f-16-fighting-falcon" class="md-nav__link">
+    <span class="md-ellipsis">
+      F-16 FIGHTING FALCON
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fa-181-black-wasp-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      F/A-181 Black Wasp II
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#f-22-raptor" class="md-nav__link">
+    <span class="md-ellipsis">
+      F-22 Raptor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#f-35-joint-strike-fighter" class="md-nav__link">
+    <span class="md-ellipsis">
+      F-35 Joint Strike Fighter
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jas-39-gripen-a-149-gryphon" class="md-nav__link">
+    <span class="md-ellipsis">
+      JAS-39 Gripen / A-149 Gryphon
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l-39-albatros-l-159-alca-a-143-buzzard" class="md-nav__link">
+    <span class="md-ellipsis">
+      L-39 Albatros / L-159 ALCA / A-143 Buzzard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#md-454-mystere" class="md-nav__link">
+    <span class="md-ellipsis">
+      MD-454 Mystère
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mig-21-fishbed" class="md-nav__link">
+    <span class="md-ellipsis">
+      MiG-21 FISHBED
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mig-29-fulcrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      MiG-29 Fulcrum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mirage-2000" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mirage 2000
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mv-22-osprey" class="md-nav__link">
+    <span class="md-ellipsis">
+      MV-22 Osprey
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rafale-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rafale C
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#su-25-frogfoot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Su-25 Frogfoot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#su-34-fullback" class="md-nav__link">
+    <span class="md-ellipsis">
+      Su-34 Fullback
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t-41-mescalero" class="md-nav__link">
+    <span class="md-ellipsis">
+      T-41 Mescalero
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t-50-su-57-felon" class="md-nav__link">
+    <span class="md-ellipsis">
+      T-50 (Su-57) Felon
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-201-shikra" class="md-nav__link">
+    <span class="md-ellipsis">
+      To-201 Shikra
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tu95-bear" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tu–95 BEAR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#v-44x-blackfish" class="md-nav__link">
+    <span class="md-ellipsis">
+      V-44X Blackfish
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#y-32-wian" class="md-nav__link">
+    <span class="md-ellipsis">
+      Y-32 Wi’an
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yak-130-to-199-neophron" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yak-130 / To-199 Neophron
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-helicopters" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Helicopters
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Helicopters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ah-1z-viper" class="md-nav__link">
+    <span class="md-ellipsis">
+      AH-1Z Viper
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ah-6m-little-bird-ah-9-pawnee" class="md-nav__link">
+    <span class="md-ellipsis">
+      AH-6M Little Bird / AH-9 Pawnee
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ah-64-ah1-apache" class="md-nav__link">
+    <span class="md-ellipsis">
+      AH-64 / AH1 Apache
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#as532-cougar" class="md-nav__link">
+    <span class="md-ellipsis">
+      AS532 Cougar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#as565-panther" class="md-nav__link">
+    <span class="md-ellipsis">
+      AS565 Panther
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aw159-wildcat-wy-55-hellcat" class="md-nav__link">
+    <span class="md-ellipsis">
+      AW159 Wildcat / WY-55 Hellcat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bell-412" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bell 412
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ch-47-hc-4-chinook" class="md-nav__link">
+    <span class="md-ellipsis">
+      CH-47 / HC-4 Chinook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ch-47i-chinook-ch-67-huron" class="md-nav__link">
+    <span class="md-ellipsis">
+      CH-47I Chinook / CH-67 Huron
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ch-53e-super-stallion" class="md-nav__link">
+    <span class="md-ellipsis">
+      CH-53E Super Stallion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ch-146-griffon" class="md-nav__link">
+    <span class="md-ellipsis">
+      CH-146 Griffon
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ec665-tiger" class="md-nav__link">
+    <span class="md-ellipsis">
+      EC665 Tiger
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#h225m-caracal" class="md-nav__link">
+    <span class="md-ellipsis">
+      H225M Caracal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ka-50-black-shark" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ka-50 Black Shark
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ka-52-alligator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ka-52 Alligator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ka-60-kasatka" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ka-60 Kasatka
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merlin-hc3-eh101-ch-49-mohawk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merlin HC3 / EH101 /  CH-49 Mohawk
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mh-47e-hc-6-chinook" class="md-nav__link">
+    <span class="md-ellipsis">
+      MH-47E / HC-6 Chinook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-6a-hook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-6A Hook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-8-hip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-8 Hip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-24-mi-35-hind" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-24 / Mi-35 Hind
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-28n-havok" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-28N Havok
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-48-kajman" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-48 Kajman
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-290-taru" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-290 Taru
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nh90-caiman" class="md-nav__link">
+    <span class="md-ellipsis">
+      NH90 Caïman
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oh-58d-kiowa" class="md-nav__link">
+    <span class="md-ellipsis">
+      OH-58D Kiowa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rah-66-comanche-ah-99-blackfoot" class="md-nav__link">
+    <span class="md-ellipsis">
+      RAH-66 Comanche / AH-99 Blackfoot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-330-puma" class="md-nav__link">
+    <span class="md-ellipsis">
+      SA-330 Puma
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-340-gazelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      SA-340 Gazelle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uh-1h-huey" class="md-nav__link">
+    <span class="md-ellipsis">
+      UH-1H Huey
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uh-1y-venom" class="md-nav__link">
+    <span class="md-ellipsis">
+      UH-1Y Venom
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uh-60-black-hawk" class="md-nav__link">
+    <span class="md-ellipsis">
+      UH-60 Black Hawk
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uh-80-ghost-hawk" class="md-nav__link">
+    <span class="md-ellipsis">
+      UH-80 Ghost Hawk
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-uav" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. UAV
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. UAV">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ar-2-darter-tayran" class="md-nav__link">
+    <span class="md-ellipsis">
+      AR-2 Darter / Tayran
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#al-6-pelican-jinaah" class="md-nav__link">
+    <span class="md-ellipsis">
+      AL-6 Pelican / Jinaah
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kh-3a-fenghuang" class="md-nav__link">
+    <span class="md-ellipsis">
+      KH-3A Fenghuang
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mq-4a-greyhawk" class="md-nav__link">
+    <span class="md-ellipsis">
+      MQ-4A Greyhawk
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mq-9-reaper" class="md-nav__link">
+    <span class="md-ellipsis">
+      MQ-9 Reaper
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mq-12-falcon" class="md-nav__link">
+    <span class="md-ellipsis">
+      MQ-12 Falcon
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pchela-1t-shmel-1-yak-061" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pchela-1T / SHMEL-1 / YAK-061
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pegasus-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pegasus II
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ucav-sentinel" class="md-nav__link">
+    <span class="md-ellipsis">
+      UCAV Sentinel
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-loadout" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Loadout
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Glossary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Auto Rifleman
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anti Tank
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../marksmen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Marksmen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eod/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Engineer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grenadier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grenadier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Support Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Support Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Air-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Air Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Fire-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fire Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Tank-Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tank Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Recon-Team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recon Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SupportRoles/Sniper-Team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sniper Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../credits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#foreword" class="md-nav__link">
+    <span class="md-ellipsis">
+      Foreword
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-aircraft-confusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Aircraft confusion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-camouflages-and-markings" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Camouflages and markings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Camouflages and markings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#camouflages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Camouflages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#camouflages-hard-to-distinguish" class="md-nav__link">
+    <span class="md-ellipsis">
+      Camouflages hard to distinguish
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Camouflages hard to distinguish">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#su-25" class="md-nav__link">
+    <span class="md-ellipsis">
+      Su-25
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-8
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-24" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-24
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#markings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Markings
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-manpads" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. MANPADS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-aircrafts" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Aircrafts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Aircrafts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-7h-corsair-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      A-7H Corsair II
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-10-thunderbolt-ii-a-164-wipeout" class="md-nav__link">
+    <span class="md-ellipsis">
+      A-10 Thunderbolt II / A-164 Wipeout
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-29-super-tucano" class="md-nav__link">
+    <span class="md-ellipsis">
+      A-29 Super Tucano
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a330-airbus" class="md-nav__link">
+    <span class="md-ellipsis">
+      A330 Airbus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aero-commander-500" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aero Commander 500
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#an-2-antonov" class="md-nav__link">
+    <span class="md-ellipsis">
+      AN-2 Antonov
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#av-8b-harrier-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      AV-8B Harrier II
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boeing-737" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boeing 737
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-130j-super-hercules" class="md-nav__link">
+    <span class="md-ellipsis">
+      C-130J Super Hercules
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cessna-172-skyhawk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cessna 172 Skyhawk
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cessna-400-cessna-ttx-caesar-btt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cessna 400 / Cessna TTx / Caesar BTT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#casa-cn-235" class="md-nav__link">
+    <span class="md-ellipsis">
+      CASA CN-235
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#douglas-c-47-skytrain" class="md-nav__link">
+    <span class="md-ellipsis">
+      Douglas C-47 Skytrain
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#douglas-dc-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Douglas DC-3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#f-4-phantom-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      F-4 PHANTOM II
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#f-16-fighting-falcon" class="md-nav__link">
+    <span class="md-ellipsis">
+      F-16 FIGHTING FALCON
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fa-181-black-wasp-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      F/A-181 Black Wasp II
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#f-22-raptor" class="md-nav__link">
+    <span class="md-ellipsis">
+      F-22 Raptor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#f-35-joint-strike-fighter" class="md-nav__link">
+    <span class="md-ellipsis">
+      F-35 Joint Strike Fighter
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jas-39-gripen-a-149-gryphon" class="md-nav__link">
+    <span class="md-ellipsis">
+      JAS-39 Gripen / A-149 Gryphon
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l-39-albatros-l-159-alca-a-143-buzzard" class="md-nav__link">
+    <span class="md-ellipsis">
+      L-39 Albatros / L-159 ALCA / A-143 Buzzard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#md-454-mystere" class="md-nav__link">
+    <span class="md-ellipsis">
+      MD-454 Mystère
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mig-21-fishbed" class="md-nav__link">
+    <span class="md-ellipsis">
+      MiG-21 FISHBED
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mig-29-fulcrum" class="md-nav__link">
+    <span class="md-ellipsis">
+      MiG-29 Fulcrum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mirage-2000" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mirage 2000
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mv-22-osprey" class="md-nav__link">
+    <span class="md-ellipsis">
+      MV-22 Osprey
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rafale-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rafale C
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#su-25-frogfoot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Su-25 Frogfoot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#su-34-fullback" class="md-nav__link">
+    <span class="md-ellipsis">
+      Su-34 Fullback
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t-41-mescalero" class="md-nav__link">
+    <span class="md-ellipsis">
+      T-41 Mescalero
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t-50-su-57-felon" class="md-nav__link">
+    <span class="md-ellipsis">
+      T-50 (Su-57) Felon
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-201-shikra" class="md-nav__link">
+    <span class="md-ellipsis">
+      To-201 Shikra
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tu95-bear" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tu–95 BEAR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#v-44x-blackfish" class="md-nav__link">
+    <span class="md-ellipsis">
+      V-44X Blackfish
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#y-32-wian" class="md-nav__link">
+    <span class="md-ellipsis">
+      Y-32 Wi’an
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yak-130-to-199-neophron" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yak-130 / To-199 Neophron
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-helicopters" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Helicopters
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Helicopters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ah-1z-viper" class="md-nav__link">
+    <span class="md-ellipsis">
+      AH-1Z Viper
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ah-6m-little-bird-ah-9-pawnee" class="md-nav__link">
+    <span class="md-ellipsis">
+      AH-6M Little Bird / AH-9 Pawnee
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ah-64-ah1-apache" class="md-nav__link">
+    <span class="md-ellipsis">
+      AH-64 / AH1 Apache
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#as532-cougar" class="md-nav__link">
+    <span class="md-ellipsis">
+      AS532 Cougar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#as565-panther" class="md-nav__link">
+    <span class="md-ellipsis">
+      AS565 Panther
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aw159-wildcat-wy-55-hellcat" class="md-nav__link">
+    <span class="md-ellipsis">
+      AW159 Wildcat / WY-55 Hellcat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bell-412" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bell 412
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ch-47-hc-4-chinook" class="md-nav__link">
+    <span class="md-ellipsis">
+      CH-47 / HC-4 Chinook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ch-47i-chinook-ch-67-huron" class="md-nav__link">
+    <span class="md-ellipsis">
+      CH-47I Chinook / CH-67 Huron
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ch-53e-super-stallion" class="md-nav__link">
+    <span class="md-ellipsis">
+      CH-53E Super Stallion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ch-146-griffon" class="md-nav__link">
+    <span class="md-ellipsis">
+      CH-146 Griffon
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ec665-tiger" class="md-nav__link">
+    <span class="md-ellipsis">
+      EC665 Tiger
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#h225m-caracal" class="md-nav__link">
+    <span class="md-ellipsis">
+      H225M Caracal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ka-50-black-shark" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ka-50 Black Shark
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ka-52-alligator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ka-52 Alligator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ka-60-kasatka" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ka-60 Kasatka
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merlin-hc3-eh101-ch-49-mohawk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Merlin HC3 / EH101 /  CH-49 Mohawk
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mh-47e-hc-6-chinook" class="md-nav__link">
+    <span class="md-ellipsis">
+      MH-47E / HC-6 Chinook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-6a-hook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-6A Hook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-8-hip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-8 Hip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-24-mi-35-hind" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-24 / Mi-35 Hind
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-28n-havok" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-28N Havok
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-48-kajman" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-48 Kajman
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mi-290-taru" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mi-290 Taru
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nh90-caiman" class="md-nav__link">
+    <span class="md-ellipsis">
+      NH90 Caïman
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oh-58d-kiowa" class="md-nav__link">
+    <span class="md-ellipsis">
+      OH-58D Kiowa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rah-66-comanche-ah-99-blackfoot" class="md-nav__link">
+    <span class="md-ellipsis">
+      RAH-66 Comanche / AH-99 Blackfoot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-330-puma" class="md-nav__link">
+    <span class="md-ellipsis">
+      SA-330 Puma
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sa-340-gazelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      SA-340 Gazelle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uh-1h-huey" class="md-nav__link">
+    <span class="md-ellipsis">
+      UH-1H Huey
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uh-1y-venom" class="md-nav__link">
+    <span class="md-ellipsis">
+      UH-1Y Venom
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uh-60-black-hawk" class="md-nav__link">
+    <span class="md-ellipsis">
+      UH-60 Black Hawk
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uh-80-ghost-hawk" class="md-nav__link">
+    <span class="md-ellipsis">
+      UH-80 Ghost Hawk
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-uav" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. UAV
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. UAV">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ar-2-darter-tayran" class="md-nav__link">
+    <span class="md-ellipsis">
+      AR-2 Darter / Tayran
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#al-6-pelican-jinaah" class="md-nav__link">
+    <span class="md-ellipsis">
+      AL-6 Pelican / Jinaah
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kh-3a-fenghuang" class="md-nav__link">
+    <span class="md-ellipsis">
+      KH-3A Fenghuang
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mq-4a-greyhawk" class="md-nav__link">
+    <span class="md-ellipsis">
+      MQ-4A Greyhawk
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mq-9-reaper" class="md-nav__link">
+    <span class="md-ellipsis">
+      MQ-9 Reaper
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mq-12-falcon" class="md-nav__link">
+    <span class="md-ellipsis">
+      MQ-12 Falcon
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pchela-1t-shmel-1-yak-061" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pchela-1T / SHMEL-1 / YAK-061
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pegasus-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pegasus II
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ucav-sentinel" class="md-nav__link">
+    <span class="md-ellipsis">
+      UCAV Sentinel
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-loadout" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Loadout
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Glossary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Anti Air</h1>
+
+<p class="center-text">TFO Anti-Air Guide (VAR)</p>
+
+<div class="image-container-logo">
+  <img src="/assets/images/AA/logo.png" width="100%" />
+</div>
+
+<p><br>
+<br></p>
+<h2 id="foreword">Foreword<a class="headerlink" href="#foreword" title="Permanent link">&para;</a></h2>
+<p>This guide aims to assist the Anti-Air role in <strong>aircraft recognition and identification</strong>. It provides information on current operational aircraft which may be observed in diverse <strong>Arma III missions</strong>.</p>
+<p>This guide is based on the following mods : <strong>CFP, CUP, RHS, AMF, 3CB Factions, HAFM</strong></p>
+<p>Source : <a href="https://irp.fas.org/doddir/army/fm3-01-80.pdf">IRP FAS DODDIR</a> (PDF file)</p>
+<p><font color="orange"></p>
+<p><u><strong>This does not replace actual Anti-Air training and does NOT grant the clearance for the role during missions.</strong></u></p>
+<p></font></p>
+<p>For the Anti-Air basic training, please find the appropriate modlist <a href="https://drive.google.com/uc?export=download&id=1y_SvIcEgMseyug2EafpCSe0hzwYigikR">here</a>.</p>
+<h2 id="1-aircraft-confusion">1. Aircraft confusion<a class="headerlink" href="#1-aircraft-confusion" title="Permanent link">&para;</a></h2>
+<p>Confusing one aircraft with another is a serious problem that must be dealt with <strong>Visual Aircraft Recognition</strong> training. The following are the four types of confusion that can occur, of which the first two are the most dangerous :</p>
+<p>When a <strong>friendly</strong> aircraft is recognized and identified as <strong>hostile</strong>. On a mission, this <strong>mistake could cause a <u>friendly fire</u></strong>.</p>
+<p>When a <strong>hostile</strong> aircraft is recognized and identified as <strong>friendly</strong>. During hostilities, this action might <strong>allow a hostile aircraft <u>entry into the defended area</u></strong>.</p>
+<p>When a <strong>hostile</strong> aircraft is recognized and identified as another hostile aircraft. Actions taken against hostile aircraft in combat are the same, so generally there is no impact. However, this situation could have an impact if <strong>friendly factions were flying some aircraft types that are normally considered hostile.</strong></p>
+<p>When a <strong>friendly</strong> aircraft is recognized and identified as another <strong>friendly</strong> aircraft. The actions taken in combat are the same, and there would be an impact only if a <strong>hostile faction was using an aircraft type that is normally considered friendly.</strong></p>
+<p>The human factor is a big part of aircraft confusion, it can include : lack of knowledge, lack of/or no communication, panic, trigger happiness…</p>
+<style>
+  .image-container {
+    box-sizing: border-box;
+    position: relative;
+    width: 49%;
+    float: left;
+  }
+
+    .image-container2 {
+    box-sizing: border-box;
+    position: relative;
+    width: 98%;
+    float: center;
+  }    
+
+  .image-container-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  .center-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+  }
+
+  .image-caption {
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 11px;
+  }
+
+    .image-caption2 {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 11px;
+  }
+
+
+  .image-row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    .side-image-cont {
+    position: relative;
+    float: left;
+    margin-right: 11px;
+  }  
+</style>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/uh-1y-venom.jpg" width="100%" />
+    <p class="image-caption">UH-1Y Venom</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/ch-146-griffon.jpg" width="100%" />
+    <p class="image-caption">CH-146 Griffon</p>
+  </div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/FA-181-Black-Wasp-II.jpg" width="100%" />
+    <p class="image-caption">F/A-181 Black Wasp II</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/MiG-29.jpg"  width="100%" />
+    <p class="image-caption">MiG-29</p> 
+  </div>
+</div>
+
+<h2 id="2-camouflages-and-markings">2. Camouflages and markings<a class="headerlink" href="#2-camouflages-and-markings" title="Permanent link">&para;</a></h2>
+<h3 id="camouflages">Camouflages<a class="headerlink" href="#camouflages" title="Permanent link">&para;</a></h3>
+<p>Combat aircraft usually have a <strong>camouflage finish</strong> with the upper and side surfaces painted in a <strong>disruptive pattern of two or more shades.</strong> This breaks up their form when viewed from above, and aids <strong>concealment when on the ground or flying low.</strong> The undersurfaces are <strong>painted in a light color to blend with the sky</strong> when viewed from below.
+The <strong>overall gray color</strong> of most fighter-interceptor aircraft is a camouflage scheme. Other aircraft may be painted a two-tone gray. </p>
+<p>Light aircrafts and helicopters will also be camouflage painted in <strong>most cases</strong>, but may be painted an <strong>overall drab color</strong>.</p>
+<p>Camouflage will vary between <strong>theaters of operation and/or Faction.</strong></p>
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/su-25-ru.jpg" width="100%" />
+    <p class="image-caption">Su-25 - RU</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-8-ana.jpg" width="100%" />
+    <p class="image-caption">Mi-8 - ANA</p>
+  </div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/l-39-ada.jpg" width="100%" />
+    <p class="image-caption">L-39 - ADA</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/nh90-haf.jpg" width="100%" />
+    <p class="image-caption">NH90 - HAF</p>
+  </div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/jas-39-aaf.jpg" width="100%" />
+    <p class="image-caption">JAS 39 - AAF</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-24-cdf.jpg" width="100%" />
+    <p class="image-caption">Mi-24 - CDF</p>
+  </div>
+</div>
+
+<h3 id="camouflages-hard-to-distinguish">Camouflages hard to distinguish<a class="headerlink" href="#camouflages-hard-to-distinguish" title="Permanent link">&para;</a></h3>
+<p>A small number of vehicles are used by a lot of <strong>different factions</strong>, especially aircrafts coming from <strong>USSR/Russia</strong> where the export of those was very important. This will <strong>increase the difficulty</strong> in the identification of the faction when both <strong>friendlies</strong> AND <strong>hostiles</strong> are using the same aircrafts with <strong>similar camouflages</strong>. </p>
+<p>Here are a few examples of different <strong>factions</strong> using <strong>similar</strong>, if not, <strong>same camo</strong>.</p>
+<h4 id="su-25">Su-25<a class="headerlink" href="#su-25" title="Permanent link">&para;</a></h4>
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/su-25-ru-2.jpg" width="100%" />
+    <p class="image-caption">RU</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/su-25-IA.jpg" width="100%" />
+    <p class="image-caption">IA</p>
+  </div>
+</div>
+
+<div class="image-container2">
+  <img src="/assets/images/AA/su-25-4x.jpg" width="100%" />
+
+  <div class="image-caption2" style="left: 12.5%;">RU</div>
+  <div class="image-caption2" style="left: 37.5%;">ChDSZ</div>
+  <div class="image-caption2" style="left: 60%;">chDKZ</div>
+  <div class="image-caption2" style="left: 83%;">chDZZ</div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/su-25-aa.jpg" width="100%" />
+    <p class="image-caption">AA</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/su-25-KDF.jpg" width="100%" />
+    <p class="image-caption">KDF</p>
+  </div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/su-25-iria.jpg" width="100%" />
+    <p class="image-caption">IA</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/su-25-SuAF.jpg" width="100%" />
+    <p class="image-caption">SuAF</p>
+  </div>
+</div>
+
+<h4 id="mi-8">Mi-8<a class="headerlink" href="#mi-8" title="Permanent link">&para;</a></h4>
+<div class="image-container2">
+  <img src="/assets/images/AA/mi-8-4x.jpg" width="100%" />
+
+  <div class="image-caption2" style="left: 12.5%;">GAF</div>
+  <div class="image-caption2" style="left: 34%;">ChDSZ</div>
+  <div class="image-caption2" style="left: 57%;">chDKZ</div>
+  <div class="image-caption2" style="left: 83%;">chDZZ</div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-8-acr.jpg" width="100%" />
+    <p class="image-caption">ACR</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-8-ru.jpg" width="100%" />
+    <p class="image-caption">RU</p>
+  </div>
+</div>
+
+<div class="image-container2">
+  <img src="/assets/images/AA/mi-8-4x-2.jpg" width="100%" />
+
+  <div class="image-caption2" style="left: 10%;">TNA</div>
+  <div class="image-caption2" style="left: 33%;">ANA</div>
+  <div class="image-caption2" style="left: 60%;">NA</div>
+  <div class="image-caption2" style="left: 83%;">IA</div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-8-ana2.jpg" width="100%" />
+    <p class="image-caption">ANA</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-8-ada.jpg" width="100%" />
+    <p class="image-caption">ADA</p>
+  </div>
+</div>
+
+<div class="image-container2">
+  <img src="/assets/images/AA/mi-8-4x-3.jpg" width="100%" />
+
+  <div class="image-caption2" style="left: 8%;">USSR</div>
+  <div class="image-caption2" style="left: 34%;">KDF</div>
+  <div class="image-caption2" style="left: 60%;">SLA</div>
+  <div class="image-caption2" style="left: 83%;">SAF</div>
+</div>
+
+<h4 id="mi-24">Mi-24<a class="headerlink" href="#mi-24" title="Permanent link">&para;</a></h4>
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-24-cdf-2.jpg" width="100%" />
+    <p class="image-caption">CDF</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-24-acr.jpg" width="100%" />
+    <p class="image-caption">ACR</p>
+  </div>
+</div>
+
+<div class="image-container2">
+  <img src="/assets/images/AA/mi-24-4x.jpg" width="100%" />
+
+  <div class="image-caption2" style="left: 12.5%;">TA</div>
+  <div class="image-caption2" style="left: 37.5%;">IA</div>
+  <div class="image-caption2" style="left: 60%;">NA</div>
+  <div class="image-caption2" style="left: 83%;">ANA</div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-24-ru.jpg" width="100%" />
+    <p class="image-caption">RU</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-24-gaf.jpg" width="100%" />
+    <p class="image-caption">GAF</p>
+  </div>
+</div>
+
+<div class="image-container2">
+  <img src="/assets/images/AA/mi-24-4x-2.jpg" width="100%" />
+
+  <div class="image-caption2" style="left: 12.5%;">Wagner</div>
+  <div class="image-caption2" style="left: 37.5%;">RU</div>
+  <div class="image-caption2" style="left: 60%;">KDF</div>
+  <div class="image-caption2" style="left: 83%;">AA</div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-24-suaf.jpg" width="100%" />
+    <p class="image-caption">SuAF</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/mi-24-ia.jpg" width="100%" />
+    <p class="image-caption">IA</p>
+  </div>
+</div>
+
+<h3 id="markings">Markings<a class="headerlink" href="#markings" title="Permanent link">&para;</a></h3>
+<p>Painted markings and annotations can also be found on aircraft and helicopters, primarily for identification, making the visual recognition easier. Aircraft markings can include :</p>
+<ul>
+<li><strong>Military aircraft insignia</strong>, applied to military aircraft to identify the nation or branch of military service.</li>
+<li><strong>Aircraft registration</strong>, unique alphanumeric string that identifies every aircraft.</li>
+<li><strong>Logo</strong>, emblem used by a company or organization.</li>
+<li><strong>Invasion stripes</strong>, alternating black and white bands painted on the fuselages and wings (WWII).</li>
+<li><strong>Art</strong>, decorative painting or design on the fuselage of an aircraft.</li>
+<li><strong>Tail code</strong>, help to identify the unit and base assignment.</li>
+</ul>
+<p>This <a href="https://en.wikipedia.org/wiki/List_of_air_forces">List of air forces</a> provides the markings used by each military organization.</p>
+<p>When <strong>multiple Factions</strong> use the same type of aircraft <em>(ex. MI-8: Russia, Chernarus, ANA, Takistan…)</em>, the markings <em>(if not the camo)</em> may be the <strong>only way to discern between friendly and enemy</strong> <em><a href="#camouflages-hard-to-distinguish">(see examples here)</a></em>.</p>
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/Livonianroundel.jpg" width="100%" />
+    <p class="image-caption">Livonian roundel</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/f-22-tail-code.jpg" width="100%" />
+    <p class="image-caption">F-22 tail code</p>
+  </div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/raf-fuselage-art.jpg" width="100%" />
+    <p class="image-caption">RAF fuselage art</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/idap-logo.jpg" width="100%" />
+    <p class="image-caption">IDAP logo</p>
+  </div>
+</div>
+
+<div class="image-row">
+  <div class="image-container">
+    <img src="/assets/images/AA/dc-3reg.jpg" width="100%" />
+    <p class="image-caption">DC-3 registration</p>
+  </div>
+
+  <div class="image-container">
+    <img src="/assets/images/AA/takistan-insignia.jpg" width="100%" />
+    <p class="image-caption">Takistan insignia</p>
+  </div>
+</div>
+
+<h2 id="3-manpads">3. MANPADS<a class="headerlink" href="#3-manpads" title="Permanent link">&para;</a></h2>
+<p>As infantry, you will be carrying <strong>MANPADS</strong> <em>(Man-Portable Air-Defense Systems)</em> on the field.
+Depending on the model, the minimum and maximum <strong>engagement range will differ</strong> <em>(see table below)</em>, but the <strong>locking system remains the same</strong> and usually is <strong>done automatically</strong> when <strong>aiming at a target</strong>.</p>
+<p>It is <strong>important to identify your target and his specifications before any engagement</strong>, and to <strong><u>communicate</u> with your squad leader</strong>, as targets like <strong><u>medevacs</u> are not allowed to be engaged</strong> for example, which could result in a <strong>war crime</strong>.</p>
+<p>It is <u><strong>your responsibility</strong></u> to <strong>obtain information from the Zeus</strong> about <strong>what aircraft friendly and hostile forces are using</strong> in the mission / campaign.</p>
+<p>Here a <strong>non-exhaustive</strong> list of MANPADS available in Arma III : </p>
+<p><img src="/assets/images/AA/manpads.jpg" width="650px"></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">N°</th>
+<th>Mod</th>
+<th>Weapon</th>
+<th>Min. range</th>
+<th>Max. range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>RHS AFRF</td>
+<td>9K38 Igla</td>
+<td>300 m</td>
+<td>4800 m</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>RHS USAF</td>
+<td>FIM-92F</td>
+<td>300 m</td>
+<td>6500 m</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>RHS USAF</td>
+<td>FGM-148 Javelin</td>
+<td>100 m</td>
+<td>2500 m</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>CUP</td>
+<td>Igla 9K38</td>
+<td>100 m</td>
+<td>5200 m</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>CUP</td>
+<td>9K32 Strela-2</td>
+<td>250 m</td>
+<td>3700 m</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>CUP</td>
+<td>FIM-92F Stinger  (single use)</td>
+<td>100 m</td>
+<td>6000 m</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td>CUP</td>
+<td>FGM-148 Javelin</td>
+<td>100 m</td>
+<td>2400 m</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td>Vanilla</td>
+<td>Titan MPRL</td>
+<td>100 m</td>
+<td>3500 m</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-aircrafts">4. Aircrafts<a class="headerlink" href="#4-aircrafts" title="Permanent link">&para;</a></h2>
+<pre><code>This chapter shows a non-exhaustive list of Aircrafts.
+</code></pre>
+<p>Aircrafts will perform a variety of missions: <strong>CAS, ground attack, transport, cargo, gunship</strong> and <strong>air superiority</strong>. </p>
+<p>One aircraft was selected from each group to be represented in this manual, as some have different variants available.</p>
+<p>For each, there is a picture, general data, user factions and game information.</p>
+<p>Pictures are <strong>not to scale</strong>.</p>
+<h3 id="a-7h-corsair-ii">A-7H Corsair II<a class="headerlink" href="#a-7h-corsair-ii" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/A-7H-Corsair-II.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : HAF</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : CAS, Ground Attack</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : HAFM</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="a-10-thunderbolt-ii-a-164-wipeout">A-10 Thunderbolt II / A-164 Wipeout<a class="headerlink" href="#a-10-thunderbolt-ii-a-164-wipeout" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/a-10-thunderbolt.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO, US Army</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : CAS, Ground Attack</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Vanilla, CUP, RHS USAF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="a-29-super-tucano">A-29 Super Tucano<a class="headerlink" href="#a-29-super-tucano" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/a-29-super-tucano-2.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/br.png"> Brazil</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : HIDF</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light attack</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : RHS GREF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="a330-airbus">A330 Airbus<a class="headerlink" href="#a330-airbus" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/a330-airbus.jpg" width="275px" />
+</div>
+
+<p><strong>Place of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/eu.png"> Europe</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : Civilian</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Airliner</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="aero-commander-500">Aero Commander 500<a class="headerlink" href="#aero-commander-500" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/aero-commander-500.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : ION, MDF, HIDF, Civilian</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light-transport</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : 3CB Factions</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="an-2-antonov">AN-2 Antonov<a class="headerlink" href="#an-2-antonov" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/an-2-antonov.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ussr.png"> USSR, <img style="vertical-align:middle" src="/assets/images/flags/pl.png"> Poland</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FIA, ADA, AA, ChDSZ, TNA, CDF, USSR, Civilian</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light-transport, Light attack</p>
+<p><strong>Armament</strong> : Usually none, Bombs, Rockets, Machine guns</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP, RHS GREF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="av-8b-harrier-ii">AV-8B Harrier II<a class="headerlink" href="#av-8b-harrier-ii" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/av-8b-harrier-ii.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA, <img style="vertical-align:middle" src="/assets/images/flags/gb.png"> UK</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity: 0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : USMC, BAF, AAF</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : VSTOL fighter, CAS</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets, Gun pods</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="boeing-737">Boeing 737<a class="headerlink" href="#boeing-737" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/boeing-737.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : Civilian</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Airliner</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="c-130j-super-hercules">C-130J Super Hercules<a class="headerlink" href="#c-130j-super-hercules" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/c130j.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : AAF, ANA, ADA, US Army, LDF, MDF, TNA, UN, BAF, HAF, IDF, USMC, USAF, IRIA, SuAF, RACS</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Transport, Cargo, Airdrop</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : AC-130 <em>(gunship)</em></p>
+<p><strong>DLC/mod</strong> : CUP, RHS USAF, HAFM</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="cessna-172-skyhawk">Cessna 172 Skyhawk<a class="headerlink" href="#cessna-172-skyhawk" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/cessna-172-skyhawk.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : ION, LFR, UN, Civilian</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light transport</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : T-41 Mescalero <em>(military version)</em></p>
+<p><strong>DLC/mod</strong> : CUP, 3CB Factions</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="cessna-400-cessna-ttx-caesar-btt">Cessna 400 / Cessna TTx / Caesar BTT<a class="headerlink" href="#cessna-400-cessna-ttx-caesar-btt" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/cessna-400.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : AAF, ADA, AA, FIA, ION, LDF, LFR, MDF, NAPA, UN, Syndikat, Civilian</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light transport</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : APEX DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="casa-cn-235">CASA CN-235<a class="headerlink" href="#casa-cn-235" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/casa-cn-235.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/es.png"> Spain, <img style="vertical-align:middle" src="/assets/images/flags/in.png"> Indonesia</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FRA</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Transport</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : AMF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="douglas-c-47-skytrain">Douglas C-47 Skytrain<a class="headerlink" href="#douglas-c-47-skytrain" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/douglas-c-47-skytrain.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : US Army, KRG, TNA, HIDF</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Transport, Cargo, Light attack</p>
+<p><strong>Armament</strong> : Usually none, Bombs</p>
+<p><strong>Variant</strong> : Douglas DC-3 <em>(civilian version)</em>, AC-47 <em>(gunship)</em>, Lisunov Li-2 <em>(USSR version)</em></p>
+<p><strong>DLC/mod</strong> : CUP, 3CB Factions</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="douglas-dc-3">Douglas DC-3<a class="headerlink" href="#douglas-dc-3" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/douglas-dc-3.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : Civilian</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Transport, Cargo</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : 
+- Douglas C-47 <em>(military version)</em>, AC-47 <em>(gunship)</em>,
+- Lisunov Li-2 <em>(USSR version)</em></p>
+<p><strong>DLC/mod</strong> : CUP, 3CB Factions</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="f-4-phantom-ii">F-4 PHANTOM II<a class="headerlink" href="#f-4-phantom-ii" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/f-4-phantom-ii.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : HAF</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Fighter-bomber, CAS</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : HAFM</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="f-16-fighting-falcon">F-16 FIGHTING FALCON<a class="headerlink" href="#f-16-fighting-falcon" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/f-16-fighting-falcon.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : HAF</p>
+<p><strong>Crew</strong> : 1,   F-16D : 2</p>
+<p><strong>Role</strong> : Multi-role ground-attack/fighter</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : F-16D Block 52+ <em>(two-seater version)</em></p>
+<p><strong>DLC/mod</strong> : HAFM</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="fa-181-black-wasp-ii">F/A-181 Black Wasp II<a class="headerlink" href="#fa-181-black-wasp-ii" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/fa-181-black-wasp-ii-2.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : Stealth, Multi-role/air-superiority fighter</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : Stealth</p>
+<p><strong>DLC/mod</strong> : Jets DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="f-22-raptor">F-22 Raptor<a class="headerlink" href="#f-22-raptor" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/f-22-raptor.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : USAF</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> :  Stealth, Air Superiority Fighter, ground-attack</p>
+<p><strong>Armament</strong> : Cannon, Missiles</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : RHS USAF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="f-35-joint-strike-fighter">F-35 Joint Strike Fighter<a class="headerlink" href="#f-35-joint-strike-fighter" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/f-35-joint-strike-fighter.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : US Army, USMC, BAF, IDF</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : VSTOL Fighter, Strike</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="jas-39-gripen-a-149-gryphon">JAS-39 Gripen / A-149 Gryphon<a class="headerlink" href="#jas-39-gripen-a-149-gryphon" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/jas-39-gripen.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/se.png"> Sweden</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : HIL, AAF, LDF, RACS</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : Interceptor, Ground attack</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Vanilla</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="l-39-albatros-l-159-alca-a-143-buzzard">L-39 Albatros / L-159 ALCA / A-143 Buzzard<a class="headerlink" href="#l-39-albatros-l-159-alca-a-143-buzzard" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/l-39-albatros.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/cz.png"> Czechoslovakia</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : AAF, ANA, ADA, KRG, LDF, TNA, ACR, CDF, SAA, TA</p>
+<p><strong>Crew</strong> : 1,   L-39ZA : 2</p>
+<p><strong>Role</strong> : Light attack</p>
+<p><strong>Armament</strong> : Bombs, Missiles, Rockets, Gun pods</p>
+<p><strong>Variant</strong> : L-39ZA <em>(two-seater version)</em></p>
+<p><strong>DLC/mod</strong> : CUP, RHS GREF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="md-454-mystere">MD-454 Mystère<a class="headerlink" href="#md-454-mystere" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/md-454-mystere.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/fr.png"> France</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : MDF, HIDF</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : Fighter-bomber</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : 3CB Factions</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mig-21-fishbed">MiG-21 FISHBED<a class="headerlink" href="#mig-21-fishbed" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mig-21-fishbed.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ussr.png"> USSR</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : GAF, KDF, LDF, TNA, USSR, CDF, AA</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : Ground-attack, Interceptor</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : 3CB Factions</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mig-29-fulcrum">MiG-29 Fulcrum<a class="headerlink" href="#mig-29-fulcrum" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mig-29-fulcrum.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ussr.png"> USSR</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : ADA, AA, GAF, KDF, LDF, CDF, AAF, USSR, TNA, RU, SAF</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : Ground attack, Counter air fighter</p>
+<p><strong>Armament</strong> : Cannon, Missiles, Rockets</p>
+<p><strong>Variant</strong> : L-18 <em>(Serbian version)</em></p>
+<p><strong>DLC/mod</strong> : RHS AFRF, RHS SAF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mirage-2000">Mirage 2000<a class="headerlink" href="#mirage-2000" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mirage-2000.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/fr.png"> France</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FRA, HAF</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : Fighter-bomber, Interceptor</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : Mirage 2000EG <em>(Greek export version)</em></p>
+<p><strong>DLC/mod</strong> : AMF, HAFM</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mv-22-osprey">MV-22 Osprey<a class="headerlink" href="#mv-22-osprey" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mv-22-osprey.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : USMC</p>
+<p><strong>Crew</strong> : 2,   3 with ramp gun</p>
+<p><strong>Role</strong> : VSTOL transport, Cargo</p>
+<p><strong>Armament</strong> : None, Ramp gun</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="rafale-c">Rafale C<a class="headerlink" href="#rafale-c" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/rafale-c.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/fr.png"> France</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FRA</p>
+<p><strong>Crew</strong> : 1,   Rafale B : 2</p>
+<p><strong>Role</strong> : Multi-role fighter</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles</p>
+<p><strong>Variant</strong> : M <em>(carrier version)</em>, B <em>(two-seater version)</em></p>
+<p><strong>DLC/mod</strong> : AMF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="su-25-frogfoot">Su-25 Frogfoot<a class="headerlink" href="#su-25-frogfoot" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/su-25-frogfoot.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ussr.png"> USSR</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : ADA, AA, ChDSZ, GAF, KDF, LDF, TNA, CDF, CAF, CSAT, AAF, USSR, IA, KPA, RU, SLA, SuAF, TA, SAA</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : CAS, ground-attack</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP, RHS AFRF, RHS GREF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="su-34-fullback">Su-34 Fullback<a class="headerlink" href="#su-34-fullback" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/su-34-fullback.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ussr.png"> USSR</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : CDF, CSAT, RU, SLA, AAF</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Multi-role/air-superiority fighter</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="t-41-mescalero">T-41 Mescalero<a class="headerlink" href="#t-41-mescalero" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/t-41-mescalero.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : AAF, Us Army, FIA, ION, KRG, MDF, TNA, UN, HIL, LDF, RACS</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light transport, Light attack</p>
+<p><strong>Armament</strong> : Bombs, Rockets, Machine guns</p>
+<p><strong>Variant</strong> : Cessna 172 Skyhawk <em>(civilian/transport version)</em></p>
+<p><strong>DLC/mod</strong> : CUP, 3CB Factions</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="t-50-su-57-felon">T-50 (Su-57) Felon<a class="headerlink" href="#t-50-su-57-felon" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/t-50-felon.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ru.png"> Russia</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : RU</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : Stealth, Multi-role fighter</p>
+<p><strong>Armament</strong> : Cannon, Missiles</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : RHS AFRF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="to-201-shikra">To-201 Shikra<a class="headerlink" href="#to-201-shikra" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/to-201-shikra.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ru.png"> Russia, <img style="vertical-align:middle" src="/assets/images/flags/csat.png"> CSAT</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : CSAT</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : Stealth, Multi-role/air-superiority fighter</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles</p>
+<p><strong>Variant</strong> : Stealth</p>
+<p><strong>DLC/mod</strong> : Jets DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="tu95-bear">Tu–95 BEAR<a class="headerlink" href="#tu95-bear" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/tu-95-bear.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ussr.png"> USSR</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : RU, USSR</p>
+<p><strong>Crew</strong> : 7</p>
+<p><strong>Role</strong> : Strategic bomber</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : RHS AFRF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="v-44x-blackfish">V-44X Blackfish<a class="headerlink" href="#v-44x-blackfish" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/v-44x-blackfish.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : VSTOL transport</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : Vehicle transport, Gunship</p>
+<p><strong>DLC/mod</strong> : Apex DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="y-32-wian">Y-32 Wi’an<a class="headerlink" href="#y-32-wian" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/y-32-wian.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/csat.png"> CSAT</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : CSAT</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : VSTOL transport, Gunship</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : Vehicle transport</p>
+<p><strong>DLC/mod</strong> : Apex DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="yak-130-to-199-neophron">Yak-130 / To-199 Neophron<a class="headerlink" href="#yak-130-to-199-neophron" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/yak-130-neophron.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/csat.png"> CSAT</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : CSAT, SAA</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : CAS, Ground-attack</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Vanilla</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h2 id="5-helicopters">5. Helicopters<a class="headerlink" href="#5-helicopters" title="Permanent link">&para;</a></h2>
+<pre><code>This chapter shows a non-exhaustive list of Helicopters.
+</code></pre>
+<p>Aircrafts will perform a variety of missions: transport, cargo, attack, medevac, rescue and utility. </p>
+<p>One helicopter was selected from each group to be represented in this manual, as some have different variants available.</p>
+<p>For each, there is a picture, general data, user factions and game information.</p>
+<p>Pictures are <strong>not to scale</strong>.</p>
+<h3 id="ah-1z-viper">AH-1Z Viper<a class="headerlink" href="#ah-1z-viper" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ah-1z-viper.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : USMC, AAF</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Attack helicopter</p>
+<p><strong>Armament</strong> : Cannon, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP, RHS USAF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ah-6m-little-bird-ah-9-pawnee">AH-6M Little Bird / AH-9 Pawnee<a class="headerlink" href="#ah-6m-little-bird-ah-9-pawnee" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ah-6m-little-bird.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO, US Army, KeDF, ION, IDF, RACS, Syndikat</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light attack</p>
+<p><strong>Armament</strong> : Missiles, Rockets, Gun pods, Machine guns</p>
+<p><strong>Variant</strong> : MH-6M / MH-9 <em>(transport version)</em>, MD 500 / M-900 <em>(vanilla version)</em></p>
+<p><strong>DLC/mod</strong> : Vanilla, CUP, RHS USAF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ah-64-ah1-apache">AH-64 / AH1 Apache<a class="headerlink" href="#ah-64-ah1-apache" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ah-64-apache.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : US Army, BAF, IDF</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Attack helicopter</p>
+<p><strong>Armament</strong> : Cannon, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP, RHS USAF, HAFM</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="as532-cougar">AS532 Cougar<a class="headerlink" href="#as532-cougar" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/as532-cougar.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/fr.png"> France</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FRA</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Transport</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : AMF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="as565-panther">AS565 Panther<a class="headerlink" href="#as565-panther" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/as565-panther.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/fr.png"> France</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FRA</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light transport</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : AMF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="aw159-wildcat-wy-55-hellcat">AW159 Wildcat / WY-55 Hellcat<a class="headerlink" href="#aw159-wildcat-wy-55-hellcat" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/aw-159-wildcat.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/br.png"> Brazil</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : BAF, HIL, AAF</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light attack, Light transport</p>
+<p><strong>Armament</strong> : None, Missiles, Rockets, Gun pods, Machine guns</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Vanilla, CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="bell-412">Bell 412<a class="headerlink" href="#bell-412" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/bell-412.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : APD, ION, LFR, Civilian, IDAP</p>
+<p><strong>Crew</strong> : 2, 3 with commander</p>
+<p><strong>Role</strong> : Transport, Medevac, Rescue, VIP</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : CH-146 Griffon <em>(military version)</em></p>
+<p><strong>DLC/mod</strong> : CUP, 3CB Factions</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ch-47-hc-4-chinook">CH-47 / HC-4 Chinook<a class="headerlink" href="#ch-47-hc-4-chinook" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ch-47-chinook.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO, US Army, BAF, HAF, HIL, RACS</p>
+<p><strong>Crew</strong> : 4</p>
+<p><strong>Role</strong> : Transport, Cargo</p>
+<p><strong>Armament</strong> : Machine guns</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP, RHS USAF, HAFM</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ch-47i-chinook-ch-67-huron">CH-47I Chinook / CH-67 Huron<a class="headerlink" href="#ch-47i-chinook-ch-67-huron" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ch-47l-chinook.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO</p>
+<p><strong>Crew</strong> : 2, 4 with gunners</p>
+<p><strong>Role</strong> : Transport, Cargo</p>
+<p><strong>Armament</strong> : None, Machine guns</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Helicopters DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ch-53e-super-stallion">CH-53E Super Stallion<a class="headerlink" href="#ch-53e-super-stallion" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ch-53e-super-stallion.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : US Army, GER, IDF, USMC</p>
+<p><strong>Crew</strong> : 2, GAU-21 : 3</p>
+<p><strong>Role</strong> : Transport, Cargo</p>
+<p><strong>Armament</strong> : None, Ramp gun</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP, RHS USAF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ch-146-griffon">CH-146 Griffon<a class="headerlink" href="#ch-146-griffon" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ch-146-griffon-2.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA, <img style="vertical-align:middle" src="/assets/images/flags/ca.png"> Canada</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : AAF, ION, KRG, MDF, TNA, UN, CDF, HIDF, HIL, FIA</p>
+<p><strong>Crew</strong> : 2, 3 with commander, 5 with gunners</p>
+<p><strong>Role</strong> : Light attack, Transport, Medevac</p>
+<p><strong>Armament</strong> : Missiles, Rockets, Gun pods, Machine guns</p>
+<p><strong>Variant</strong> : Bell 412 <em>(utility version)</em></p>
+<p><strong>DLC/mod</strong> : CUP, 3CB Factions</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ec665-tiger">EC665 Tiger<a class="headerlink" href="#ec665-tiger" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ec665-tiger-2.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/fr.png"> France, <img style="vertical-align:middle" src="/assets/images/flags/de.png"> Germany</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FRA</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Attack helicopter</p>
+<p><strong>Armament</strong> : Cannon, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : AMF, R3F</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="h225m-caracal">H225M Caracal<a class="headerlink" href="#h225m-caracal" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/h225m-caracal2.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/fr.png"> France</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FRA</p>
+<p><strong>Crew</strong> : 4</p>
+<p><strong>Role</strong> : Transport, Cargo</p>
+<p><strong>Armament</strong> : Machine guns</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : AMF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ka-50-black-shark">Ka-50 Black Shark<a class="headerlink" href="#ka-50-black-shark" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ka-50-black-shark.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ussr.png"> USSR</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : RU, SLA</p>
+<p><strong>Crew</strong> : 1</p>
+<p><strong>Role</strong> : Attack helicopter</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets, Gun pods</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ka-52-alligator">Ka-52 Alligator<a class="headerlink" href="#ka-52-alligator" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ka-52-alligator.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ru.png"> Russia</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : RU</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Attack helicopter</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets, Gun pods</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP, RHS AFRF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ka-60-kasatka">Ka-60 Kasatka<a class="headerlink" href="#ka-60-kasatka" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ka-60-kasatka.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ru.png"> Russia</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : CSAT, RU, AAF, ION, KeDF </p>
+<p><strong>Crew</strong> : 2, 3 with gunner</p>
+<p><strong>Role</strong> : Transport, Light attack</p>
+<p><strong>Armament</strong> : None, Missiles, Rockets, Gun pods, Machine guns</p>
+<p><strong>Variant</strong> : Harbin ZB9 <em>(Chinese version)</em></p>
+<p><strong>DLC/mod</strong> : Vanilla, CUP, RHS AFRF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="merlin-hc3-eh101-ch-49-mohawk">Merlin HC3 / EH101 /  CH-49 Mohawk<a class="headerlink" href="#merlin-hc3-eh101-ch-49-mohawk" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/merlin-hc3.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/it.png"> Italy</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : BAF, ION, AAF, Civilian, IDAP</p>
+<p><strong>Crew</strong> : 2, 3 with ramp gun, 4 with rescue crew</p>
+<p><strong>Role</strong> : Transport, Medevac, VIP, Rescue</p>
+<p><strong>Armament</strong> : None, Ramp gun</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Vanilla, CUP, RHS USAF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mh-47e-hc-6-chinook">MH-47E / HC-6 Chinook<a class="headerlink" href="#mh-47e-hc-6-chinook" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mh-47-chinook.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : US Army, BAF</p>
+<p><strong>Crew</strong> : 4</p>
+<p><strong>Role</strong> : Transport, Cargo</p>
+<p><strong>Armament</strong> : Machine guns</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mi-6a-hook">Mi-6A Hook<a class="headerlink" href="#mi-6a-hook" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mi-6a-hook.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ussr.png"> USSR</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : CDF, CSAT, CMRS, RU, SLA, TA, UN, Civilian</p>
+<p><strong>Crew</strong> : 5</p>
+<p><strong>Role</strong> : Transport, Cargo</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mi-8-hip">Mi-8 Hip<a class="headerlink" href="#mi-8-hip" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mi-8-hip.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ussr.png"> USSR</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : ANA, ADA, AA, ChDZS, CPD, GAF, KDF, LDF, TNA, UN, AfghA, CDF, CAF, NA, CIA, AAF, ChDKZ, USSR, CMRS, IA, IRIA, KPA, Wagner, Russia, SLA, SAF, SuAF, ChDZZ, UPDF, Civilian</p>
+<p><strong>Crew</strong> : 2, 4 with Gunners</p>
+<p><strong>Role</strong> : Transport, Cargo, Light attack</p>
+<p><strong>Armament</strong> : None, Rockets, Machine guns</p>
+<p><strong>Variant</strong> : HT-40 / HT48 <em>(Serbian version)</em>, Mi-17 <em>(export version)</em></p>
+<p><strong>DLC/mod</strong> : CUP, RHS AFRF, RHS GRF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mi-24-mi-35-hind">Mi-24 / Mi-35 Hind<a class="headerlink" href="#mi-24-mi-35-hind" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mi-24-hind.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ussr.png"> USSR, <img style="vertical-align:middle" src="/assets/images/flags/za.png"> South Africa (Mi-24G) </p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : ANA, ADA, AA, GAF, KDF, LDF, TNA, UN, AfghA, CDF, CAF, IA, NA, UPDF, CSAT, AAF, USSR, RU, KPA, Wagner, SLA, SuAF, TA, SSPDF, ACR, MGF, ION</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light transport, Attack helicopter</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets</p>
+<p><strong>Variant</strong> : P <em>(fix 20mm cannon)</em>, D / V <em>(12.7mm turret)</em>, G / Mk.III / Mk.IV <em>(20mm turret)</em>, Mi-35 <em>(export version)</em></p>
+<p><strong>DLC/mod</strong> : CUP, RHS AFRF, RHS GREF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mi-28n-havok">Mi-28N Havok<a class="headerlink" href="#mi-28n-havok" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mi-28n-havok.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ru.png"> Russia</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : RU</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Attack helicopter</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets, Gun pods</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : RHS AFRF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mi-48-kajman">Mi-48 Kajman<a class="headerlink" href="#mi-48-kajman" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mi-48-kajman.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/ru.png"> Russia, <img style="vertical-align:middle" src="/assets/images/flags/csat.png"> CSAT</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : CSAT</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light transport, Attack helicopter</p>
+<p><strong>Armament</strong> : Cannon, Bombs, Missiles, Rockets, Gun pods</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Vanilla</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mi-290-taru">Mi-290 Taru<a class="headerlink" href="#mi-290-taru" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mi-290-taru.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/csat.png"> CSAT</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : CSAT</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Transport, Cargo, Medevac, Utility</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Helicopters DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="nh90-caiman">NH90 Caïman<a class="headerlink" href="#nh90-caiman" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/nh90-caiman.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/fr.png"> France</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FRA, HAF, FIN</p>
+<p><strong>Crew</strong> : 2, 4 with gunners</p>
+<p><strong>Role</strong> : Transport, Cargo</p>
+<p><strong>Armament</strong> : None, Machine guns</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : AMF, HAFM</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="oh-58d-kiowa">OH-58D Kiowa<a class="headerlink" href="#oh-58d-kiowa" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/oh-58d-kiowa.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : HAF</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light attack</p>
+<p><strong>Armament</strong> : Cannon, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : HAFM</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="rah-66-comanche-ah-99-blackfoot">RAH-66 Comanche / AH-99 Blackfoot<a class="headerlink" href="#rah-66-comanche-ah-99-blackfoot" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/rah-66-comanche.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> :  <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Attack helicopter</p>
+<p><strong>Armament</strong> : Cannon, Missiles, Rockets</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Vanilla</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="sa-330-puma">SA-330 Puma<a class="headerlink" href="#sa-330-puma" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/sa-330-puma.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/fr.png"> France, <img style="vertical-align:middle" src="/assets/images/flags/gb.png"> UK</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : BAF, KeDF, MGF, RACS</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Transport</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="sa-340-gazelle">SA-340 Gazelle<a class="headerlink" href="#sa-340-gazelle" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/sa-340-gazelle.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/fr.png"> France, <img style="vertical-align:middle" src="/assets/images/flags/gb.png"> UK</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FRA</p>
+<p><strong>Crew</strong> : 2</p>
+<p><strong>Role</strong> : Light attack</p>
+<p><strong>Armament</strong> : Rockets, Gun pods</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : AMF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="uh-1h-huey">UH-1H Huey<a class="headerlink" href="#uh-1h-huey" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/uh-1h-huey.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : FIA, AAF, ANA, ADA, US Army, ION, KRG, MDF, TNA, UN, GER, HIDF, CIA, SLA, TA, CFD, RACS, IDAP</p>
+<p><strong>Crew</strong> : 2, 4 with door gunners</p>
+<p><strong>Role</strong> : Transport, Light attack, Medevac</p>
+<p><strong>Armament</strong> : None, Rockets, Machine guns</p>
+<p><strong>Variant</strong> : Unarmed, Door gunners, Rocket pods</p>
+<p><strong>DLC/mod</strong> : CUP, RHS GREF, 3CB Factions</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="uh-1y-venom">UH-1Y Venom<a class="headerlink" href="#uh-1y-venom" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/uh-1y-venom-2.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : USMC</p>
+<p><strong>Crew</strong> : 2, 4 with door gunners</p>
+<p><strong>Role</strong> : Transport, Light attack, Medevac</p>
+<p><strong>Armament</strong> : None, Rockets, Machine guns</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP, RHS USAF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="uh-60-black-hawk">UH-60 Black Hawk<a class="headerlink" href="#uh-60-black-hawk" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/uh-60-black-hawk.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : AAF, ANA, US Army, AfghA, IDF, RACS</p>
+<p><strong>Crew</strong> : 2, 4 with gunners</p>
+<p><strong>Role</strong> : Transport, Medevac</p>
+<p><strong>Armament</strong> : None, Rockets, Machine guns</p>
+<p><strong>Variant</strong> : MH-60 <em>(navy version)</em></p>
+<p><strong>DLC/mod</strong> : CUP, RHS USAF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="uh-80-ghost-hawk">UH-80 Ghost Hawk<a class="headerlink" href="#uh-80-ghost-hawk" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/uh-80-ghost-hawk.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> :  <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO, CTRG</p>
+<p><strong>Crew</strong> : 4</p>
+<p><strong>Role</strong> : Stealth, Transport</p>
+<p><strong>Armament</strong> : Machine guns</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Vanilla</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h2 id="6-uav">6. UAV<a class="headerlink" href="#6-uav" title="Permanent link">&para;</a></h2>
+<pre><code>This chapter shows a non-exhaustive list of Unmanned Aerial Vehicles.
+</code></pre>
+<p>UAVs will perform a variety of missions: reconnaissance, surveillance, intelligence, targeting, and acquisition. </p>
+<p>One UAV was selected from each group to be represented in this manual.</p>
+<p>For each, there is a picture, general data, user factions and game information.</p>
+<p>Pictures are <strong>not to scale</strong>.</p>
+<h3 id="ar-2-darter-tayran">AR-2 Darter / Tayran<a class="headerlink" href="#ar-2-darter-tayran" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ar-2-darter.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/unk.png"> Unknown</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO, CSAT, AAF, LDF, IDAP</p>
+<p><strong>Crew</strong> : 0</p>
+<p><strong>Role</strong> : Reconnaissance, Surveillance, Laser targeting</p>
+<p><strong>Armament</strong> : Laser Designator</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Vanilla</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="al-6-pelican-jinaah">AL-6 Pelican / Jinaah<a class="headerlink" href="#al-6-pelican-jinaah" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/al-6-pelican.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/unk.png"> Unknown</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO, CSAT, AAF, LDF, Civilian, IDAP</p>
+<p><strong>Crew</strong> : 0</p>
+<p><strong>Role</strong> : Supply transport</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : Medical, Demining</p>
+<p><strong>DLC/mod</strong> : Laws of War DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="kh-3a-fenghuang">KH-3A Fenghuang<a class="headerlink" href="#kh-3a-fenghuang" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/kh-3a-fenghuang.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/cn.png"> China</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : CSAT</p>
+<p><strong>Crew</strong> : 0</p>
+<p><strong>Role</strong> : Observation, Laser targeting, Air-to-ground fire support</p>
+<p><strong>Armament</strong> : Missiles, Laser Designator</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Apex DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mq-4a-greyhawk">MQ-4A Greyhawk<a class="headerlink" href="#mq-4a-greyhawk" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mq-4a-greyhawk.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO, CSAT, AAF</p>
+<p><strong>Crew</strong> : 0</p>
+<p><strong>Role</strong> : Observation, Laser targeting, Air-to-ground fire support</p>
+<p><strong>Armament</strong> : Bombs, Missiles, Laser Designator</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Vanilla</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mq-9-reaper">MQ-9 Reaper<a class="headerlink" href="#mq-9-reaper" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mq-9-reaper.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : US Army, IDF, FRA</p>
+<p><strong>Crew</strong> : 0</p>
+<p><strong>Role</strong> : Observation, Laser targeting, Air-to-ground fire support</p>
+<p><strong>Armament</strong> : Bombs, Missiles, Laser Designator</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP, AMF, 3CB BAF, USAF Mod</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="mq-12-falcon">MQ-12 Falcon<a class="headerlink" href="#mq-12-falcon" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/mq-12-falcon.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO</p>
+<p><strong>Crew</strong> : 0</p>
+<p><strong>Role</strong> : Observation, Laser targeting, Air-to-ground fire support</p>
+<p><strong>Armament</strong> : Missiles, Rockets, Laser Designator</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Apex DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="pchela-1t-shmel-1-yak-061">Pchela-1T / SHMEL-1 / YAK-061<a class="headerlink" href="#pchela-1t-shmel-1-yak-061" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/pchela-1t.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/cis.png"> CIS</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : CDF, Russia, Wagner</p>
+<p><strong>Crew</strong> : 0</p>
+<p><strong>Role</strong> : Remote terrain observation</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : CUP, RHS AFRF</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="pegasus-ii">Pegasus II<a class="headerlink" href="#pegasus-ii" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/pegasus-ii.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/gr.png"> Greece</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : HAF</p>
+<p><strong>Crew</strong> : 0</p>
+<p><strong>Role</strong> : Reconnaissance, Surveillance</p>
+<p><strong>Armament</strong> : None</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : HAFM</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h3 id="ucav-sentinel">UCAV Sentinel<a class="headerlink" href="#ucav-sentinel" title="Permanent link">&para;</a></h3>
+<div class="side-image-cont">
+  <img src="/assets/images/AA/ucav-sentinel.jpg" width="275px" />
+</div>
+
+<p><strong>Country of origin</strong> : <img style="vertical-align:middle" src="/assets/images/flags/us.png"> USA</p>
+<p><strong>Side</strong> : <img style="vertical-align:middle; opacity:1;" src="/assets/images/AA/nato.png" alt="BLUFOR">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/opfor.png" alt="OPFOR"> <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/indep.png" alt="INDEP">  <img style="vertical-align:middle; opacity:0.2;" src="/assets/images/AA/civ.png" alt="CIV"> </p>
+<p><strong>Faction</strong> : NATO</p>
+<p><strong>Crew</strong> : 0</p>
+<p><strong>Role</strong> : Observation, Laser targeting, Close air support, SEAD</p>
+<p><strong>Armament</strong> : Bombs, Missiles, Laser Designator</p>
+<p><strong>Variant</strong> : None</p>
+<p><strong>DLC/mod</strong> : Jets DLC</p>
+<p><br>
+<br>
+<br>
+<br></p>
+<h2 id="7-loadout">7. Loadout<a class="headerlink" href="#7-loadout" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Contents</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primary weapon</td>
+<td>SMG/Carbine</td>
+<td></td>
+</tr>
+<tr>
+<td>Primary ammo</td>
+<td>SMG mag x 8</td>
+<td></td>
+</tr>
+<tr>
+<td>Optic magnification</td>
+<td>1x-2x</td>
+<td></td>
+</tr>
+<tr>
+<td>Launcher</td>
+<td>MANPAD</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Throwables/explosives</td>
+<td><strong><em>Day only</em></strong></td>
+<td><strong><em>Night Only</em></strong></td>
+</tr>
+<tr>
+<td></td>
+<td>2x Frag</td>
+<td>2x Frag</td>
+</tr>
+<tr>
+<td></td>
+<td>3x white smokes</td>
+<td>2-4x green Chemlight</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Medical</td>
+<td>15x Packing</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>4x Tourniquets</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1x Painkillers</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Radio</td>
+<td>AN-343</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Misc</td>
+<td>2 Cable ties</td>
+<td>IR strobe</td>
+</tr>
+<tr>
+<td></td>
+<td>Earplugs</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Entrenchment tool</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="8-glossary">8. Glossary<a class="headerlink" href="#8-glossary" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Factions :</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>AA</strong></td>
+<td>Ardistan Army</td>
+<td><strong>IDF</strong></td>
+<td>Israeli Defence Forces</td>
+</tr>
+<tr>
+<td><strong>AAF</strong></td>
+<td>Altis Armed Forces</td>
+<td><strong>ION</strong></td>
+<td>ION Services</td>
+</tr>
+<tr>
+<td><strong>ACR</strong></td>
+<td>Army of the Czech Rep.</td>
+<td><strong>IRIA</strong></td>
+<td>Islamic Republic of Iran Army</td>
+</tr>
+<tr>
+<td><strong>AD</strong></td>
+<td>African Desert Army</td>
+<td><strong>KDF</strong></td>
+<td>Kolgujev Defence Forces</td>
+</tr>
+<tr>
+<td><strong>AfghA</strong></td>
+<td>Afghanistan Army</td>
+<td><strong>KeDF</strong></td>
+<td>Kenyan Defense Forces</td>
+</tr>
+<tr>
+<td><strong>ANA</strong></td>
+<td>Afghanistan National Army</td>
+<td><strong>KPA</strong></td>
+<td>Korean People’s Army</td>
+</tr>
+<tr>
+<td><strong>APD</strong></td>
+<td>Altis Police Department</td>
+<td><strong>KRG</strong></td>
+<td>Karzeghistan Royal Guard</td>
+</tr>
+<tr>
+<td><strong>BAF</strong></td>
+<td>British Armed Forces</td>
+<td><strong>LDF</strong></td>
+<td>Livonian Defence Forces</td>
+</tr>
+<tr>
+<td><strong>CAF</strong></td>
+<td>Chadian Armed Forces</td>
+<td><strong>LFR</strong></td>
+<td>Livonian Forest Rangers</td>
+</tr>
+<tr>
+<td><strong>CDF</strong></td>
+<td>Chernarus Defence Forces</td>
+<td><strong>MDF</strong></td>
+<td>Malden Defence Forces</td>
+</tr>
+<tr>
+<td><strong>ChDKZ</strong></td>
+<td>Chernarussian Movement of the Red Star</td>
+<td><strong>MGF</strong></td>
+<td>Malian Government Forces</td>
+</tr>
+<tr>
+<td><strong>ChDSZ</strong></td>
+<td>Chernarussian Movement of the Blue Star</td>
+<td><strong>NA</strong></td>
+<td>Nigerian Army</td>
+</tr>
+<tr>
+<td><strong>ChDZZ</strong></td>
+<td>Chernarussian Movement of the Green Star</td>
+<td><strong>NAPA</strong></td>
+<td>National Party</td>
+</tr>
+<tr>
+<td><strong>CIA</strong></td>
+<td>Central Intelligence Agency</td>
+<td><strong>NATO</strong></td>
+<td>North Atlantic Treaty Organization</td>
+</tr>
+<tr>
+<td><strong>CIS</strong></td>
+<td>Commonwealth of Independent States</td>
+<td><strong>RACS</strong></td>
+<td>Royal Army Corps of Sahrani</td>
+</tr>
+<tr>
+<td><strong>CMRS</strong></td>
+<td>Chernarussian Movement of the Red Star</td>
+<td><strong>RU</strong></td>
+<td>Russian Army</td>
+</tr>
+<tr>
+<td><strong>CPD</strong></td>
+<td>Chernarus Police Department</td>
+<td><strong>SAA</strong></td>
+<td>Syrian Arab Army</td>
+</tr>
+<tr>
+<td><strong>CSAT</strong></td>
+<td>Canton Protocol Strategic Alliance Treaty</td>
+<td><strong>SAF</strong></td>
+<td>Serbian Armed Forces</td>
+</tr>
+<tr>
+<td><strong>CTRG</strong></td>
+<td>Combat Technology Research Group</td>
+<td><strong>SuAF</strong></td>
+<td>Sudanese Armed Forces</td>
+</tr>
+<tr>
+<td><strong>FIA</strong></td>
+<td>Freedom and Independence Army</td>
+<td><strong>SLA</strong></td>
+<td>Sahrani Liberation Army</td>
+</tr>
+<tr>
+<td><strong>FIN</strong></td>
+<td>Finland Army</td>
+<td><strong>SSPDF</strong></td>
+<td>South Sudan People’s Defence Forces</td>
+</tr>
+<tr>
+<td><strong>FRA</strong></td>
+<td>French Army</td>
+<td><strong>TA</strong></td>
+<td>Takistan Army</td>
+</tr>
+<tr>
+<td><strong>GAF</strong></td>
+<td>Grozovia Armed Forces</td>
+<td><strong>TNA</strong></td>
+<td>Takistan National Army</td>
+</tr>
+<tr>
+<td><strong>GER</strong></td>
+<td>German Army</td>
+<td><strong>UN</strong></td>
+<td>United Nations</td>
+</tr>
+<tr>
+<td><strong>HAF</strong></td>
+<td>Hellenic Armed Forces</td>
+<td><strong>UPDF</strong></td>
+<td>Uganda People’s Defence Force</td>
+</tr>
+<tr>
+<td><strong>HIDF</strong></td>
+<td>Horizon Islands Defence Forces</td>
+<td><strong>USAF</strong></td>
+<td>United States Air Force</td>
+</tr>
+<tr>
+<td><strong>HIL</strong></td>
+<td>Horizon Islands Legion</td>
+<td><strong>US Army</strong></td>
+<td>United States Army</td>
+</tr>
+<tr>
+<td><strong>IA</strong></td>
+<td>Iraqi Army (Hussein Regime)</td>
+<td><strong>USMC</strong></td>
+<td>United States Marine Corps</td>
+</tr>
+<tr>
+<td><strong>IDAP</strong></td>
+<td>International Development &amp; Aid Project</td>
+<td><strong>USSR</strong></td>
+<td>Union of Soviet Socialist Republics</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Mods:</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>3CB</strong></td>
+<td>3 Commando Brigade</td>
+<td><strong>GREF</strong></td>
+<td>(RHS) Green Forces</td>
+</tr>
+<tr>
+<td><strong>AFRF</strong></td>
+<td>(RHS) Armed Forces of the Russian Federation</td>
+<td><strong>HAFM</strong></td>
+<td>Hellenic Armed Forces Mod</td>
+</tr>
+<tr>
+<td><strong>AMF</strong></td>
+<td>Arma Mod France</td>
+<td><strong>RHS</strong></td>
+<td>Red Hammer Studio</td>
+</tr>
+<tr>
+<td><strong>BAF</strong></td>
+<td>(3CB) British Armed Forces</td>
+<td><strong>SAF</strong></td>
+<td>(RHS) Serbian Armed Forces</td>
+</tr>
+<tr>
+<td><strong>CFP</strong></td>
+<td>Community Faction Project</td>
+<td><strong>USAF</strong></td>
+<td>(RHS) United States Armed Forces</td>
+</tr>
+<tr>
+<td><strong>CUP</strong></td>
+<td>Community Upgrade Project</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2016 - 2024 Task Force Omega - <i>Together we prevail</i>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
+      
+    
+  </body>
+</html>
