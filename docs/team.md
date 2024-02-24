@@ -18,7 +18,7 @@ hide:
 | Bones       | SGT  | ![](assets/images/Ranks/small/SGTBlack.png) | Active   |
 | Pankie      | SGT  | ![](assets/images/Ranks/small/SGTBlack.png) | LOA |
 | Rakija      | SGT  | ![](assets/images/Ranks/small/SGTBlack.png) | Active   |
-| Chayros     | CPL  | ![](assets/images/Ranks/small/CPLBlack.png) | Active   |
+| Chayros     | SGT  | ![](assets/images/Ranks/small/SGTBlack.png) | Active   |
 | Sherlock    | CPL  | ![](assets/images/Ranks/small/CPLBlack.png) | Active   |
 | Hemuli      | CPL  | ![](assets/images/Ranks/small/CPLBlack.png) | Active   |
 
